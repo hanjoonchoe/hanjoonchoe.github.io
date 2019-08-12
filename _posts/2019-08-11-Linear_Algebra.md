@@ -47,4 +47,16 @@ use_math: true
   - finite-dimensional vector space는 basis를 반드시 포함
   - linearly independent list를 basis에 추가하여 새로이 basis를 만들 수 있다.
   
-
+#### 만약 V가 finite-dimensional이고 $U$가 $V$의 subspace라면 $V = U \oplus W$가 되는 또다른 subspace $W$를 찾을 수 있다.
+  여기서 $\oplus$ 기호는 direct sum으로  $ V= U + W \land U \cap W = \emptyset$임을 나타낸다.
+  
+  >**증명**<br>
+  >Step 1 Show that $V = U + W$<br>
+  >Since V is finite-dimensional, U is also finite-dimensional and has a basis.<br>
+  >This basis can be added to a basis of V, then it spans $V$.<br>
+  >Step 2 Show that $U \cap W = \emptyset$<br>
+  >Suppose there exist $v \in U \cap W$, then v can be spanned by basis of U and W respectively<br>
+  >i.e $v = span(u_{1},..,u{j})=span(w_{1},...,w_{k}) \iff a_{1}u_{1}+...+a_{j}w_{j}=b_{1}w_{1}+...+b_{k}w_{k}$<br>
+  >$(a_{1}u_{1}+...a_{j}u_{j})-(w_{1}u_{1}+w_{k}u_{k})=0$ implies $a_{1}=...=a_{j}=b_{1}=...=b_{k}=0$<br>
+  >because it is linear combination of linearly independent vectors<br>
+  >Hence $U \cap W = \emptyset$
