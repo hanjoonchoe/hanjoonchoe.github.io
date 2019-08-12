@@ -73,9 +73,9 @@ use_math: true
 >증명
 >Suppose $T \in \mathcal{L}(V,W)$, Fix $w_{1},w_{2} \in W$. If $v \in V$, then<br>
 $$<v,T^{\ast}(w_{1}+w_{2})>=<Tv,w_{1}+w_{2}>
-\indent = <Tv,w_{1}>+<Tv,w_{2}>
-\indent = <v,T^{/ast}w_{1}>+<Tv,T^{ast}w_{2}>
-\indent = <v,T^{/ast}w_{1}+T^{\ast}w_{2}>$$
+\\ = <Tv,w_{1}>+<Tv,w_{2}>
+\\ = <v,T^{/ast}w_{1}>+<Tv,T^{ast}w_{2}>
+\\ = <v,T^{/ast}w_{1}+T^{\ast}w_{2}>$$
 Hence $T^{\ast}(w_{1}+w_{2} = T^{/ast}w_{1}+T^{\ast}w_{2}$
 ## Spectral theorem
 
