@@ -7,9 +7,7 @@ tags:
 use_math: true
 ---
 # LINEAR ALGEBRA
-
 ## BASIS
-
 ### Definition of Basis
 
   >Definition<br>
@@ -22,8 +20,7 @@ use_math: true
 
 
   예시<br>
-
-    $V = \lbrace(0,1),(0,1)\rbrace$은 R^2의 basis이다. 이런 형태의 basis를  *standard basis*라고 부른다.
+  $V = \lbrace(0,1),(0,1)\rbrace$은 R^2의 basis이다. 이런 형태의 basis를  *standard basis*라고 부른다.
 
 ### Properties of Basis
 
