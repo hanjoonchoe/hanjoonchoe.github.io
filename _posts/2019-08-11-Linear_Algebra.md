@@ -37,7 +37,7 @@ use_math: true
 
 #### Spanning list는 언제나 Basis를 포함하고 있다.
   >**증명**<br>
-  >Suppose A=$\lbrace v_{1},...,v_{n} \rbrace$ is spanning list.</br>
+  >Suppose A=$\lbrace v_{1},...,v_{n} \rbrace$ is a spanning list.</br>
   >We want to obtain basis by removing some vectors from spanning list.</br>
   >Remove redundant vectors by checking that it is spanned by spanning list<br>
   >i.e if v_{i} is in span(A\v_{i}}, then delete v_{1} from A.
