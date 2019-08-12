@@ -97,9 +97,21 @@ Operator는 $T:V \rightarrow V$로 가는 linear map을 operator라고 부른다
 ## NORMAL OPERATOR
 >정의<br>
 $T \in \mathcal{L}(V)$ is normal if<br>
-$$TT^{/ast}=T^{\ast}T$$
+$$TT^{\ast}=T^{\ast}T$$
 
 다르게 말해서 Operator $T$는 $T^{\ast}$와 교환법칙이 성립할 때 normal이라 부른다.
-## Spectral theorem
 
+### THE SPECTRAL THEOREM
+
+Spectral theorem이 시사하는 바는 어떤 Vector space $V$에 대하여 괜찮은 Operator가 존재한다면 orthonormal한 basis(또 eigenvector)와 이에 대응하는 eigenvalue가 존재한다는 것이다.
+
+## Complex spectral theorem
+
+본 항목에서는 $F$가 complex field일때 spectral theorem이 어떻게 증명되는지 소개한다.
+
+## Real spectral theorem
+
+## Real spectral theorem
+
+본 항목에서는 $F$가 real field일때 spectral theorem이 어떻게 증명되는지 소개한다.
 
