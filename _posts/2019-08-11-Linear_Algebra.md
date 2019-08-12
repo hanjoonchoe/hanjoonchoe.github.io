@@ -85,13 +85,13 @@ Hence, $T^{\ast}({\lambda}w_{1}) = {\lambda}T^{\ast}w_{1}$
 
 ## SELF-ADJOINT
 >정의<br>
->An operator $T \in \mathcal{L}(V)$ is called **self-adjoint** if $T = T^{\ast}. In other words,<br>
+>An operator $T \in \mathcal{L}(V)$ is called **self-adjoint** if $T = T^{\ast}$. In other words,<br>
 $T \in \mathcal{L}(V)$ is self-adjoint if and only if<br>
 $$<Tv,w>=<v,Tw>$$<br>
 for all $v,w \in V.$
 
 여기서
-Operator는 $T:T \rightarrow T$로 가는 linear map을 operator라고 부른다.
+Operator는 $T:T \rightarrow T$로 가는 linear map을 operator라고 부른다.<br>
 이 정의를 통해 T=T^{\ast}일 때 self-adjoint임을 일 수 있다.
 
 ## Spectral theorem
