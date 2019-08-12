@@ -59,14 +59,14 @@ use_math: true
 
 ## SELF-ADJOINT AND NORMAL OPERATOR
 
-## Adjoint
+### Adjoint
 
 >정의<br>
 >Suppose $T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{\ast} : W \rightarrow V$ such that
 $$<Tv,w> = <w,T^{\ast}w>$$
 for every $v \in V$ and $ w \in W$
 
-### Adjoint는 linear map이다
+#### Adjoint는 linear map이다
 아래의 두가지 조건이 충족 되었을 때 linear map이라 부른다.
  - $f(u+v) = f(u)+f(v)$
  - $f(\lambda u) = \lambda f(u)$
