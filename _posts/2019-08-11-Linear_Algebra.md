@@ -14,13 +14,7 @@ use_math: true
 
   >Definition<br>
   >A basis is a list of vectors in V that is linearly independent and spans V.
-
-  또 다르게 표현하면<br>
-
-  >A basis is a list of vectors called V which satisfies
-  > $$V = \lbrace x_{i} \| \sum_{i=1}^{n} a_{i}x_{i} = 0,a_{i}\in F \, x_{i} \in F^{n} \rbrace$$
-
-
+  
   예시<br>
   $V = \lbrace(0,1),(0,1)\rbrace$은 R^2의 basis이다. 이런 형태의 basis를  *standard basis*라고 부른다.
 
