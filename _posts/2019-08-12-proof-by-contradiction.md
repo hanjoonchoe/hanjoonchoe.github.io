@@ -18,10 +18,10 @@ Proof by contradiction은 조건을 부정한 뒤 나온 결과가 결과 모순
 
 | $p$ 	| $q$ 	|  $p \rightarrow  q$ 	|
 |---	|---	|---	|
-| T 	| T 	| T 	|
-| T 	| F 	| *blue*F 	|
-| F 	| T 	| T 	|
-| F 	| F 	| T 	|
+|  T 	|  T 	|  T 	|
+|  T 	|  F 	|  F 	|
+|  F 	|  T 	|  T 	|
+|  F 	|  F 	|  T 	|
 
 여기서 확인할 수 있는 것은 p $\rightarrow$ q에서 거짓이 되는 조건은 p가 참이고 q가 거짓일 때 뿐이다.<br>
 
