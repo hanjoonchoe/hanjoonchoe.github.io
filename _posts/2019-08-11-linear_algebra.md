@@ -71,7 +71,7 @@ use_math: true
   - $f(u+v) = f(u)+f(v)$
   - $f(\lambda u) = \lambda f(u)$
 >증명
->Suppose $T \in \mathcal{L}(V,W)$, Fix $w_{1},w_{2} \in W. If $v \in V$, then<br>
+>Suppose $T \in \mathcal{L}(V,W)$, Fix $w_{1},w_{2} \in W$. If $v \in V$, then<br>
 $$<v,T^{\ast}(w_{1}+w_{2})>$$
 
 ## Spectral theorem
