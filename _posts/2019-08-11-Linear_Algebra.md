@@ -107,9 +107,9 @@ Spectral theorem이 시사하는 바는 어떤 Vector space $V$에 대하여 괜
 
 ## Complex spectral theorem
 
-본 항목에서는 $F$가 complex field일때 spectral theorem이 어떻게 증명되는지 소개한다.
+본 항목에서는 $F$가 complex field일때 spectral theorem의 동치조건과 증명을 소개한다.
 
 ## Real spectral theorem
 
-본 항목에서는 $F$가 real field일때 spectral theorem이 어떻게 증명되는지 소개한다.
+본 항목에서는 $F$가 real field일때 spectral theorem의 동치조건과 증명을 .
 
