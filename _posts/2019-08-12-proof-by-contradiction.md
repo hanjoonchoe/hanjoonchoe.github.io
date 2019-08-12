@@ -22,6 +22,6 @@ Proof by contradiction은 조건을 부정한 뒤 나온 결과가 결과 모순
 proof by contradiction에서는 조건의 부정이 참임을 가정하고 결과가 모순임을 보여<br>
 $$\neg p \rightarrow q(c \land \neg c)$$
 가 거짓 따라서 $p$가 참임을 보여주는 테크닉이라고 할 수 있다.<br>
-(여기서 $c$는 원래 나와야하는 결과 $\negc$는 조건을 부정하여 나온 결과이고 $c$와 $\negc$는 서로 모순관계이므로 양립할 수 없어 거짓이다.)<br>
+(여기서 $c$는 원래 나와야하는 결과 $\neg c$는 조건을 부정하여 나온 결과이고 $c$와 $\negc$는 서로 모순관계이므로 양립할 수 없어 거짓이다.)<br>
 
 $\neg p \rightarrow q(c \land \neg c)$ 에서 $(c \land ~c)$가 거짓이므로 $\neg p가 거짓이어야 한다. 따라서, $\neg (\neg p) = p$는 참이다.
