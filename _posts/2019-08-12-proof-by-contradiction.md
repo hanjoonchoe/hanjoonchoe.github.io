@@ -15,12 +15,16 @@ Proof by contradiction은 조건을 부정한 뒤 나온 결과가 결과 모순
 필자는 처음 본 증명방법을 접했을 때 직관적으로 이해하기 어려웠으나 조건논리에 대해 조금만 알면 이 방법이 어떻게 쓰이는지 통찰을 할 수 있다.<br>
 
 우선 if p, then q (또는 $p \rightarrow  q$)라는 조건문의 Truth table을 그려보자.<br>
-| p | q |   |
-|---|---|---|
-| T | T | T |
-| T | F | F |
-| F | T | T |
-| F | F | T |
+$$\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\hline
+p & q & p \rightarrow  q  \\ \hline
+T & T & T \\ \hline
+T & F & F \\ \hline
+F & T & T \\ \hline
+F & F & T \\ \hline
+\end{tabular}
+\end{table}$$
 
 여기서 확인할 수 있는 것은 p $\rightarrow$ q에서 거짓이 되는 조건은 p가 참이고 q가 거짓일 때 뿐이다.<br>
 
