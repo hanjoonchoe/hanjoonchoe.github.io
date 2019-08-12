@@ -72,13 +72,16 @@ for every $v \in V$ and $ w \in W$
  - $f(\lambda u) = \lambda f(u)$
   
 >증명<br>
->Suppose $T \in \mathcal{L}(V,W)$, Fix $w_{1},w_{2} \in W$. If $v \in V$, then<br>
+>Suppose $T \in \mathcal{L}(V,W)$, Fix $w_{1},w_{2} \in W$. If $v \in V$, then
 $$<v,T^{\ast}(w_{1}+w_{2})>=<Tv,w_{1}+w_{2}>$$
 $$= <Tv,w_{1}>+<Tv,w_{2}>$$
 $$= <v,T^{\ast}w_{1}>+<Tv,T^{\ast}w_{2}>$$
 $$= <v,T^{\ast}w_{1}+T^{\ast}w_{2}>$$
 Hence $T^{\ast}(w_{1}+w_{2}) = T^{\ast}w_{1}+T^{\ast}w_{2}$
-Suppose $\lambda \in F$
+Fix $w \in W$ and $\lambda \in F$ If $v$ \in V$,then
+$$<v,T^{\ast}(\lambda w_{1})> = <Tv,\lambda w_{1}>$$
+$$\bar\lambda$$
+
 ## Spectral theorem
 
 
