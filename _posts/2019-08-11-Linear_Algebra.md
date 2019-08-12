@@ -57,16 +57,14 @@ use_math: true
   >Hence $U \cap W = \emptyset$
   
 
-## SELF-ADJOINT AND NORMAL OPERATOR
-
-### Adjoint
+## Adjoint
 
 >정의<br>
 >Suppose $T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{\ast} : W \rightarrow V$ such that
 $$<Tv,w> = <v,T^{\ast}w>$$
 for every $v \in V$ and $ w \in W$
 
-#### Adjoint는 linear map이다
+### Adjoint는 linear map이다
 아래의 두가지 조건이 충족 되었을 때 linear map이라 부른다.
  - $f(u+v) = f(u)+f(v)$
  - $f(\lambda u) = \lambda f(u)$
@@ -84,6 +82,17 @@ $$ = \bar\lambda<Tv,w_{1}>$$<br>
 $$ = \bar\lambda<v,T^{\ast}w_{1}>$$<br>
 $$ = <v,{\lambda}T^{\ast}w_{1}>$$<br>
 Hence, $T^{\ast}({\lambda}w_{1}) = {\lambda}T^{\ast}w_{1}$
+
+## SELF-ADJOINT
+>정의<br>
+>An operator $T \in \mathcal{L}(V)$ is called **self-adjoint** if $T = T^{\ast}. In other words,<br>
+$T \in \mathcal{L}(V)$ is self-adjoint if and only if<br>
+$$<Tv,w>=<v,Tw>$$<br>
+for all $v,w \in V.$
+
+여기서
+Operator는 $T:T \rightarrow T$로 가는 linear map을 operator라고 부른다.
+이 정의를 통해 T=T^{\ast}일 때 self-adjoint임을 일 수 있다.
 
 ## Spectral theorem
 
