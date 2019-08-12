@@ -27,7 +27,7 @@ use_math: true
 ### Properties of Basis
 
 #### Basis는 한 vector에 대해서 오직 유일한 표현(linear combination)을 가진다.
-  >*증명*<br>
+  >**증명**<br>
   >Suppose v can be spanned by two different sets ${a_{i}}$ and ${b_{i}}$<br>
   >Substracting two linear combinations of v<br>
   >$$(a_{1}-b_{1})x_{1}+(a_{2}-b_{2})x_{2}+(a_{3}-b_{3})x_{3}+...++(a_{n}-b_{n})x_{n} = 0$$
@@ -36,7 +36,7 @@ use_math: true
   증명에서 linearly independent한 vector들의 linear combination값이 0이 되기 위해서는 $a_{i} = b_{i}$가 되어야 을 알 수 잇다.
 
 #### Spanning list는 언제나 Basis를 포함하고 있다.
-  >*증명*<br>
+  >**증명**<br>
   >Suppose A=$\lbrace v_{1},...,v_{n} \rbrace$ is spanning list.</br>
   >We want to obtain basis by removing some vectors from spanning list.</br>
   >Remove redundant vectors by checking that it is spanned by spanning list<br>
