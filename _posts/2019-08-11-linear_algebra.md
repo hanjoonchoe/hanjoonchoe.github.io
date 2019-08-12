@@ -76,7 +76,7 @@ $$<v,T^{\ast}(w_{1}+w_{2})>=<Tv,w_{1}+w_{2}>$$
 $$= <Tv,w_{1}>+<Tv,w_{2}>$$
 $$= <v,T^{\ast}w_{1}>+<Tv,T^{\ast}w_{2}>$$
 $$= <v,T^{\ast}w_{1}+T^{\ast}w_{2}>$$
-Hence $T^{\ast}(w_{1}+w_{2} = T^{\ast}w_{1}+T^{\ast}w_{2}$
+Hence $T^{\ast}(w_{1}+w_{2}) = T^{\ast}w_{1}+T^{\ast}w_{2}$
 ## Spectral theorem
 
 
