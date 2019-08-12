@@ -37,15 +37,15 @@ use_math: true
 
 #### Spanning list는 언제나 Basis를 포함하고 있다.
   >**증명**<br>
-  >Suppose #A = \lbrace v_{1},...,v_{n} \rbrace$ is a spanning list.</br>
+  >Suppose $A = \lbrace v_{1},...,v_{n} \rbrace$ is a spanning list.</br>
   >We want to obtain basis by removing some vectors from spanning list.</br>
   >Remove redundant vectors by checking that it is spanned by spanning list<br>
-  >i.e if #v_{i}# is in #span(A\v_{i})#, then delete #v_{1}# from #A#.
-  >This process can be done iteratively, and we can get a basis from original #A#.
+  >i.e if $v_{i}$ is in $span(A\v_{i})$, then delete $v_{1}$ from $A$.
+  >This process can be done iteratively, and we can get a basis from original $A$.
   
   위의 증명을 통해 추가적으로 
   - finite-dimensional vector space는 basis를 반드시 포함
   - linearly independent list를 basis에 추가하여 새로이 basis를 만들 수 있다.
   
-#### 만약 #U#가 #V#의 subspace라면 W라는 또다른 subspace가 존재하여 #V = U \oplus W#
+#### 만약 $U$가 $V$의 subspace라면 W라는 또다른 subspace가 존재하여 $V = U \oplus W$
   여기서 $\oplus$ 기호는 direct sum이다.
