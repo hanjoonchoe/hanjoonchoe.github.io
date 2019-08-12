@@ -61,15 +61,18 @@ use_math: true
 
 ## Adjoint
 
->Definition<br>
+>정의<br>
 >Suppose $T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{\ast} : W \rightarrow V$ such that
 >$$<Tv,w> = <w,T^{\ast}w>$$
 >for every $v \in V$ and $ w \in W$
 
 ### Adjoint는 linear map이다
 아래의 두가지 조건이 충족 되었을 때 linear map이라 부른다.
-  - $f(u+v) = f(u)+f(v)
-  - $f(\lambda u) = \lambda f(u)
+  - $f(u+v) = f(u)+f(v)$
+  - $f(\lambda u) = \lambda f(u)$
+>증명
+>Suppose $T \in \mathcal{L}(V,W)$, Fix $w_{1},w_{2} \in W. If $v \in V$, then<br>
+$$<v,T^{\ast}(w_{1}+w_{2})>$$
 
 ## Spectral theorem
 
