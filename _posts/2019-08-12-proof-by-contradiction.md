@@ -16,7 +16,7 @@ Proof by contradiction은 조건을 부정한 뒤 나온 결과가 결과 모순
 
 우선 if p, then q (또는 $p \rightarrow  q$)라는 조건문의 Truth table을 그려보자.<br>
 
-| p 	| q 	|   	|
+| $p$ 	| $q$ 	|  $p \rightarrow  q$ 	|
 |---	|---	|---	|
 | T 	| T 	| T 	|
 | T 	| F 	| F 	|
