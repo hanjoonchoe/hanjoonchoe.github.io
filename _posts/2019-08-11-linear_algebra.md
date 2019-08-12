@@ -79,7 +79,6 @@ $$= <v,T^{\ast}w_{1}>+<Tv,T^{\ast}w_{2}>$$<br>
 $$= <v,T^{\ast}w_{1}+T^{\ast}w_{2}>$$<br>
 Hence $T^{\ast}(w_{1}+w_{2}) = T^{\ast}w_{1}+T^{\ast}w_{2}.$<br>
 Fix $w \in W$ and $\lambda \in F$ If $v \in V$,then<br><br>
-
 $$<v,T^{\ast}({\lambda}w_{1})> = <Tv,{\lambda}w_{1}>$$<br>
 $$=\bar\lambda<Tv,w_{1}>$$<br>
 $$=\bar\lambda<v,T^{\ast}w_{1}>$$<br>
