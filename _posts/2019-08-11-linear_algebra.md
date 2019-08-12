@@ -21,7 +21,7 @@ use_math: true
 
 ### Properties of Basis
 
-#### Basis는 한 vector에 대해서 오직 유일한 표현(linear combination)을 가진다.
+#### Basis는 한 vector에 대해서 오직 유일한 표현(unique linear combination)을 가진다.
   >**증명**<br>
   >Suppose v can be spanned by two different sets ${a_{i}}$ and ${b_{i}}$<br>
   >Substracting two linear combinations of v<br>
@@ -55,3 +55,14 @@ use_math: true
   >$(a_{1}u_{1}+...a_{j}u_{j})-(w_{1}u_{1}+w_{k}u_{k})=0$ implies $a_{1}=...=a_{j}=b_{1}=...=b_{k}=0$<br>
   >because it is a linear combination of linearly independent vectors<br>
   >Hence $U \cap W = \emptyset$
+  
+
+## SELF-ADJOINT AND NORMAL OPERATOR
+
+>Definition<br>
+>Suppose $ T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{*}: W \rightarrow V$ such that
+$$<Tv,w> = <w,T^{*}w>$$
+for every $v \in V$ and $ w \in W$
+### Spectral theorem
+
+
