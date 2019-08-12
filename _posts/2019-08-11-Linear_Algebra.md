@@ -101,15 +101,15 @@ $$TT^{\ast}=T^{\ast}T$$
 
 다르게 말해서 Operator $T$는 $T^{\ast}$와 교환법칙이 성립할 때 normal이라 부른다.
 
-### THE SPECTRAL THEOREM
+## THE SPECTRAL THEOREM
 
 Spectral theorem이 시사하는 바는 어떤 Vector space $V$에 대하여 괜찮은 Operator가 존재한다면 orthonormal한 base들과 이에 대응하는 eigenvalue가 존재한다는 것이다. base들이 eigenvalue를 가지고 있다는 것은 이것이 eigenvector이기도 하는 말이다.
 
-## Complex spectral theorem
+### Complex spectral theorem
 
 본 항목에서는 $F$가 complex field일때 spectral theorem의 동치조건과 증명을 소개한다.
 
-## Real spectral theorem
+### Real spectral theorem
 
 본 항목에서는 $F$가 real field일때 spectral theorem의 동치조건과 증명을 .
 
