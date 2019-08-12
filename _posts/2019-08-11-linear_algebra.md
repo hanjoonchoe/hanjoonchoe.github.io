@@ -60,9 +60,9 @@ use_math: true
 ## SELF-ADJOINT AND NORMAL OPERATOR
 
 >Definition<br>
->Suppose $ T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{*}: W \rightarrow V$ such that
-$$<Tv,w> = <w,T^{*}w>$$
-for every $v \in V$ and $ w \in W$
+>Suppose $T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{*} : W \rightarrow V$ such that
+>$$<Tv,w> = <w,T^{*}w>$$
+>for every $v \in V$ and $ w \in W$
 ### Spectral theorem
 
 
