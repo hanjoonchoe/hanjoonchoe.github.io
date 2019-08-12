@@ -96,7 +96,7 @@ Operator는 $T:V \rightarrow V$로 가는 linear map을 operator라고 부른다
 
 ## NORMAL OPERATOR
 >정의<br>
-$T \in \mathcal{L}(V)$ is normal if<br>
+$T \in \mathcal{L}(V)$ is **normal** if<br>
 $$TT^{\ast}=T^{\ast}T$$
 
 다르게 말해서 Operator $T$는 $T^{\ast}$와 교환법칙이 성립할 때 normal이라 부른다.
