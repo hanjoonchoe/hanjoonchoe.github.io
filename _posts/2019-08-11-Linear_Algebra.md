@@ -94,6 +94,12 @@ for all $v,w \in V.$
 Operator는 $T:V \rightarrow V$로 가는 linear map을 operator라고 부른다.<br>
 이 정의를 통해 $T=T^{\ast}$일 때 self-adjoint임을 알 수 있다.
 
+## NORMAL OPERATOR
+>정의<br>
+$T \in \mathcal{L}(V)$ is normal if<br>
+$$TT^{/ast}=T^{\ast}T$$
+
+다르게 말해서 Operator T는 T^{\ast}와 교환법칙이 성립할 때 normal이라 부른다.
 ## Spectral theorem
 
 
