@@ -83,7 +83,7 @@ $$<v,T^{\ast}({\lambda}w_{1})> = <Tv,{\lambda}w_{1}>$$<br>
 $$=\bar\lambda<Tv,w_{1}>$$<br>
 $$=\bar\lambda<v,T^{\ast}w_{1}>$$<br>
 $$=<v,{\lambda}T^{\ast}w_{1}>$$<br>
-Hence $T^{\ast}({\lambda}w_{1} = {\lambda}T^{\ast}w_{1}$
+Hence $T^{\ast}({\lambda}w_{1}) = {\lambda}T^{\ast}w_{1}$
 
 ## Spectral theorem
 
