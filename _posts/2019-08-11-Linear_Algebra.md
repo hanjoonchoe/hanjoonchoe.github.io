@@ -63,7 +63,7 @@ use_math: true
 
 >정의<br>
 >Suppose $T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{\ast} : W \rightarrow V$ such that
-$$<Tv,w> = <w,T^{\ast}w>$$
+$$<Tv,w> = <v,T^{\ast}w>$$
 for every $v \in V$ and $ w \in W$
 
 #### Adjoint는 linear map이다
