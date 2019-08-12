@@ -42,8 +42,8 @@ use_math: true
   - finite-dimensional vector space는 basis를 반드시 포함
   - linearly independent list를 basis에 추가하여 새로이 basis를 만들 수 있다.
   
-#### 만약 V가 finite-dimensional이고 $U$가 $V$의 subspace라면 $V = U \oplus W$가 되는 또다른 subspace $W$를 찾을 수 있다.
-  여기서 $\oplus$ 기호는 direct sum으로  $ V= U + W$  $U \cap W = \emptyset$임을 나타낸다.
+#### 만약 V가 finite-dimensional이고 $U$가 $V$의 subspace라면 $V = U \oplus W$가 되는 또다른 subspace $W$가 존재한다.
+  여기서 $\oplus$ 기호는 direct sum으로  $ V= U + W$  그리고  $U \cap W = \emptyset$임을 나타낸다.
   
   >**증명**<br>
   >Step 1 Show that $V = U + W$<br>
