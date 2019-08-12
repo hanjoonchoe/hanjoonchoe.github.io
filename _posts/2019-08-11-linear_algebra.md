@@ -50,7 +50,7 @@ use_math: true
   >Since V is finite-dimensional, U is also finite-dimensional and has a basis.<br>
   >This basis can be added to a basis of V, then it spans $V$.<br>
   >Step 2 Show that $U \cap W = \emptyset$<br>
-  >Suppose there exist $v \in U \cap W$, then v can be spanned by basis of U and W respectively<br>
+  >Suppose there exists $v \in U \cap W$, then v can be spanned by basis of U and W respectively<br>
   >i.e $v = span(u_{1},..,u_{j})=span(w_{1},...,w_{k}) \iff a_{1}u_{1}+...+a_{j}w_{j}=b_{1}w_{1}+...+b_{k}w_{k}$<br>
   >$(a_{1}u_{1}+...a_{j}u_{j})-(w_{1}u_{1}+w_{k}u_{k})=0$ implies $a_{1}=...=a_{j}=b_{1}=...=b_{k}=0$<br>
   >because it is a linear combination of linearly independent vectors<br>
