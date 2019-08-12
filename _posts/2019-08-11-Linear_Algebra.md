@@ -40,7 +40,7 @@ use_math: true
   >Suppose $A = \lbrace v_{1},...,v_{n} \rbrace$ is a spanning list.</br>
   >We want to obtain basis by removing some vectors from spanning list.</br>
   >Remove redundant vectors by checking that it is spanned by spanning list<br>
-  >i.e if $v_{i}$ is in $span(A \backslas v_{i})$, then delete $v_{i}$ from $A$.
+  >i.e if $v_{i}$ is in $span(A \backslash v_{i})$, then delete $v_{i}$ from $A$.
   >This process can be done iteratively, and we can get a basis from original $A$.
   
   위의 증명을 통해 추가적으로 
