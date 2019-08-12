@@ -14,10 +14,10 @@ use_math: true
 ### Definition of Basis
 
   >Definition<br>
-  >A basis is a list of vectors in V that is linearly independent and spans V.
+  >A basis is a list of vectors in $V$ that is linearly independent and spans $V$.
   
   예시<br>
-  $V = \lbrace(0,1),(0,1)\rbrace$은 R^2의 basis이다. 이런 형태의 basis를  *standard basis*라고 부른다.
+  $V = \lbrace(0,1),(0,1)\rbrace$은 $R^2$의 basis이다. 이런 형태의 basis를  *standard basis*라고 부른다.
 
 ### Properties of Basis
 
@@ -60,8 +60,8 @@ use_math: true
 ## SELF-ADJOINT AND NORMAL OPERATOR
 
 >Definition<br>
->Suppose $T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{*} : W \rightarrow V$ such that
->$$<Tv,w> = <w,T^{*}w>$$
+>Suppose $T \in \mathcal{L}(V,W)$. The **adjoint** of $T$ is the function $T^{\ast} : W \rightarrow V$ such that
+>$$<Tv,w> = <w,T^{\ast}w>$$
 >for every $v \in V$ and $ w \in W$
 ### Spectral theorem
 
