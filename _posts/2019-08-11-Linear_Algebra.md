@@ -61,7 +61,7 @@ use_math: true
 >정의<br>
 >Given $A \in \mathcal{M}$ with eigenvalues $\lambda_{1},...,\lambda_{n}$, there exsits a unitary matrix $U \in \mathcal{M}$ such that $A = UTU^{\ast}$ where $T$ is upper-triangular matrix with the eigevalues in $T$.
 
-여기서 Unitary matrix $U$는 $UU^{\ast} = I = U^{\ast)U$를 만족하는 matrix이다. 그리고, $A = UTU^{\ast}$의 형태를 unitary equivalent하다라고 부른다.
+여기서 Unitary matrix $U$는 $U U^{\ast} = I = U^{\ast) U$를 만족하는 matrix이다. 그리고, $A = UTU^{\ast}$의 형태를 unitary equivalent하다라고 부른다.
 
 ## ADJOINT
 
