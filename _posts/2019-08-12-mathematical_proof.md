@@ -39,9 +39,9 @@ $\neg p \rightarrow q(c \land \neg c)$ 에서 $(c \land ~c)$가 거짓이므로 
 
 본 증명 방법은 이런 원리를 가진다.
 
->Suppose P(1) is true and P(k+1) is true whenever P(k)is true.
+>Suppose $P(1)$ is true ,and $P(k+1)$ is true whenever $P(k)$ is true.
 다시 말해서
-Base case n=1일 때의 어떤 proposition이 참인 것을 확인하고 n=k일 때 참이라는 것을 가정 했을때 n=k+1이 참이라는 것을 확인하는 방법이다.
+Base case $n=1$일 때의 어떤 proposition이 참인 것을 확인하고 n=k일 때 참이라는 것을 가정 했을때 $n=k+1$이 참이라는 것을 확인하는 방법이다.
 
 proof by induction은 well-ordering principle에 기반한다.
 
@@ -50,7 +50,11 @@ proof by induction은 well-ordering principle에 기반한다.
 >증명<br>
 >Assume that there does not exist such a set called A. Since $A$ does not contains a smallest element, $B(= \mathbb{N} \setminus A)$ is a set containing element k which is smaller than all elements in $A$, then $k+1$ is the smallest element in $A$. contradiction.
 
-여기서 well-odering principle이 어떻게 위의 증명방법에 타당성을 주는지 확인하도록 하자.
+well-odering principle이 어떻게 위의 증명방법에 타당성을 주는지 확인하도록 하자.
 
 >증명<br>
-> Let A be a non-empty set defined by $\lbrace k$ | $P(k)$ is false $\rbrace$. By well-ordering, let $k'$ is the smallest element in A, That is, $P(k'-1)$ is true since $k'-1$ is not in $A$. However, $k'-1$ is smaller than $k'$ which contradicts well-odering principle.
+>Assume that A be a non-empty set defined by $\lbrace k$ | $P(k)$ is false $\rbrace$. By well-ordering, $k'$ is the smallest element in A, That is, $P(k'-1)$ is true since $k'-1$ is not in $A$. However this contradicts with the assumption.
+
+부가적으로 해설을 하면,
+여기서 k'는 1이 될 수 없다. 왜냐하면 $P(1)$이기 떄문에 A에 속하지 않는다. 따라서, k'>1이다. 
+그리고 $P(k+1)$ is true whenever $P(k)$ is true (= If $P(k)$ is true, then $P(k+1)$)이고, 
