@@ -8,7 +8,7 @@ tags:
 use_math: true
 ---
 
-Proof by contradiction
+#PROOF BY CONTRADICTION
 
 Proof by contradiction은 조건을 부정한 뒤 나온 결과가 결과 모순관계임을 보여 이 참임을 증명하는 방법이다.<br>
 
@@ -33,3 +33,13 @@ $$\neg p \rightarrow q(c \land \neg c)$$
 (여기서 $c$는 원래 나와야하는 결과 $\neg c$는 조건을 부정하여 나온 결과이고 $c$와 $\neg c$는 서로 모순관계이므로 양립할 수 없어 거짓이다.)<br>
 
 $\neg p \rightarrow q(c \land \neg c)$ 에서 $(c \land ~c)$가 거짓이므로 $\neg p$가 거짓이어야 한다. 따라서, $\neg \neg p = p$는 참이다.
+
+
+#PROOF BY INDUCTION
+
+proof by induction은 well-ordering principle에 기반한다.
+
+>Every non-empty set of positive integers(natural number) contains a least element.
+
+>증명
+>Assume that there does not exist such a set called A. Since A does not contains a smallest element, $\mathbb{N}\A$$B$ is a set containing element k which is smaller than all elements in A, then k+1 is the smallest element in A. contradiction.
