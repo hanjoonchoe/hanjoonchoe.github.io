@@ -41,5 +41,5 @@ proof by induction은 well-ordering principle에 기반한다.
 
 >Every non-empty set of positive integers(natural number) contains a least element.
 
->증명
->Assume that there does not exist such a set called A. Since A does not contains a smallest element, $\mathbb{N}\A$$B$ is a set containing element k which is smaller than all elements in A, then k+1 is the smallest element in A. contradiction.
+>증명<br>
+>Assume that there does not exist such a set called A. Since $A$ does not contains a smallest element, $\mathbb{N} \ A$$B$ is a set containing element k which is smaller than all elements in $A$, then $k+1$ is the smallest element in $A$. contradiction.
