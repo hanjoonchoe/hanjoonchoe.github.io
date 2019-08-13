@@ -111,8 +111,8 @@ Spectral theorem이 시사하는 바는 어떤 Vector space $V$에 대하여 괜
 
 $F$가 complex field이고 $T \in \mathcal{L}(V)$ 일때, 다음 세가지가 동치이다.
 >1. T is normal.
-2. V has an orthonormal basis consisting of eigenvectors of T.
-3. T has an diagonal matrix with respect to some orthonormal basis.
+>2. V has an orthonormal basis consisting of eigenvectors of T.
+>3. T has an diagonal matrix with respect to some orthonormal basis.
 
 ### Real spectral theorem
 
