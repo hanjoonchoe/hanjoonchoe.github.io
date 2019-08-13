@@ -99,7 +99,7 @@ Operator는 $T:V \rightarrow V$로 가는 linear map을 operator라고 부른다
 $T \in \mathcal{L}(V)$ is **normal** if<br>
 $$TT^{\ast}=T^{\ast}T$$
 
-다르게 말해서 Operator $T$는 $T^{\ast}$와 교환법칙이 성립할 때 normal이라 부른다.
+다르게 말해서 operator $T$는 $T^{\ast}$와 교환법칙이 성립할 때 normal이라 부른다.
 
 ## THE SPECTRAL THEOREM
 
@@ -109,7 +109,12 @@ Spectral theorem이 시사하는 바는 어떤 Vector space $V$에 대하여 괜
 
 본 항목에서는 $F$가 complex field일때 spectral theorem의 동치조건과 증명을 소개한다.
 
+$F$가 complex field이고 $T \in \mathcal{L}(V)$ 일때, 다음 세가지가 동치이다.
+1. T is normal.
+2. V has an orthonormal basis consisting of eigenvectors of T.
+3. T has an diagonal matrix with respect to some orthonormal basis.
+
 ### Real spectral theorem
 
-본 항목에서는 $F$가 real field일때 spectral theorem의 동치조건과 증명을 .
+본 항목에서는 $F$가 real field일때 spectral theorem의 동치조건과 증명을 소개한다.
 
