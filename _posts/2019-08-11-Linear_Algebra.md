@@ -56,6 +56,12 @@ use_math: true
   >because it is a linear combination of linearly independent vectors<br>
   >Hence $U \cap W = \emptyset$
   
+## SHUR'S THEOREM
+
+>정의<br>
+>Given $A \in \mathcal{M}_{n}$ with eigenvalues $\lambda_{1},...,lambda_{n}$, there exsits a unitary matrix $U \in \mathcal{M}_{n}$ such that $A = UTU^{\ast}$ where $T$ is upper-triangular matrix with the eigevalues in $T$.
+
+여기서 Unitary matrix $U$는 $UU^{\ast} = I = U^{\ast)U$를 만족하는 matrix이다. 그리고, $A = UTU^{\ast}$의 형태를 unitary equivalent하다라고 부른다.
 
 ## ADJOINT
 
