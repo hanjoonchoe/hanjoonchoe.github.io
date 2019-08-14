@@ -39,6 +39,7 @@ $\neg p \rightarrow q(c \land \neg c)$ 에서 $(c \land ~c)$가 거짓이므로 
 본 증명 방법은 이런 원리를 가진다.
 
 >Suppose $P(1)$ is, and $P(k+1)$ is true whenever $P(k)$ is true.
+
 다시 말해서
 Base case $n=1$일 때의 어떤 proposition이 참인 것을 확인하고 n=k일 때 참이라는 것을 가정 했을때 $n=k+1$이 참이라는 것을 확인하는 방법이다.
 
