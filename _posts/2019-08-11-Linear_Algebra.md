@@ -23,8 +23,8 @@ use_math: true
 
 #### Basis는 한 vector에 대해서 오직 유일한 표현(unique linear combination)을 가진다.
   >**증명**<br>
-  >Suppose v can be spanned by two different sets ${a_{i}}$ and ${b_{i}}$<br>
-  >Substracting two linear combinations of v<br>
+  >Suppose $v$ can be spanned by two different sets ${a_{i}}$ and ${b_{i}}$<br>
+  >Substracting two linear combinations of $v$<br>
   >$$(a_{1}-b_{1})x_{1}+(a_{2}-b_{2})x_{2}+(a_{3}-b_{3})x_{3}+...++(a_{n}-b_{n})x_{n} = 0$$
   >implies $(a_{i}-b_{i}) = 0$ for each i since $x_{i}'s$ are linearly independent.
 
@@ -35,7 +35,7 @@ use_math: true
   >Suppose $A = \lbrace v_{1},...,v_{n} \rbrace$ is a spanning list<br>
   >We want to obtain basis by removing some vectors from spanning list<br>
   >Remove redundant vectors by checking that it is spanned by the other elements <br>
-  >i.e If $v_{i}$ is **not** in $span(A \backslash v_{i})$, then **delete** $v_{i}$ from $A$ <br>
+  >i.e If $v_{i}$ is **in** $span(A \backslash v_{i})$, then **delete** $v_{i}$ from $A$ <br>
   >This process can be done iteratively, and we can get a basis from original $A$.
   
   위의 증명을 통해 추가적으로 
