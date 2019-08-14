@@ -56,7 +56,9 @@ use_math: true
   >because it is a linear combination of linearly independent vectors<br>
   >Hence $U \cap W = \emptyset$
   
-## SHUR'S UNITARY TRIANGULARIZATION THEOREM
+## SHUR'S TRIANGULARIZATION THEOREM
+
+Shur's theorem 또는 Shur's decomposition이라고도 불린다.
 
 >정의<br>
 >Given $A \in \mathcal{M}$ with eigenvalues $\lambda_{1},...,\lambda_{n}$, there exsits a unitary matrix $U \in \mathcal{M}$ such that $A = UTU^{\ast}$ where $T$ is upper-triangular matrix with the eigevalues in $T$.
