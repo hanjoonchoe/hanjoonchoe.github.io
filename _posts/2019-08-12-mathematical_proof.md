@@ -55,4 +55,4 @@ well-odering principle이 어떻게 위의 증명방법에 타당성을 주는�
 >Assume that $A$ be a non-empty set defined by $\lbrace k$ | $P(k)$ is false $\rbrace$. By well-ordering principle, $k'$ is the smallest element in A, That is, $P(k'-1)$ is true as $k'-1$ is not in $A$. But then $k'-1$ is smaller than $k'$ which contradicts well-ordering principle.
 
 여기서 $k'$는 1이 될 수 없다. 왜냐하면 $P(1)$ is true 이기 떄문에 $A$에 속하지 않는다. 따라서, $k'>1$이다.<br>
-증명에서 밝히고자 하는 핵심은 $n=k'$가 거짓일때 $k'-1$가 참인 케이스는 존재하지 않는다는 것이다. 다르게 말해서, $k'-1$가 참이면 $k'$도 참이다. (A를 충족시키는 set은 empty이다.)
+증명에서 밝히고자 하는 핵심은 $n=k'$가 거짓일때 $k'-1$가 참인 케이스는 존재하지 않는다는 것이다. 다르게 말해서, $k'-1$가 참이면 $k'$도 참이다. ($A$를 충족시키는 set은 empty이다.)
