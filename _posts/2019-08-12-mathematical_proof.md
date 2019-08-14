@@ -36,7 +36,7 @@ $\neg p \rightarrow q(c \land \neg c)$ 에서 $(c \land ~c)$가 거짓이므로 
 
 # PROOF BY INDUCTION
 
-본 증명 방법은 이런 원리를 가진다.
+본 증명원리는 .
 
 >Suppose $P(1)$ is, and $P(k+1)$ is true whenever $P(k)$ is true.
 
