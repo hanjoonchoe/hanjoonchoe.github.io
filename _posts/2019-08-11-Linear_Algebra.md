@@ -67,7 +67,7 @@ use_math: true
 >본 증명에서는 proof by induction을 사용할 것이다.<br>
 >Base case n=1<br>
 >trivially true<br>
->Assume that $n=k$ is true,that is, there exist $\widetilde{A} \in {\mathcal{M}}$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}$ , where $\widetilde{U}$ is $k \times k$ unitary matrix and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
+>Assume that $n=k$ is true,that is, there exist $\widetilde{A} \in {\mathcal{M}}_{k \times k}$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}$ , where $\widetilde{U}$ is $k \times k$ unitary matrix and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
 >Let $x$ be an eigenvector having eigenvalue $\lambda_{1}$ and orthonormal to basis of $\widetilde{A}$(You can use gram-schmidt process)
 
 ## ADJOINT
