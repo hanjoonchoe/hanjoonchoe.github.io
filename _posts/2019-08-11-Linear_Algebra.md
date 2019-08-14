@@ -74,7 +74,7 @@ We can construct an orthogonal basis of A(we can use gram-schmidt process), So w
 >$U^{\ast}AU = T$, then<br>
 $ \begin{array}{c|c} v_{1}^{\ast}Av_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \bar U^{\ast}Av_{1} & \bar U^{\ast}A\bar U \end{array}$
 $=$
-$ \begin{array}{c|c} \lambda_{1}v_{1}^{\ast}v_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  0 & \bar U^{\ast}A\bar U \end{array}$
+$ \begin{array}{c|c} \lambda_{1}v_{1}^{\ast}v_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \huge0 & \bar U^{\ast}A\bar U \end{array}$
 $=$
 $ \begin{array}{c|c} \lambda_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \huge0 & \bar U^{\ast}A\bar U \end{array}$
 $=$
