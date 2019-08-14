@@ -71,7 +71,7 @@ use_math: true
 >Let $A$ be $k+1 \times k+1$ matrix having eigenvalues $\lbrace \lambda_{1},...,\lambda_{k+1} \rbrace$.<br>
 >Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$. We can construct an orthonormal basis of A(we can use gram-schmidt process), So we can get $ U = \[v_{1} \ v_{2} \ v_{3} \ \cdots v_{n} \]$ which is unitary.<br>
 >Set $U^{\ast}AU = T, then $\begin{array}{c|c} v_{1}^{\ast}Av_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \bar U^{\ast}Ax & \bar U^{\ast}A\bar U \end{array}$
->$U^{\ast} \begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hline 0 &  \\\ \vdots &   \ \ \widetilde{A} \ \\\ 0 & \end{array} U$ 
+>$ \begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hline 0 &  \\\ \vdots &   \ \ \widetilde{A} \ \\\ 0 & \end{array} $ 
 
 
 
