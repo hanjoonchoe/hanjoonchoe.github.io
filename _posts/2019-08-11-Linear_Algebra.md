@@ -76,7 +76,6 @@ $$\begin{pmatrix}a & b\\\ \hline c & d\end{pmatrix}$$
 
 
 $$\begin{array}{|c|c|}
-\hline X & P(X = i) \T \\\hline
   1 \T & 1/6 \\\hline
   2 \T & 1/6 \\\hline
   3 \T & 1/6 \\\hline
