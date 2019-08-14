@@ -73,8 +73,7 @@ use_math: true
 
 
 
-$\documentclass{article}
-\begin{document}
+$
 \[
   \left(\begin{array}{@{}ccc|cc@{}}
     a_{11} & a_{12} & a_{13} & b_{11} & b_{12} \\
@@ -84,7 +83,7 @@ $\documentclass{article}
     c_{31} & c_{32} & c_{33} & d_{31} & d_{32} 
   \end{array}\right)
 \]
-\end{document}$
+$
 
 ## ADJOINT
 
