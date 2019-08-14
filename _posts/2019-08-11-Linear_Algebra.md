@@ -73,17 +73,16 @@ use_math: true
 
 
 
-$
-\[
-  \left(\begin{array}{@{}ccc|cc@{}}
-    a_{11} & a_{12} & a_{13} & b_{11} & b_{12} \\
-    a_{21} & a_{22} & a_{23} & b_{21} & b_{22} \\\hline
-    c_{11} & c_{12} & c_{13} & d_{11} & d_{12} \\
-    c_{21} & c_{22} & c_{23} & d_{21} & d_{22} \\
-    c_{31} & c_{32} & c_{33} & d_{31} & d_{32} 
-  \end{array}\right)
-\]
-$
+$$
+\left[
+\matrix
+{
+newx.x&newy.x&newz.x \\
+newx.y&newy.y&newz.y \\
+newx.z&newy.z&newz.z    
+}
+\right]
+$$
 
 ## ADJOINT
 
