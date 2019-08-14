@@ -68,7 +68,7 @@ use_math: true
 >Base case n=1<br>
 >Trivial
 >Assume that n=k is true,that is, $\widetilde{A} = \widetilde{U} \widetilde{A} \widetilde{U^{\ast}}$.
->Let $x$ be an eigenvector having eigenvalue $\lambda_{1}$ and orthonormal to basis of $\widetilde{A}$
+>Let $x$ be an eigenvector having eigenvalue $\lambda_{1}$ and orthonormal to basis of $\widetilde{A}$(You can use gram-schmidt process)
 
 ## ADJOINT
 
