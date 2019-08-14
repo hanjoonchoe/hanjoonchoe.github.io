@@ -82,7 +82,7 @@ $\begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hlin
 , where $U = \[v_{1} \bar U\]$.<br>
 Since we already assume that $\widetilde{T}$ is upper-triangular matrix, $T$ is $k+1 \times k+1$ upper-triangular matrix.
 
-이 증명방식에서 어떤 정방행렬에 대해서 eigenvalue와 이에 대응하는 norm이 1인 eigenvector를 찾고 gram-schmidt process와 같은 방식으로 나머지 orthogonal basis를 찾는 것이 핵심이다. 이런 process는 block matrix의 좌하단 부분에 연쇄적으로 적용할 수 있고 결과적으로 upper-triangular matrix가 만들어지는 것이다.
+이 증명방식에서 어떤 square matrix에 대해 eigenvalue와 이에 대응하는 norm이 1인 eigenvector를 찾고 gram-schmidt process와 같은 방식으로 나머지 orthogonal basis를 찾는 것이 핵심이다. 이런 process는 block matrix의 좌하단 부분에 연쇄적으로 적용할 수 있고 결과적으로 upper-triangular matrix가 만들어지는 것이다.
 
 ## ADJOINT
 
