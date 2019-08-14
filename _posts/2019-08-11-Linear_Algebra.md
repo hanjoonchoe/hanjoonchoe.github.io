@@ -70,9 +70,9 @@ use_math: true
 >Assume that $n=k$ is true,that is, there exists $\widetilde{A} \in \mathcal{M}$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}^{\ast}$ , where $\widetilde{U}$ is $k \times k$ unitary matrix and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
 >Let $A$ be $k+1 \times k+1$ matrix having eigenvalues $\lbrace \lambda_{1},...,\lambda_{k+1} \rbrace$.<br>
 >Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$. We can construct an orthonormal basis of A(we can use gram-schmidt process), So we can get $ U = \[v_{1} \ v_{2} \ v_{3} \ \cdots v_{n} \]$ which is unitary.<br>
->Set $ U^{\ast}AU = T, then $\begin{array}{c|c} v_{1}^{\ast}Av_{1} &  \\\ \hline v_{1}^{\ast}A\bar U &  \\\ \bar U^{\ast}A x & \bar U^{\ast}A\bar U \end{array}$
+>Set $ U^{\ast}AU = T, then $\begin{array}{c|c} v_{1}^{\ast}Av_{1} &  v_{1}^{\ast}A\bar \\\ \hline  \bar U^{\ast}Ax & \bar U^{\ast}A\bar U \end{array}$
 
-$T = $ $U^{\ast}$ $\begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hline 0 &  \\\ \vdots &   \ \ \widetilde{A} \ \\\ 0 & \end{array}$ $U$ 
+>$T = $ $U^{\ast}$ $\begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hline 0 &  \\\ \vdots &   \ \ \widetilde{A} \ \\\ 0 & \end{array}$ $U$ 
 
 
 
