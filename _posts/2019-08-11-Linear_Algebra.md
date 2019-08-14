@@ -80,7 +80,7 @@ $ \begin{array}{c|c} \lambda_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  0 & \bar U^{
 $=$
 $\begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hline 0 &  \\\ \vdots &   \ \ \widetilde{T} \ \\\ 0 & \end{array}$
 , where $U = \[v_{1} \bar U\]$.<br>
-Since we already assume that \widetilde{T} is upper-triangular matrix, it is $k+1 \times k+1$ upper-triangular matrix.
+Since we already assume that $\widetilde{T}$ is upper-triangular matrix, $T$ is $k+1 \times k+1$ upper-triangular matrix.
 
 
 
