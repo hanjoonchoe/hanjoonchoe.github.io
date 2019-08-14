@@ -63,6 +63,13 @@ use_math: true
 
 여기서 Unitary matrix $U$는 $UU^{\ast} = I = U^{\ast} U$를 만족하는 matrix이다. 그리고, $A = UBU^{\ast}$의 형태를 unitary equivalent하다라고 부른다.
 
+>증명<br>
+>본 증명에서는 proof by induction을 사용할 것이다.<br>
+>Base case n=1<br>
+>Trivial
+>Assume that n=k is true, that is $\slim A = \slim U \slim A \slim U^{\ast}$.
+>Let $x$ be an eigenvector having eigenvalue \lambda_{1} and orthonormal to basis of $\slim A(= [x \slim A]$
+
 ## ADJOINT
 
 >정의<br>
