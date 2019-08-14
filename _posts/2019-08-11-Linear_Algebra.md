@@ -84,8 +84,6 @@ $$\begin{array}{|c|c|}
   6 & 1/6 \\ \hline
 \end{array}$$
 
-$$\begin{pmatrix}{c|c}a & b\\\ c & d\end{pmatrix}$$
-
 ## ADJOINT
 
 >정의<br>
