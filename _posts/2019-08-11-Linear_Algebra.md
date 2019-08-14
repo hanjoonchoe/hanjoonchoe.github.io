@@ -75,19 +75,7 @@ use_math: true
 $$\begin{pmatrix}a & b\\\ \hline c & d\end{pmatrix}$$
 
 
-$$\begin{pmatrix}
-  1 & 1/6\\\
-  \hline
-  2 & 1/6\\\
-  \hline
-  3 & 1/6\\\
-  \hline
-  4 & 1/6\\\
-  \hline
-  5 & 1/6\\\
-  \hline
-  6 & 1/6\\\
-\end{pmatrix}$$
+$$\begin{array} {|r|r|}\hline 0_0 & 2 \\ \hline 1_0 & 1_1 \\ \hline  \end{array}$$
 
 ## ADJOINT
 
