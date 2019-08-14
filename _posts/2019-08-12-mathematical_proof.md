@@ -8,7 +8,7 @@ tags:
 use_math: true
 ---
 
-#PROOF BY CONTRADICTION
+# PROOF BY CONTRADICTION
 
 Proof by contradiction은 조건을 부정한 뒤 나온 결과가 결과 모순관계임을 보여 이 참임을 증명하는 방법이다.<br>
 
@@ -34,7 +34,7 @@ $$\neg p \rightarrow q(c \land \neg c)$$
 
 $\neg p \rightarrow q(c \land \neg c)$ 에서 $(c \land ~c)$가 거짓이므로 $\neg p$가 거짓이어야 한다. 따라서, $\neg \neg p = p$는 참이다.
 
-#PROOF BY INDUCTION
+# PROOF BY INDUCTION
 
 본 증명 방법은 이런 원리를 가진다.
 
