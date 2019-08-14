@@ -74,6 +74,8 @@ use_math: true
 
 $$\begin{array}{c|c} \lambda_{1} & *...* \\\ 0 & \ \end{array}$$
 
+$$\begin{pmatrix}a & b\\\ c & d\end{pmatrix}$$
+
 
 
 
