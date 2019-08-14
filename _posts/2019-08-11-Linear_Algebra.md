@@ -75,12 +75,15 @@ use_math: true
 $$\begin{pmatrix}a & b\\\ \hline c & d\end{pmatrix}$$
 
 
-$$\begin{tabular}{c||c||c}
-\hline 
-1 & 2 & 3 \\ \hhline{=#=#=}
-4 & 5 & 6 \\ \hline
-7 & 8 & 9 \\ \hline
-\end{tabular}$$
+$$\begin{array}{|c|c|}
+\hline X & P(X = i) \T \\\hline
+  1 \T & 1/6 \\\hline
+  2 \T & 1/6 \\\hline
+  3 \T & 1/6 \\\hline
+  4 \T & 1/6 \\\hline
+  5 \T & 1/6 \\\hline
+  6 \T & 1/6 \\\hline
+\end{array}$$
 
 ## ADJOINT
 
