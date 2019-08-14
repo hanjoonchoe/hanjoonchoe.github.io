@@ -74,10 +74,14 @@ use_math: true
 $$\[
 M=
 \left[\begin{array}{c|c}
+
   A & B\
+  
   \hline
+  
   C & D
 \end{array}
+
 \right] 
 \]$$
 
