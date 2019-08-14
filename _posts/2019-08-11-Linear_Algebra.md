@@ -76,7 +76,7 @@ $ \begin{array}{c|c} v_{1}^{\ast}Av_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \bar 
 $=$
 $ \begin{array}{c|c} \lambda_{1}v_{1}^{\ast}v_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  0 & \bar U^{\ast}A\bar U \end{array}$
 $=$
-$ \begin{array}{c|c} \lambda_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \bigzero & \bar U^{\ast}A\bar U \end{array}$
+$ \begin{array}{c|c} \lambda_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \huge0 & \bar U^{\ast}A\bar U \end{array}$
 $=$
 $\begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hline 0 &  \\\ \vdots &   \ \ \widetilde{T} \ \\\ 0 & \end{array}$
 , where $U = \[v_{1} \bar U\]$.<br>
