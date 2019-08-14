@@ -73,8 +73,8 @@ use_math: true
 
 $\[
 A=\begin{bmatrix}
-  \frac{1}{3} & \frac{1}{3} & \frac{1}{3} \[6pt]
-   \frac{2}{3} &\frac{-1}{3} &\frac{-1}{3} \[6pt]
+  \frac{1}{3} & \frac{1}{3} & \frac{1}{3} \
+   \frac{2}{3} &\frac{-1}{3} &\frac{-1}{3} \
    \frac{1}{3} & \frac{1}{3} & \frac{-2}{3}
 \end{bmatrix}
 \]$
