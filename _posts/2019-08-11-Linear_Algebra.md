@@ -66,8 +66,8 @@ use_math: true
 >증명<br>
 >본 증명에서는 proof by induction을 사용할 것이다.<br>
 >Base case n=1<br>
->Trivially true<br>
->Assume that n=k is true,that is, $\widetilde{A} = \widetilde{U} \widetilde{A} \widetilde{U^{\ast}}$.<br>
+> true<br>
+>Assume that n=k is true,that is, there exist $\widetilde{A} \in \mathcal{M}_\lbrace k \times k \rbrace$ such that $\widetilde{A} = \widetilde{U} \widetilde{T} \widetilde{U}$ , where $\widetilde{U}$ is unitary matrix and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
 >Let $x$ be an eigenvector having eigenvalue $\lambda_{1}$ and orthonormal to basis of $\widetilde{A}$(You can use gram-schmidt process)
 
 ## ADJOINT
