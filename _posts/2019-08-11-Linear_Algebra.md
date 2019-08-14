@@ -67,7 +67,7 @@ use_math: true
 >본 증명에서는 proof by induction을 사용할 것이다.<br>
 >Base case n=1<br>
 >trivially true<br>
->Assume that $n=k$ is true,that is, there exists $\widetilde{A} \in \mathcal{M}$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}^{\ast}$ , where $\widetilde{U}$ is $k \times k$ unitary matrix ,and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
+>Assume that $n=k$ is true,that is, there exists $\widetilde{A} \in \mathcal{M}$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}^{\ast} \iff \widetilde{U}^{\ast}\widetilde{A}\widetilde{U} = \widetilde{T} $ , where $\widetilde{U}$ is $k \times k$ unitary matrix ,and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
 >Let $A$ be $k+1 \times k+1$ matrix.<br>
 >Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$.<br>
 We can construct an orthogonal basis of A(we can use gram-schmidt process), So we can get $ U = \[v_{1} \ v_{2} \ v_{3} \ \cdots v_{n} \]$ which is unitary.<br>
