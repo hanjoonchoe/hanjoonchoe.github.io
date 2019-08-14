@@ -68,7 +68,8 @@ use_math: true
 >Base case n=1<br>
 >trivially true<br>
 >Assume that $n=k$ is true,that is, there exists $\widetilde{A} \in \mathcal{M}$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}^{\ast}$ , where $\widetilde{U}$ is $k \times k$ unitary matrix and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
->Let $x$ be an eigenvector having eigenvalue $\lambda_{1}$ and orthonormal to basis of $\widetilde{A}$(You can use gram-schmidt process)
+>Let $A$ be $k+1 \times k+1 matrix having eigenvalues \lbrace \lambda_{1},...,\lambda_{k+1}\rbrace.<br>
+>Choose eigenvector $\v_{1}$,which is $||x||_{2} = 1$ corresponding to eigenvalue $\lambda_{1}$. We can construct orthonormal basis of A(we can use gram-schmidt process)
 
 ## ADJOINT
 
