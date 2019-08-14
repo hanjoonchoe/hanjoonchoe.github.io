@@ -82,7 +82,7 @@ $\begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hlin
 , where $U = \[v_{1} \bar U\]$.<br>
 Since we already assume that $\widetilde{T}$ is upper-triangular matrix, $T$ is $k+1 \times k+1$ upper-triangular matrix.
 
-
+여기서 \bar U^{\ast}A\bar U
 
 ## ADJOINT
 
