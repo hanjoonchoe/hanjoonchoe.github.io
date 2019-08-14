@@ -68,7 +68,7 @@ use_math: true
 >Base case n=1<br>
 >Trivial
 >Assume that n=k is true, that is $\slim A = \slim U \slim A \slim U^{\ast}$.
->Let $x$ be an eigenvector having eigenvalue \lambda_{1} and orthonormal to basis of $\slim A(= [x \slim A]$
+>Let $x$ be an eigenvector having eigenvalue $\lambda_{1}$ and orthonormal to basis of $\slim A(= \[x \slim A \]$
 
 ## ADJOINT
 
