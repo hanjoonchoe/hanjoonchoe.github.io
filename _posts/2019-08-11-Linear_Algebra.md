@@ -69,7 +69,18 @@ use_math: true
 >trivially true<br>
 >Assume that $n=k$ is true,that is, there exists $\widetilde{A} \in \mathcal{M}$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}^{\ast}$ , where $\widetilde{U}$ is $k \times k$ unitary matrix and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
 >Let $A$ be $k+1 \times k+1$ matrix having eigenvalues $\lbrace \lambda_{1},...,\lambda_{k+1} \rbrace$.<br>
->Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$. We can construct an orthonormal basis of A(we can use gram-schmidt process)
+>Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$. We can construct an orthonormal basis of A(we can use gram-schmidt process)<br>
+$$\[
+C=
+\left[
+\begin{array}{c|c}
+M & N \\
+\hline
+R & S
+\end{array}
+\right]
+\]
+$$
 
 ## ADJOINT
 
