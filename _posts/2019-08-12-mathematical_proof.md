@@ -3,8 +3,7 @@ title: "MATHEMATICAL_PROOF"
 date: 2019-08-12
 categories: Mathematical_Proof
 tags:
-  - Linear_Algebra
-  - Basis
+  - Mathematical Proof
 use_math: true
 ---
 
