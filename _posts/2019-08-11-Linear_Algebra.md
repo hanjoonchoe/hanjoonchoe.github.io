@@ -74,6 +74,9 @@ use_math: true
 
 $$\begin{pmatrix}a & b\\\ \hline c & d\end{pmatrix}$$
 
+
+$$ \begin{array}{ |c|c|c| } \hline a & a^2 \pmod{5} & 2a^2 \pmod{5} \ \hline 0 & 0 & 0 \  1 & 1 & 2 \  2 & 4 & 3 \  3 & 4 & 3\ 4 & 1 & 2\ \hline \end{array} $$
+
 ## ADJOINT
 
 >정의<br>
