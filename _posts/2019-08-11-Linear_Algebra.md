@@ -72,7 +72,7 @@ use_math: true
 >Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$. We can construct an orthonormal basis of A(we can use gram-schmidt process)<br>
 
 
-$$\begin{array}{c|c} \lambda_{1} & \ast ... \ast \\\ \hline 0 &  \\\ \vdots & \\\ 0 & \end{array}$$
+$$\begin{array}{c|c} \lambda_{1} & \ast & \cdots & \ast \\\ \hline 0 & & &  \\\ \vdots & & & \\\ 0 & & & \end{array}$$
 
 $$\begin{pmatrix}a & b\\\ c & d\end{pmatrix}$$
 
