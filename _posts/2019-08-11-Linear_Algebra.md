@@ -145,7 +145,7 @@ $F$가 complex field이고 $T \in \mathcal{L}(V)$ 일때, 다음 세가지가 �
 >2. $V$ has an orthonormal basis consisting of eigenvectors of $T$.
 >3. $T$ has an diagonal matrix with respect to some orthonormal basis.
 
-2 $iff$ 1
+2 $\iff$ 1
 >증명<br>
 $T$ is normal if and only if orthonormal basis is eigenvector.
 
@@ -154,6 +154,8 @@ $T$ is normal if and only if orthonormal basis is eigenvector.
 3 $\rightarrow$ 1<br>
 >증명<br>
 Since 3 holds, $T^{\ast}$ is also diagonal matrix which is obtained by transpose conjugate of $T$
+
+1 $\rightarrow$ 3<br>
 
 
 
