@@ -72,6 +72,7 @@ use_math: true
 >Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$.<br>
 We can construct an orthogonal basis of A(we can use gram-schmidt process), So we can get $ U = \[v_{1} \ v_{2} \ v_{3} \ \cdots v_{n} \]$ which is unitary.<br>
 >$U^{\ast}AU = T$, then<br>
+$T = $ 
 $ \begin{array}{c|c} v_{1}^{\ast}Av_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \bar U^{\ast}Av_{1} & \bar U^{\ast}A\bar U \end{array}$
 $=$
 $ \begin{array}{c|c} \lambda_{1}v_{1}^{\ast}v_{1} &  v_{1}^{\ast}A\bar U \\\ \hline  \huge0 & \bar U^{\ast}A\bar U \end{array}$
