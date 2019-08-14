@@ -71,15 +71,13 @@ use_math: true
 >Let $A$ be $k+1 \times k+1$ matrix having eigenvalues $\lbrace \lambda_{1},...,\lambda_{k+1} \rbrace$.<br>
 >Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$. We can construct an orthonormal basis of A(we can use gram-schmidt process)<br>
 
-\[
-M=
-\left[\begin{array}{c|c}
-  A & B\
-  \hline
-  C & D
-\end{array}
-\right] 
-\]
+$\[
+A=\begin{bmatrix}
+  \frac{1}{3} & \frac{1}{3} & \frac{1}{3} \[6pt]
+   \frac{2}{3} &\frac{-1}{3} &\frac{-1}{3} \[6pt]
+   \frac{1}{3} & \frac{1}{3} & \frac{-2}{3}
+\end{bmatrix}
+\]$
 
 
 ## ADJOINT
