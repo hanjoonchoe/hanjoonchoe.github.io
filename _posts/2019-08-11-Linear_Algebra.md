@@ -76,17 +76,17 @@ $$\begin{pmatrix}a & b\\\ \hline c & d\end{pmatrix}$$
 
 
 $$\begin{array}{|c|c|}
-  1 & 1/6 \\
+  1 & 1/6 \\\
   \hline
-  2 & 1/6 \\
+  2 & 1/6 \\\
   \hline
-  3 & 1/6 \\
+  3 & 1/6 \\\
   \hline
-  4 & 1/6 \\
+  4 & 1/6 \\\
   \hline
-  5 & 1/6 \\
+  5 & 1/6 \\\
   \hline
-  6 & 1/6 \\
+  6 & 1/6 \\\
   \hline
 \end{array}$$
 
