@@ -73,16 +73,7 @@ use_math: true
 
 
 
-$$
-\left[
-\matrix
-{
-newx.x&newy.x&newz.x \\
-newx.y&newy.y&newz.y \\
-newx.z&newy.z&newz.z    
-}
-\right]
-$$
+  $\begin{matrix} a & b \\ c & d \end{matrix}$
 
 ## ADJOINT
 
