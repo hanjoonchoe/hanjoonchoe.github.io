@@ -141,9 +141,21 @@ Spectral theorem이 시사하는 바는 어떤 Vector space $V$에 대하여 괜
 본 항목에서는 $F$가 complex field일때 spectral theorem의 동치조건과 증명을 소개한다.
 
 $F$가 complex field이고 $T \in \mathcal{L}(V)$ 일때, 다음 세가지가 동치이다.
->1. T is normal.
->2. V has an orthonormal basis consisting of eigenvectors of T.
->3. T has an diagonal matrix with respect to some orthonormal basis.
+>1. $T$ is normal.
+>2. $V$ has an orthonormal basis consisting of eigenvectors of $T$.
+>3. $T$ has an diagonal matrix with respect to some orthonormal basis.
+
+2 $iff$ 1
+>증명<br>
+$T$ is normal if and only if orthonormal basis is eigenvector.
+
+좀 더 자세한 설명은 Normal operator 항목을 참조.<br>
+
+3 $\rightarrow$ 1<br>
+>증명<br>
+Since 3 holds, $T^{\ast}$ is also diagonal matrix which is obtained by transpose conjugate of $T$
+
+
 
 ### Real spectral theorem
 
