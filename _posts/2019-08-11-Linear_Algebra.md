@@ -75,7 +75,7 @@ use_math: true
 $$\begin{pmatrix}a & b\\\ \hline c & d\end{pmatrix}$$
 
 
-$$\begin{pmatrix}{|c|c|}
+$$\begin{pmatrix}
   1 & 1/6\\\
   \hline
   2 & 1/6\\\
@@ -87,7 +87,6 @@ $$\begin{pmatrix}{|c|c|}
   5 & 1/6\\\
   \hline
   6 & 1/6\\\
-  \hline
 \end{pmatrix}$$
 
 ## ADJOINT
