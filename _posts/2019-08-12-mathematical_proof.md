@@ -52,8 +52,8 @@ proof by induction은 well-ordering principle에 기반한다.
 well-odering principle이 어떻게 위의 증명방법에 타당성을 주는지 확인하도록 하자.
 
 >증명<br>
->Assume that A be a non-empty set defined by $\lbrace k$ | $P(k)$ is false $\rbrace$. By well-ordering principle, $k'$ is the smallest element in A, That is, $P(k'-1)$ is true as $k'-1$ is not in $A$.
+>Assume that A be a non-empty set defined by $\lbrace k$ | $P(k)$ is false $\rbrace$. By well-ordering principle, $k'$ is the smallest element in A, That is, $P(k'-1)$ is true as $k'-1$ is not in $A$. But then $k'-1$ is smaller than $k'$. contradiction.
 
 부가적으로 해설을 하면,<br>
-여기서 k'는 1이 될 수 없다. 왜냐하면 $P(1)$이기 떄문에 A에 속하지 않는다. 따라서, $k'>1$이다.<br> 
-그리고  는 
+여기서 k'는 1이 될 수 없다. 왜냐하면 $P(1)$ is true 이기 떄문에 A에 속하지 않는다. 따라서, $k'>1$이다.<br>
+
