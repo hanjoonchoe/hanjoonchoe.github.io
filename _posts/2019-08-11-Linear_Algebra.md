@@ -72,6 +72,17 @@ use_math: true
 >Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$. We can construct an orthonormal basis of A(we can use gram-schmidt process)<br>
 
 
+$$
+\[
+M=
+\left[\begin{array}{c|c}
+  A & B\
+  \hline
+  C & D
+\end{array}
+\right] 
+\]
+$$
 
 ## ADJOINT
 
@@ -98,18 +109,6 @@ $$ = \bar\lambda<Tv,w_{1}>$$<br>
 $$ = \bar\lambda<v,T^{\ast}w_{1}>$$<br>
 $$ = <v,{\lambda}T^{\ast}w_{1}>$$<br>
 Hence, $T^{\ast}({\lambda}w_{1}) = {\lambda}T^{\ast}w_{1}$
-
-$$
-\[
-M=
-\left[\begin{array}{c|c}
-  A & B\
-  \hline
-  C & D
-\end{array}
-\right] 
-\]
-$$
 
 
 ## SELF-ADJOINT
