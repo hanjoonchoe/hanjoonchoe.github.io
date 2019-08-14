@@ -76,12 +76,12 @@ $$\begin{pmatrix}a & b\\\ \hline c & d\end{pmatrix}$$
 
 
 $$\begin{array}{|c|c|}
-  1 \T & 1/6 \\\hline
-  2 \T & 1/6 \\\hline
-  3 \T & 1/6 \\\hline
-  4 \T & 1/6 \\\hline
-  5 \T & 1/6 \\\hline
-  6 \T & 1/6 \\\hline
+  1 & 1/6 \\\hline
+  2 & 1/6 \\\hline
+  3 & 1/6 \\\hline
+  4 & 1/6 \\\hline
+  5 & 1/6 \\\hline
+  6 & 1/6 \\\hline
 \end{array}$$
 
 ## ADJOINT
