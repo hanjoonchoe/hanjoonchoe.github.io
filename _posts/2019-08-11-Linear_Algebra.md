@@ -99,6 +99,17 @@ $$ = \bar\lambda<v,T^{\ast}w_{1}>$$<br>
 $$ = <v,{\lambda}T^{\ast}w_{1}>$$<br>
 Hence, $T^{\ast}({\lambda}w_{1}) = {\lambda}T^{\ast}w_{1}$
 
+\[
+M=
+\left[\begin{array}{c|c}
+  A & B\
+  \hline
+  C & D
+\end{array}
+\right] 
+\]
+
+
 ## SELF-ADJOINT
 >정의<br>
 >An operator $T \in \mathcal{L}(V)$ is called **self-adjoint** if $T = T^{\ast}$. In other words,<br>
