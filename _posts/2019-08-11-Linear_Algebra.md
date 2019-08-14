@@ -103,7 +103,6 @@ Hence, $T^{\ast}({\lambda}w_{1}) = {\lambda}T^{\ast}w_{1}$
 M=
 \left[\begin{array}{c|c}
   A & B\
-  \hline
   C & D
 \end{array}
 \right] 
