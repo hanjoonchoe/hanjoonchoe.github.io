@@ -74,7 +74,6 @@ use_math: true
 
 $$\begin{array}{c|c} \lambda_{1} & \ast   \ \ \   \cdots   \ \ \   \ast \\\ \hline 0 &  \\\ \vdots &   \ \ \widetilde{A} \ \\\ 0 & \end{array}$$
 
-$$\begin{pmatrix}a & b\\\ c & d\end{pmatrix}$$
 
 
 
