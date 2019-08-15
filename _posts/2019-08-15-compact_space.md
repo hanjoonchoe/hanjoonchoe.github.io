@@ -24,3 +24,5 @@ Compact의 정의는 다음과 같다.
 >Proof<br>
 > $(\iff)$ <br>
 > If $Y$ is compact,then there must exist a finite subcollection $\mathcal{A}^{\prime}$ of open covering $Y$,defined by $\lbrace A^{\prime}_ {i} \rbrace_{i \in I}$ ,where $I$ is a finite index set, and this set is equivalent to $ \lbrace A^{\prime}_ {i} = A_{i} \cap Y \mid A_ {i} \subseteq_{open} X \rbrace_{i \in I}$, where $\lbrace A_{i}\rbrace_{i \in I}$ is a finite subcollection of $X$.<br>
+
+위의 결론으로부터 $\lbrace A^{\prime}_ {i} \rbrace_{i \in I}$가 유한하다면 $\lbrace A_ {i} \rbrace_{i \in I}$도 유한함을 알 수 있다. 따라서 $Y$는 compact이며 $X$는 $Y$를 감싸는 유한한 subcollection을 가지고 있다.
