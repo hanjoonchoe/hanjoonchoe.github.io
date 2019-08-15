@@ -16,7 +16,7 @@ Compact의 정의는 다음과 같다.
 >Definition<br>
 >A space X is said to be compact if every open covering $\mathcal{A}$ of $X$ contains a finite subcollection that also covers.<br>
 
-다시 말해서 어떤 공간 X를 감싸는 open set들의 모임(open covering)이 있다면 그 중 임의로 유한개의 open set들을 뽑아서 다시 X를 감쌀 수 있을 때(또는 망라할 수 있을때) X는 compact이다.
+다시 말해서 어떤 공간 $X$를 감싸는 open set들의 모임(open covering)이 있다면 그 중 임의로 유한개의 open set들을 뽑아서 다시 $X$를 감쌀 수 있을 때(또는 망라할 수 있을때) $X$는 compact이다.
 
 >Lemma<br>
 >Let $Y$ be a subspace of $X$. Then $Y$ is compact if and only if every covering of $Y$ by sets open in $X$ contains a finite subcollection covering $Y$.
