@@ -61,7 +61,7 @@ use_math: true
 Shur's theorem 또는 Shur's decomposition이라고도 불린다.
 
 >정의<br>
->Given $A \in \mathcal{M}_ n$ with eigenvalues $\lambda_{1},...,\lambda_{n}$, there exsits a unitary matrix $U \in \mathcal{M}$ such that $A = UTU^{\ast}$ where $T$ is upper-triangular matrix with the eigevalues in $T$.
+>Given $A \in \mathcal{M}_ n\times n$ with eigenvalues $\lambda_{1},...,\lambda_{n}$, there exsits a unitary matrix $U \in \mathcal{M}_ n\times n$ such that $A = UTU^{\ast}$ where $T$ is upper-triangular matrix with the eigevalues in $T$.
 
 여기서 Unitary matrix $U$는 $UU^{\ast} = I = U^{\ast} U$를 만족하는 matrix이다. 그리고, $A = UBU^{\ast}$의 형태를 unitary equivalent하다라고 부른다.
 
@@ -69,7 +69,7 @@ Shur's theorem 또는 Shur's decomposition이라고도 불린다.
 >본 증명에서는 proof by induction을 사용할 것이다.<br>
 >Base case n=1<br>
 >trivially true<br>
->Assume that $n=k$ is true,that is, there exists $\widetilde{A} \in \mathcal{M}$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}^{\ast} \iff \widetilde{U}^{\ast}\widetilde{A}\widetilde{U} = \widetilde{T} $ , where $\widetilde{U}$ is $k \times k$ unitary matrix ,and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
+>Assume that $n=k$ is true,that is, there exists $\widetilde{A} \in \mathcal{M}_ k times k$ such that $\widetilde{A} = \widetilde{U}\widetilde{T}\widetilde{U}^{\ast} \iff \widetilde{U}^{\ast}\widetilde{A}\widetilde{U} = \widetilde{T} $ , where $\widetilde{U}$ is $k \times k$ unitary matrix ,and $\widetilde{T}$ is $k \times k$ upper trinagular matrix.<br>
 >Let $A$ be $k+1 \times k+1$ matrix.<br>
 >Choose normalized eigenvector $v_{1}$,which is $\parallel v_{1} \parallel_{2} = 1$, corresponding to eigenvalue $\lambda_{1}$.<br>
 We can construct an orthogonal basis of A(use gram-schmidt process), So we can get $ U = \[v_{1} \ v_{2} \ v_{3} \ \cdots v_{n} \]$ which is unitary.<br>
