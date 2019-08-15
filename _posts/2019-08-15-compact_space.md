@@ -23,5 +23,5 @@ Compact의 정의는 다음과 같다.
 
 >Proof<br>
 > $(\Rightarrow)$ <br>
-> If $Y$ is compact, then there must exist a finite subcollection $\mathcal{A}^{'}$ of open covering $Y$, defined by $\mathcal{A}^{'} = \lbrace {A}_{n} \rbrace_{n \in N}$ , where $N$ is finite index set, and this set is equivalent to $\lbrace A_{n} \cap Y \mid A_{n} \subseteq_{open} X \rbrace_{n \in N} $, where $ \lbrace A_{n}\rbrace_{n \in N}$ is a finite subcollection of $X$.
+> If $Y$ is compact, then there must exist a finite subcollection $\mathcal{A}^{'}$ of open covering $Y$, defined by $\mathcal{A}^{'} = \lbrace A_{n} \rbrace_{n \in N}$ , where $N$ is finite index set, and this set is equivalent to $\lbrace A_{n} \cap Y \mid A_{n} \subseteq_{open} X \rbrace_{n \in N} $, where $ \lbrace A_{n}\rbrace_{n \in N}$ is a finite subcollection of $X$.
 
