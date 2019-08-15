@@ -1,6 +1,6 @@
 ---
 title: "COMPACT SPACE"
-date: 2019-08-16
+date: 2019-08-15
 categories: Topology
 tags:
   - topology
