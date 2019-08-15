@@ -22,6 +22,5 @@ Compact의 정의는 다음과 같다.
 >Let $Y$ be a subspace of $X$. Then $Y$ is compact if and only if every covering of $Y$ by sets open in $X$ contains a finite subcollection covering $Y$.
 
 >Proof<br>
-> $(\Rightarrow)$ <br>
+> $(\iff)$ <br>
 > If $Y$ is compact,then there must exist a finite subcollection $\mathcal{A}^{\prime}$ of open covering $Y$,defined by $\lbrace A^{\prime}_ {i} \rbrace_{i \in I}$ ,where $I$ is a finite index set, and this set is equivalent to $\lbrace A_{i} \cap Y \mid A_ {i} \subseteq_{open} X \rbrace_{i \in I}$, where $\lbrace A_{i}\rbrace_{i \in I}$ is a finite subcollection of $X$.<br>
->$(\Leftarrow)$ <br>
