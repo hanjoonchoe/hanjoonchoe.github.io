@@ -6,7 +6,6 @@ tags:
   - Mathematical Proof
 use_math: true
 ---
-
 # PROOF BY CONTRADICTION
 
 Proof by contradiction은 조건을 부정한 뒤 나온 결과가 결과 모순관계임을 보여 이 참임을 증명하는 방법이다.<br>
