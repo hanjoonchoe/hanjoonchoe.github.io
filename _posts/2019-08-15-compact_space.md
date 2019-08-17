@@ -31,6 +31,6 @@ Compact의 정의는 다음과 같다.
 >Every closed subspace of a compact space is compact.
 
 >Proof<br>
-Let $X$ be a topological space and $Y$ be a closed subspace of $X$,then there exists open covering $\mathcal{A}$ of $Y$ such that $\mathcal{A} \cup \lbrace X \minus Y \rbrace$ is open covering of $X$ which is compact. hence $\mathcal{A}$ is finite subcollection covering $Y$, and $Y$ is compact.
+Let $X$ be a topological space and $Y$ be a closed subspace of $X$,then there exists open covering $\mathcal{A}$ of $Y$ such that $\mathcal{A} \cup \lbrace X - Y \rbrace$ is open covering of $X$ which is compact. hence $\mathcal{A}$ is finite subcollection covering $Y$, and $Y$ is compact.
 
 $\mathcal{A}$ \cup \lbrace X \minus Y \rbrace$
