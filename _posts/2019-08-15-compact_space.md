@@ -9,8 +9,6 @@ tags:
 use_math: true
 ---
 
-# COMPACT SPACE
-
 Compact의 정의는 다음과 같다.
 
 >Definition<br>
