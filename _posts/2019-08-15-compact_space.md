@@ -33,4 +33,4 @@ Compact의 정의는 다음과 같다.
 >Proof<br>
 Let $X$ be a topological space and $Y$ be a closed subspace of $X$,then there exists open covering $\mathcal{A}$ of $Y$ such that $\mathcal{A} \cup \lbrace X - Y \rbrace$ is open covering of $X$ which is compact. hence $\mathcal{A}$ is finite subcollection covering $Y$, and $Y$ is compact.
 
-$\mathcal{A} \cup \lbrace X - Y \rbrace$는 compact인 $X$의 open covering이고 따라서 finite subcollection일 수 있다. 여기서 open set인 $\lbrace X - Y \rbrace$를 제거 하더라도 supspace $Y$는 여전히 finite open covering $\mathcal{A}$로 감쌀 수 있으므로 compact이다.
+$\mathcal{A} \cup \lbrace X - Y \rbrace$는 compact인 $X$의 open covering이고 따라서 finite open covering일 수 있다. 여기서 open set인 $\lbrace X - Y \rbrace$를 제거 하더라도 supspace $Y$는 여전히 finite open covering $\mathcal{A}$로 감쌀 수 있으므로 compact이다.
