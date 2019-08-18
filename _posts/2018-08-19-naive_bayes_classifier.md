@@ -40,9 +40,9 @@ $\ = p(c){\displaystyle \prod_{i=1}^{n}p(f_{i}|c)}$
 
 ## Gaussian Naive Bayes Classifier
 
-확률이 gaussian distribution(정규분포)을 따르고 이에 대해 NB기법으로 분류하는 것을 "gaussian naive bayes classifier"라고 부른다.
+확률이 gaussian distribution(정규분포)을 따르고 이에 대해 NB기법으로 분류하는 것을 **gaussian naive bayes classifier**라고 부른다.
 
 gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식은 다음과 같다.
 
->$P(x) = \frac{1}{{\sigma \sqrt {2\pi } }}e^\frac{-(x - \mu)^2}{2\sigma^2}$
+>$p(x) = \frac{1}{{\sigma \sqrt {2\pi} }}e^\frac{-(x - \mu)^2}{2\sigma^2}$
 
