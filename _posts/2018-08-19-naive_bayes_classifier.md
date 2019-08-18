@@ -44,4 +44,4 @@ $\ = p(c){\displaystyle \prod_{i=1}^{n}p(f_{i}|c)}$
 
 gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식은 다음과 같다.
 
->$p(x) = \frac{1}{\sigma \sqrt {2\pi}}e^\frac{-(x - \mu)^2}{2\sigma^2}$
+>$p(x) = \frac{1}{\sigma \sqrt {2\pi}}e^\frac{-(x - \mu)^2}{2\sigma^2}, X \sim \mathcal{N}(\mu,\,\sigma^{2})$
