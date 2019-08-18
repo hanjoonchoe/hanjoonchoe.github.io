@@ -50,4 +50,4 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 
 > $p(f_{i} \mid c) = p(f_{i} \mid \mu_{i},{\sigma_{i}}^2)$, where $\mu_{i}$ and ${\sigma_{i}}^2$ are given by evidence $c$
 
-> $p(c){\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i} \sqrt {2\sigma_{i}}}e^\frac{-(x - \mu_{i})^2}{2\sigma_{i}^2} }$
+> $p(c \mid f_{1},f_{2},...,f_{n}) = p(c){\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i} \sqrt {2\sigma_{i}}}e^\frac{-(x - \mu_{i})^2}{2\sigma_{i}^2} }$
