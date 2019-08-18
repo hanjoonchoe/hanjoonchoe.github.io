@@ -9,8 +9,9 @@ tags:
   - classification
 use_math: true
 ---
+# NAIVE BAYES CLASSIFIER
 
-# BAYE'S RULE
+## Bayes rule
 
 > $p(c|f) = \frac{p(f|c)p(c)}{p(f)}$
 
@@ -36,3 +37,12 @@ Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 �
 >$\ = p(f_{n}|f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1}|f_{n-2},f_{n-3},...,f_{1},c)...p(f_{3}|f_{1},f_{2},c)p(f_{2}|f_{1},c)p(f_{1}|c)p(c)$<br><br>
 $\ = p(f_{n}|c)p(f_{n-1}|c)...p(f_{3}|c)p(f_{2}|c)p(f_{1}|c)p(c)$<br><br>
 $\ = p(c){\displaystyle \prod_{i=1}^{n}p(f_{i}|c)}$
+
+## Gaussian Naive Bayes Classifier
+
+확률이 gaussian distribution(정규분포)을 따르고 이에 대해 NB기법으로 분류하는 것을 "gaussian naive bayes classifier"라고 부른다.
+
+gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식은 다음과 같다.
+
+>$P(x) = \frac{1}{{\sigma \sqrt {2\pi } }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}$
+
