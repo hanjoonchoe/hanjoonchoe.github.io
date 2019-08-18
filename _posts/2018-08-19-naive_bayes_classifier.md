@@ -1,7 +1,7 @@
 ---
 title: "NAIVE BAYES CLASSIFIER"
 date: 2019-08-19
-categories: Machine Learning
+categories: Machine_Learning
 tags:
   - statistics
   - bayesian
