@@ -32,7 +32,7 @@ $\ = p(f_{4},f_{5},...,f_{n} \mid f_{3},f_{2},f_{1},c)p(f_{3}\mid f_{2},f_{1},c)
 $\ \ \ \ \ \ \ \vdots$<br><br>
 $\ = p(f_{n} \mid f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1} \mid f_{n-2},f_{n-3},...,f_{1},c)...p(f_{3} \mid f_{2},f_{1},c)p(f_{2} \mid f_{1},c)p(f_{1} \mid c)p(c)$<br>
 
-Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 가정한다. 따라서 feature들이 상호 독립적(independent)이라고 가정한다면 다음과 같이 표현가능하다.
+Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 가정한다. 따라서 feature들이 상호 독립적(mutually independent)이라고 가정한다면 다음과 같이 표현가능하다.
 
 >$\ = p(f_{n} \mid f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1} \mid f_{n-2},f_{n-3},...,f_{1},c)...p(f_{3} \mid f_{1},f_{2},c)p(f_{2} \mid f_{1},c)p(f_{1}\mid c)p(c)$<br><br>
 $\ = p(f_{n} \mid c)p(f_{n-1} \mid c)...p(f_{3} \mid c)p(f_{2} \mid c)p(f_{1} \mid c)p(c)$<br><br>
