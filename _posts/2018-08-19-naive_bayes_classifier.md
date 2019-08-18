@@ -46,7 +46,7 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 
 >$p(x \mid \mu,\sigma^2) = \frac{1}{\sigma \sqrt {2\pi}}e^\frac{-(x - \mu)^2}{2\sigma^2}, X \sim \mathcal{N}(\mu,\sigma^{2})$
 
-방법은 단순한 편이다. 각 확률 $p(f_{i} \mid c)$가 주어진 단서 $c$에 대해 정규분포를 따른다고 가정하고 각각의 확률을 정규분포 pdf로 치환해 주면된다.
+방법은 단순한 편이다. 각 확률 $p(f_{i} \mid c)$가 주어진 단서 $c$에 대해 정규분포를 따른다고 가정하고 각각의 확률을 정규분포 pdf(probability density function)로 치환해 주면된다.
 
 > $p(f_{i} \mid c) = \mathcal{N}(\mu_{i},\sigma_{i}^{2})$, where $\mu_{i}$ and ${\sigma_{i}}^2$ are given by evidence $c$<br><br>
 Hence,<br><br>
