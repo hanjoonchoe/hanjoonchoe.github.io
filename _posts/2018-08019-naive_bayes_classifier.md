@@ -9,3 +9,5 @@ tags:
   - classification
 use_math: true
 ---
+
+$p(c|f_{1},f_{2},...,f{n})$
