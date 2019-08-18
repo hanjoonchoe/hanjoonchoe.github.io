@@ -31,7 +31,7 @@ $\ = p(f_{4},f_{5},...,f_{n}|f_{3},f_{2},f_{1},c)p(f_{3}|f_{2},f_{1},c)p(f_{2}|f
 $\ \ \ \ \ \ \ \vdots$<br><br>
 $\ = p(f_{n}|f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1}|f_{n-2},f_{n-3},...,f_{1},c)...p(f_{3}|f_{2},f_{1},c)p(f_{2}|f_{1},c)p(f_{1}|c)p(c)$<br>
 
-Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 가정한다. 그러므로 feature들이 independent하다면 다음과 같이 표현가능하다.
+Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 가정한다. 따라서 feature들이 상호 독립적(independent)이라고 가정한다면 다음과 같이 표현가능하다.
 
 >$\ = p(f_{n}|f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1}|f_{n-2},f_{n-3},...,f_{1},c)...p(f_{3}|f_{1},f_{2},c)p(f_{2}|f_{1},c)p(f_{1}|c)p(c)$<br><br>
 $\ = p(f_{n}|c)p(f_{n-1}|c)...p(f_{3}|c)p(f_{2}|c)p(f_{1}|c)p(c)$
