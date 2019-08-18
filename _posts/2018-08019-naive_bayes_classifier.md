@@ -16,6 +16,6 @@ use_math: true
 
 $p(c|f_{1},f_{2},...,f_{n})$, where c and f are "choice" and "feature" respectively.
 
-> $p(c|f_{1},f_{2},...,f_{n}) = \frac{p(f_{1},f_{2},...,f_{n}|c)}{p(f_{1},f_{2},...,f_{n})} $
+> $p(c|f_{1},f_{2},...,f_{n}) = \frac{p(f_{1},f_{2},...,f_{n}|c)p(c)}{p(f_{1},f_{2},...,f_{n})} $
 
 
