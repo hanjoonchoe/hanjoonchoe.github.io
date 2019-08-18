@@ -34,5 +34,5 @@ $\ = p(f_{n}|f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1}|f_{n-2},f_{n-3},...,f_{1},c).
 Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 가정한다. 따라서 feature들이 상호 독립적(independent)이라고 가정한다면 다음과 같이 표현가능하다.
 
 >$\ = p(f_{n}|f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1}|f_{n-2},f_{n-3},...,f_{1},c)...p(f_{3}|f_{1},f_{2},c)p(f_{2}|f_{1},c)p(f_{1}|c)p(c)$<br><br>
-$\ = p(f_{n}|c)p(f_{n-1}|c)...p(f_{3}|c)p(f_{2}|c)p(f_{1}|c)p(c)$
+$\ = p(f_{n}|c)p(f_{n-1}|c)...p(f_{3}|c)p(f_{2}|c)p(f_{1}|c)p(c)$<br><br>
 $\ = p(c){\displaystyle \prod_{i=1}^{n}p(f_{i}|c)}$
