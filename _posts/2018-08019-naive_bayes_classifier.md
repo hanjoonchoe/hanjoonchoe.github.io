@@ -10,4 +10,10 @@ tags:
 use_math: true
 ---
 
-$p(c|f_{1},f_{2},...,f_{n})$, where c and f are "choice" and "feature" respectively. 
+# BAYE'S RULE
+
+> $p(c|f) = \frac{p(f|c) \ast p(c)}{p(f)}
+
+$p(c|f_{1},f_{2},...,f_{n})$, where c and f are "choice" and "feature" respectively.
+
+
