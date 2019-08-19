@@ -42,7 +42,7 @@ $\mathcal{A} \cup \lbrace X - Y \rbrace$는 compact인 $X$의 open covering이�
 Let $X$ be a topological space and $Y$ be a compact subspace of $X$. By hausdorff condition,there is $x_{0}$ in $X-Y$ such that neighborhood of $x_{0}$ called $U_{y_0}$ which is disjoint from a neighborhood $V_{y}$ containing $y$ in $Y$. Since Y is compact subspace we can choose finite open covering $\mathcal{V} = V_{y_{0}} \cup V_{y_{1}} \cup V_{y_{2}} ... \cup V_{y_{n}}$ and $\mathcal{U} = U_{y_{0}} \cap U_{y_{1}} \cap U_{y_{1}} ... \cap U_{y_{n}}$. But then for any $z$ in $\mathcal{A}$ is having open set $V_{y_{i}}$ which is disjoint from any $U_{y_{k}}$ by constrution. Hence it is closed.
 
 증명에서는 주어진 조건에 의해,<br>
-1. 모든 element들은 서로 중첩되지 않는 오픈 셋을 가질 수 있다.(haudorff)
+1. 모든 element들은 서로 중첩되지 않는 open set을 가질 수 있다.(haudorff)
 2. $Y$는 compact이므로 임의의 finite open covering $\mathcal{A}$ 구성 할 수 있다.(compact)
 
 $Y$의 바깥($X-Y$)에 존재하는 임의의 $x_{0}$의 open set$\ U_{y_{k}}$과 중첩하지 않는 $Y$ 안의 유한개의 $y_{i}$를 포함하는 open set $\ U_{y_{i}}$을 이용해 finite open covering $\mathcal{V}$를 구성 할 수 있다. 그리고 $\mathcal{U}$안의 어떤 원소도 $\mathcal{V}$와 충첩되는 open set을 가지고 있지 않으므로 닫혀있음을 알 수 있다.
