@@ -53,7 +53,7 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 따라서 choice set $\mathcal{C} = \lbrace c_{1},c_{2},...,c_{k} \rbrace$가 있다고 한다면 각 $c_{i}$에 대한 단서로 구성된 feature들의 정규분포상 확률을 제각기 곱한 결과가 제일 큰 쪽으로 분류가 진행된다.
 
 > $c^{\ast} = \argmax\limits_{c_{j} \in \mathcal{C}} p(\theta_{1},\theta_{2},...,\theta_{n})$
-$\text{arg}\,\max\limits_{\theta}\$
+${\text{arg}\ \max\}limits_{\theta}\$
 
 혹시 포스팅을 진지하게 읽으신 분 중, 어째서 $ p(c \mid \theta_{1},\theta_{2},...,\theta_{n}) $대신 $p(c,\theta_{1},\theta_{2},...,\theta_{n})$ 계산했는지 의문점이 드시는 분을 위해 추가 설명을 하자면,
 
