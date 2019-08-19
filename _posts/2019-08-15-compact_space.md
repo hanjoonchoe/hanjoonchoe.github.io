@@ -46,4 +46,3 @@ Let $X$ be a topological space and $Y$ be a compact subspace of $X$. By hausdorf
 2. $Y$는 compact이므로 임의의 finite open covering $\mathcal{V}$ 구성 할 수 있다.(compact)
 
 $Y$의 바깥($X-Y$)에 존재하는 임의의 $x_{0}$의 open set$\ U_{y_{k}}$과 중첩하지 않는 $Y$ 안의 유한개의 $y_{i}$를 포함하는 open set $\ U_{y_{i}}$을 이용해 finite open covering $\mathcal{V}$를 구성 할 수 있다. 그리고 $\mathcal{U}$안의 어떤 원소도 $\mathcal{V}$와 충첩되는 open set을 가지고 있지 않으므로 닫혀있음을 알 수 있다.
-
