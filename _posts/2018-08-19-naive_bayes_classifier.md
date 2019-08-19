@@ -54,4 +54,4 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 
 혹시 포스팅을 진지하게 읽으신 분 중, 어째서 $ p(c \mid \theta_{1},\theta_{2},...,\theta_{n}) $ 로 계산하지 않고 $p(c,\theta_{1},\theta_{2},...,\theta_{n})$ 계산했는지 의문점이 드시는 분을 위해 추가 설명을 하자면,
 
-> $ p(c \mid \theta_{1},\theta_{2},...,\theta_{n}) = \frac{p(c, \theta_{1},\theta_{2},...,\theta_{n})}{p(\theta_{1},\theta_{2},...,\theta_{n})}$
+> $ p(c \mid \theta_{1},\theta_{2},...,\theta_{n}) = \frac{p(c, \theta_{1},\theta_{2},...,\theta_{n})}{p(\theta_{1},\theta_{2},...,\theta_{n})}$ where p(\theta_{1},\theta_{2},...,\theta_{n}) is common term for $c_{j} \in \mathcal{C}$
