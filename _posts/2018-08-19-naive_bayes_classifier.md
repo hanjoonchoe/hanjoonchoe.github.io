@@ -47,7 +47,7 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 >$p(x \mid \mu,\sigma^2) = \frac{1}{\sigma \sqrt {2\pi}}e^\frac{-(x - \mu)^2}{2\sigma^2}, X \sim \mathcal{N}(\mu,\sigma^{2})$
 
 방법은 단순한 편이다.<br>
-Choice set $\mathcal{C} = \lbrace c_{1},c_{2},...,c_{k} \rbrace$가 있다고 한다면 각 theta_{i}와 $c_{j}$에 대해 특정한 $\mu_{i,j}$ 와 $\sigma_{i,j}^2$를 가지는 정규분포를 따른다고 가정하고 각각의 확률을 정규분포 pdf(probability density function)로 치환해 주면된다.
+Choice set $\mathcal{C} = \lbrace c_{1},c_{2},...,c_{k} \rbrace$가 있다고 한다면 각 **feature** $theta_{i}$와 **choice** $c_{j}$에 대해 특정한 $\mu_{i,j}$ 와 $\sigma_{i,j}^2$를 가지는 정규분포를 따른다고 가정하고 각각의 확률을 정규분포 pdf(probability density function)로 치환해 주면된다.
 
 >$p(c_{j},\theta_{1},\theta_{2},...,\theta_{n}) = {\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i} \sqrt {2\pi}}e^\frac{-(x - \mu_{i})^2}{2\sigma_{i}^2} }$, where $\mu_{i}$ and $\sigma_{i}^2$ are given by $c_{j}$
 
