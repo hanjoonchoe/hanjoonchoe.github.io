@@ -45,5 +45,5 @@ Let $X$ be a topological space and $Y$ be a compact subspace of $X$. By hausdorf
 1. 모든 element들은 서로 중첩되지 않는 오픈 셋을 가질 수 있다.(haudorff)
 2. $Y$는 compact이므로 임의의 finite open covering $\mathcal{A}$ 구성 할 수 있다.(compact)
 
-$Y$의 바깥($X-Y$)에 존재하는 임의의 $x_{0}$의 open set($U_{y_{k}}$)과 중첩하지 않는 $Y$ 안의 유한개의 y_{i}를 포함하는 open set $($U_{y_{i}}$)$을 이용해 finite open covering $\mathcal{A}$를 구성 할 수 있다. 그리고 이 $\mathcal{A}$는 모든 open 
+$Y$의 바깥($X-Y$)에 존재하는 임의의 $x_{0}$의 open set$\ U_{y_{k}}$과 중첩하지 않는 $Y$ 안의 유한개의 $y_{i}$를 포함하는 open set $\ U_{y_{i}}$을 이용해 finite open covering $\mathcal{A}$를 구성 할 수 있다. 그리고 이 $\mathcal{A}$는 모든 open 
 
