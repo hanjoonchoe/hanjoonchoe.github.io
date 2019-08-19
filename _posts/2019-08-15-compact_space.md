@@ -34,3 +34,10 @@ Compact의 정의는 다음과 같다.
 Let $X$ be a topological space and $Y$ be a closed subspace of $X$,then there exists open covering $\mathcal{A}$ of $Y$ such that $\mathcal{A} \cup \lbrace X - Y \rbrace$ is open covering of $X$ which is compact. hence $\mathcal{A}$ is finite subcollection covering $Y$, and $Y$ is compact.
 
 $\mathcal{A} \cup \lbrace X - Y \rbrace$는 compact인 $X$의 open covering이고 따라서 finite open covering일 수 있다. 여기서 open set인 $\lbrace X - Y \rbrace$를 제거 하더라도 supspace $Y$는 여전히 finite open covering $\mathcal{A}$로 감쌀 수 있으므로 compact이다.
+
+>Theorem<br>
+>Every compact subspace of a Hausdorff space is closed.
+
+>Proof<br>
+Let $X$ be a topological space and $Y$ be a compact subspace of $X$. By hausdorff condition,there is x_{0} in $X-Y$ such that neighborhood of x_{0} called $U_{y_0}$ which is disjoint from a neighborhood $V_{y}$ containing $y$ in $Y$. Since Y is compact subspace we can choose finite open covering $\mathcal{A} = V_{y_{0}} \cup V_{y_{1}} \cup V_{y_{2}} ... \cup V_{y_{n}}$, then each V_{y_{0}} is disjoint from U_{y_0} by construction.
+
