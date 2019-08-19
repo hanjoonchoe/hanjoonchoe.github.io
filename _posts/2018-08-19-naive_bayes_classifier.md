@@ -50,4 +50,4 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 
 >$p(c,f_{1},f_{2},...,f_{n}) = {\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i} \sqrt {2\sigma_{i}}}e^\frac{-(x - \mu_{i})^2}{2\sigma_{i}^2} }$, where $\mu_{i}$ and $\sigma_{i}^2$ are given by $c$
 
-따라서 choice set $\mathcal{C} = \lbrace c_{1},c_{2},...,c_{k} \rbrace$가 있다고 한다면 각 $c_{i}$에 대한 단서로 구성된  제각기 곱해 나온 확률이 제일 큰 쪽으로 분류가 진행된다.
+따라서 choice set $\mathcal{C} = \lbrace c_{1},c_{2},...,c_{k} \rbrace$가 있다고 한다면 각 $c_{i}$에 대한 단서로  feature들의 정규분포상 확률을 제각기 곱한 결과가 제일 큰 쪽으로 분류가 진행된다.
