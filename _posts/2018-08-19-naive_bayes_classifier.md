@@ -52,7 +52,7 @@ Choice set $\mathcal{C} = \lbrace c_{1},c_{2},...,c_{k} \rbrace$가 있다고 �
 
 >$p(c_{j},\theta_{1},\theta_{2},...,\theta_{n}) = {\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i,j} \sqrt {2\pi}}e^\frac{-(x - \mu_{i,j})^2}{2\sigma_{i,j}^2} }$, where $\mu_{i,j}$ and $\sigma_{i,j}^2$ are given by $c_{j}$
 
-따라서 각 $c_{i}$에 대한 단서로 구성된 feature들의 정규분포상 확률을 제각기 곱한 결과가 제일 큰 쪽으로 분류가 진행된다.
+따라서 각 $c_{i}$에 대한 단서로 구성된 feature들의 정규분포상 확률들을 제각기 곱한 결과가 제일 큰 쪽으로 분류가 진행된다.
 
 > $c^{\ast} = \text{arg}\max\limits_{c_{j} \in \mathcal{C}}\ p(c_{j}, \theta_{1},\theta_{2},...,\theta_{n}) $
 
