@@ -13,7 +13,7 @@ use_math: true
 
 ## Bayes Rule
 
-> $p(c \mid \theta) = \frac{p(\theta \mid c)p(c)}{p(\theta)}$
+> $p(c \mid \theta) = \frac{p(\theta \mid c)p(c)}{p(\theta)} \iff p(c , \theta) = p(\theta \mid c)p(c) $
 
 만약 어떤 단서(feature)들이 주어졌을 때 그 단서들이 $c$를 추정할 확률은 얼마나 될까? 일단 확률을 추정하는 수식은 다음과 같다.
 
@@ -23,6 +23,7 @@ use_math: true
 
 > $p(c \mid \theta_{1},\theta_{2},...,\theta_{n}) = \frac{p(\theta_{1},\theta_{2},...,\theta_{n},c)p(c)}{p(\theta_{1},\theta_{2},...,\theta_{n})} = \frac{p(\theta_{1},\theta_{2},...,\theta_{n},c)}{p(\theta_{1},\theta_{2},...,\theta_{n})} $
 
+여기서 bayes rule의 특성을 이용해 대수적 조작을 해주면
 
 >$p(c,\theta_{1},\theta_{2},...,\theta_{n}) =$<br><br>
 $\ = p(\theta_{1},\theta_{2},...,\theta_{n} \mid c)p(c)$<br><br>
