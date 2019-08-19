@@ -39,5 +39,5 @@ $\mathcal{A} \cup \lbrace X - Y \rbrace$는 compact인 $X$의 open covering이�
 >Every compact subspace of a Hausdorff space is closed.
 
 >Proof<br>
-Let $X$ be a topological space and $Y$ be a compact subspace of $X$. By hausdorff condition,there is x_{0} in $X-Y$ such that neighborhood of x_{0} called $U_{y_0}$ which is disjoint from a neighborhood $V_{y}$ containing $y$ in $Y$. Since Y is compact subspace we can choose finite open covering $\mathcal{A} = V_{y_{0}} \cup V_{y_{1}} \cup V_{y_{2}} ... \cup V_{y_{n}}$, then each V_{y_{0}} is disjoint from U_{y_0} by construction.
+Let $X$ be a topological space and $Y$ be a compact subspace of $X$. By hausdorff condition,there is $x_{0}$ in $X-Y$ such that neighborhood of $x_{0}$ called $U_{y_0}$ which is disjoint from a neighborhood $V_{y}$ containing $y$ in $Y$. Since Y is compact subspace we can choose finite open covering $\mathcal{A} = V_{y_{0}} \cup V_{y_{1}} \cup V_{y_{2}} ... \cup V_{y_{n}}$, then each $V_{y_{0}}$ is disjoint from $U_{y_0}$ by construction.
 
