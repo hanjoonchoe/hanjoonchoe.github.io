@@ -11,32 +11,32 @@ use_math: true
 ---
 # NAIVE BAYES CLASSIFIER
 
-## Bayes rule
+## Bayes Rule
 
-> $p(c \mid f) = \frac{p(f \mid c)p(c)}{p(f)}$
+> $p(c \mid \theta) = \frac{p(\theta \mid c)p(c)}{p(\theta)}$
 
 만약 어떤 단서(feature)들이 주어졌을 때 그 단서들이 $c$를 추정할 확률은 얼마나 될까? 일단 확률을 추정하는 수식은 다음과 같다.
 
->$p(c \mid f_{1},f_{2},...,f_{n})$, where $c$ and $f$ are "choice" and "feature" respectively.
+>$p(c \mid \theta_{1},\theta_{2},...,\theta_{n})$, where $c$ and $f$ are "choice" and "feature" respectively.
 
 그리고 이 수식은 baye's rule을 이용해 다음과 같이 표현할 수 있다.
 
-> $p(c \mid f_{1},f_{2},...,f_{n}) = \frac{p(f_{1},f_{2},...,f_{n},c)p(c)}{p(f_{1},f_{2},...,f_{n})} = \frac{p(f_{1},f_{2},...,f_{n},c)}{p(f_{1},f_{2},...,f_{n})} $
+> $p(c \mid \theta_{1},\theta_{2},...,\theta_{n}) = \frac{p(\theta_{1},\theta_{2},...,\theta_{n},c)p(c)}{p(\theta_{1},\theta_{2},...,\theta_{n})} = \frac{p(\theta_{1},\theta_{2},...,\theta_{n},c)}{p(\theta_{1},\theta_{2},...,\theta_{n})} $
 
 
->$p(c,f_{1},f_{2},...,f_{n}) =$<br><br>
-$\ = p(f_{1},f_{2},...,f_{n} \mid c)p(c)$<br><br>
-$\ = p(f_{2},f_{3},...,f_{n} \mid f_{1},c)p(f_{1} \mid c)p(c)$<br><br>
-$\ = p(f_{3},f_{4},...,f_{n} \mid f_{1},f_{2},c)p(f_{2},f_{1} \mid c)p(c)$<br><br>
-$\ = p(f_{4},f_{5},...,f_{n} \mid f_{3},f_{2},f_{1},c)p(f_{3}\mid f_{2},f_{1},c)p(f_{2} \mid f_{1},c)p(f_{1} \mid c)p(c)$<br><br>
+>$p(c,\theta_{1},\theta_{2},...,\theta_{n}) =$<br><br>
+$\ = p(\theta_{1},\theta_{2},...,\theta_{n} \mid c)p(c)$<br><br>
+$\ = p(\theta_{2},\theta_{3},...,\theta_{n} \mid \theta_{1},c)p(\theta_{1} \mid c)p(c)$<br><br>
+$\ = p(\theta_{3},\theta_{4},...,\theta_{n} \mid \theta_{1},\theta_{2},c)p(\theta_{2},\theta_{1} \mid c)p(c)$<br><br>
+$\ = p(\theta_{4},\theta_{5},...,\theta_{n} \mid \theta_{3},\theta_{2},\theta_{1},c)p(\theta_{3}\mid \theta_{2},\theta_{1},c)p(\theta_{2} \mid \theta_{1},c)p(\theta_{1} \mid c)p(c)$<br><br>
 $\ \ \ \ \ \ \ \vdots$<br><br>
-$\ = p(f_{n} \mid f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1} \mid f_{n-2},f_{n-3},...,f_{1},c)...p(f_{3} \mid f_{2},f_{1},c)p(f_{2} \mid f_{1},c)p(f_{1} \mid c)p(c)$<br>
+$\ = p(\theta_{n} \mid \theta_{n-1},\theta_{n-2},...,\theta_{1},c)p(\theta_{n-1} \mid \theta_{n-2},\theta_{n-3},...,\theta_{1},c)...p(\theta_{3} \mid \theta_{2},\theta_{1},c)p(\theta_{2} \mid \theta_{1},c)p(\theta_{1} \mid c)p(c)$<br>
 
 Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 가정한다. 따라서 feature들이 상호 독립적(mutually independent)이라고 가정한다면 다음과 같이 표현가능하다.
 
->$\ = p(f_{n} \mid f_{n-1},f_{n-2},...,f_{1},c)p(f_{n-1} \mid f_{n-2},f_{n-3},...,f_{1},c)...p(f_{3} \mid f_{1},f_{2},c)p(f_{2} \mid f_{1},c)p(f_{1}\mid c)p(c)$<br><br>
-$\ = p(f_{n} \mid c)p(f_{n-1} \mid c)...p(f_{3} \mid c)p(f_{2} \mid c)p(f_{1} \mid c)p(c)$<br><br>
-$\ = p(c){\displaystyle \prod_{i=1}^{n}p(f_{i} \mid c)}$
+>$\ = p(\theta_{n} \mid \theta_{n-1},\theta_{n-2},...,\theta_{1},c)p(\theta_{n-1} \mid \theta_{n-2},\theta_{n-3},...,\theta_{1},c)...p(\theta_{3} \mid \theta_{1},\theta_{2},c)p(\theta_{2} \mid \theta_{1},c)p(\theta_{1}\mid c)p(c)$<br><br>
+$\ = p(\theta_{n} \mid c)p(\theta_{n-1} \mid c)...p(\theta_{3} \mid c)p(\theta_{2} \mid c)p(\theta_{1} \mid c)p(c)$<br><br>
+$\ = p(c){\displaystyle \prod_{i=1}^{n}p(\theta_{i} \mid c)}$
 
 ## Gaussian Naive Bayes Classifier
 
@@ -48,6 +48,8 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 
 방법은 단순한 편이다. 각 feature들이 주어진 $c$에 대해 특정한 $\mu$ 와 $\sigma^2$를 가지는 정규분포를 따른다고 가정하고 각각의 확률을 정규분포 pdf(probability density function)로 치환해 주면된다.
 
->$p(c,f_{1},f_{2},...,f_{n}) = {\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i} \sqrt {2\pi}}e^\frac{-(x - \mu_{i})^2}{2\sigma_{i}^2} }$, where $\mu_{i}$ and $\sigma_{i}^2$ are given by $c$
+>$p(c,\theta_{1},\theta_{2},...,\theta_{n}) = {\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i} \sqrt {2\pi}}e^\frac{-(x - \mu_{i})^2}{2\sigma_{i}^2} }$, where $\mu_{i}$ and $\sigma_{i}^2$ are given by $c$
 
 따라서 choice set $\mathcal{C} = \lbrace c_{1},c_{2},...,c_{k} \rbrace$가 있다고 한다면 각 $c_{i}$에 대한 단서로 구성된 feature들의 정규분포상 확률을 제각기 곱한 결과가 제일 큰 쪽으로 분류가 진행된다.
+
+혹시 포스팅을 진지하게 읽으신 분 중, 어째서 $p(c \mid \theta_{1},\theta_{2},...,\theta_{n})$로 계산하지 않고 $p(c,\theta_{1},\theta_{2},...,\theta_{n}) 계산했는지 의문점이 드시는 분을 위해 추가 설명을 하자면, 
