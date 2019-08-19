@@ -56,4 +56,4 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 
 > $ p(c_{j} \mid \theta_{1},\theta_{2},...,\theta_{n}) = \frac{p(c_{j}, \theta_{1},\theta_{2},...,\theta_{n})}{p(\theta_{1},\theta_{2},...,\theta_{n})}$ where $p(\theta_{1},\theta_{2},...,\theta_{n})$ is common term for $c_{j} \in \mathcal{C}$
 
-따라서, \frac{p(c_{j}, \theta_{1},\theta_{2},...,\theta_{n})}만 계산해 주는 것으로 어떤 선택이 제일 확률이 큰지 확인할 수 있다.
+따라서, $\frac{p(c_{j}, \theta_{1},\theta_{2},...,\theta_{n})}$만 계산해 주는 것으로 어떤 선택이 제일 확률이 큰지 확인할 수 있다.
