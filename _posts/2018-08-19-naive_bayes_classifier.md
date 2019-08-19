@@ -48,6 +48,6 @@ gaussian distribution은 좌우대칭의 종모양의 분포를 따르고 수식
 
 방법은 단순한 편이다. 각 확률 $p(f_{i} \mid c)$가 주어진 단서 $c$에 대해 정규분포를 따른다고 가정하고 각각의 확률을 정규분포 pdf(probability density function)로 치환해 주면된다.
 
->$p(c,f_{1},f_{2},...,f_{n}) = {\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i} \sqrt {2\sigma_{i}}}e^\frac{-(x - \mu_{i})^2}{2\sigma_{i}^2} }$
+>$p(c,f_{1},f_{2},...,f_{n}) = {\displaystyle \prod_{i=1}^{n} \frac{1}{\sigma_{i} \sqrt {2\sigma_{i}}}e^\frac{-(x - \mu_{i})^2}{2\sigma_{i}^2} }$, where \mu_{i} and \sigma_{i}^2 are given by $c$
 
 따라서 choice set $\mathcal{C} = \lbrace c_{1},c_{2},...,c_{k} \rbrace$가 있다고 한다면 각 $c_{i}$에 대한 단서로 구성된  제각기 곱해 나온 확률이 제일 큰 쪽으로 분류가 진행된다..
