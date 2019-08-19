@@ -33,7 +33,7 @@ $\ = p(\theta_{4},\theta_{5},...,\theta_{n} \mid \theta_{3},\theta_{2},\theta_{1
 $\ \ \ \ \ \ \ \vdots$<br><br>
 $\ = p(\theta_{n} \mid \theta_{n-1},\theta_{n-2},...,\theta_{1},c)p(\theta_{n-1} \mid \theta_{n-2},\theta_{n-3},...,\theta_{1},c)...p(\theta_{3} \mid \theta_{2},\theta_{1},c)p(\theta_{2} \mid \theta_{1},c)p(\theta_{1} \mid c)p(c)$<br>
 
-이에 더해 Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 가정한다.  다른 feature들이 조건으로 붙어도 확률에는 영향을 미치지 않는다. 따라서 feature들이 상호 독립적(mutually independent)이라고 가정한다면 다음과 같이 표현가능하다.
+이에 더해 Naive bayes classfier에서는 각 feature들이 서로 연관성이 없다고 가정한다. 다시말해 다른 feature들이 조건으로 붙어도 확률에는 영향을 미치지 않는다. 따라서 feature들이 상호 독립적(mutually independent)이라고 가정한다면 다음과 같이 표현가능하다.
 
 >$\ = p(\theta_{n} \mid \theta_{n-1},\theta_{n-2},...,\theta_{1},c)p(\theta_{n-1} \mid \theta_{n-2},\theta_{n-3},...,\theta_{1},c)...p(\theta_{3} \mid \theta_{1},\theta_{2},c)p(\theta_{2} \mid \theta_{1},c)p(\theta_{1}\mid c)p(c)$<br><br>
 $\ = p(\theta_{n} \mid c)p(\theta_{n-1} \mid c)...p(\theta_{3} \mid c)p(\theta_{2} \mid c)p(\theta_{1} \mid c)p(c)$<br><br>
