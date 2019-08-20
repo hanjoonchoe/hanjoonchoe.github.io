@@ -38,7 +38,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 $g(\lambda, \upsilon)$가 최대일 때 이다.<br><br>
 그렇다면 $g(\lambda, \upsilon)$가 최대인 지점은 어떻게 찾을 수 있을까?<br>
 그 해답은 우선 다음과 같은 사실에서 출발한다.<br><br>
-$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.그리고 이 $g(\lambda, \upsilon)$가 global optimal point가 존재한다는 말과 동치이다.
+$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.그리고 이것은 $g(\lambda, \upsilon)$가 global optimal point가 존재한다는 말과 동치이다.
 
 이러한 사실은 다음과 같은 optimization problem으로 치환된다.<br>
 
