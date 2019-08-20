@@ -62,5 +62,5 @@ $\qquad\qquad\  x \succeq 0$<br><br>
 
 이에 대한 lagrange dual function은
 
->$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}(f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \sum_{i=1}^{p} \upsilon_{i}g_{i}(x) )$
+>$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}(f_{0}(x)+\lambda^{T}Ax + \upsilon^{T}x )$
 
