@@ -42,7 +42,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.<br>
 그리고 이 사실은 $g(\lambda, \upsilon)$가 global optimal point가 존재한다는 말과 동치이다.
 
-이러한 사실은 다음과 같은 optimization problem으로 치환된다.<br><br>
+이러한 사실은 다음과 같은 optimization problem으로 치환된다.<br>
 
 >$\text{maximize} \  g(\lambda, \upsilon)$<br>
 $\text{subject to} \ \lambda_{i} \geq 0 , i=1,...,m$<br>
