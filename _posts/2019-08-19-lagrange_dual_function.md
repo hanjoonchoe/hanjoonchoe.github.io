@@ -16,7 +16,7 @@ use_math: true
 만약 다음과 같은 형태의 optimization problem이 주어졌다고 하자.
 >$\underset{x}{\text{minimize}} \  f_0(x)$<br>
 $\text{subject to} \ f_i(x) \leq 0 , i=1,...,m$<br>
-$\qquad\qquad\  g_i(x) \leq 0 , i=1,...,p$<br><br>
+$\qquad\qquad\  g_i(x) = 0 , i=1,...,p$<br><br>
 
 그렇다면 **lagrange dual problem**은 다음과 같이 정의된다.
 
@@ -29,4 +29,4 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 그리고 각각의 constraint에 곱해지는 $\lambda_{i}$와 $\upsilon_{i}$는 "dual" 또는 "lagrange multiplier"라고 부른다.
 
-$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum들의 모임이므로 concave이다.
+$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.
