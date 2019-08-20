@@ -18,7 +18,7 @@ use_math: true
 $\text{subject to} \ f_i(x) \leq 0 , i=1,...,m$<br>
 $\qquad\qquad\  g_i(x) \leq 0 , i=1,...,p$<br><br>
 
-그렇다면 lagrange dual problem은 다음과 같이 정의된다.
+그렇다면 lagrange dual problem은 다음과 같이 .
 >$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}L(x,\lambda,\upsilon)= \inf\limits_{x \in \mathcal{D}}(f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \sum_{i=1}^{p} \upsilon_{i}g_{i}(x) )$
 
 여기서 $L(x,\lambda,\upsilon)$은 Lagrangian function으로<br> 
