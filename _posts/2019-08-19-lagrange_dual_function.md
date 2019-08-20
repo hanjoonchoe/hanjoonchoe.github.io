@@ -59,7 +59,7 @@ $g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 conca
 다음과 같은 standard form LP(linear programming)을 optimzation하는 문제가 주어졌다고 하자.
 >$\underset{x}{\text{minimize}} \  c^{T}x$<br>
 $\text{subject to} \ Ax = b$<br>
-$\qquad\qquad\  x \succeq 0$<br><br>
+$\qquad\qquad\  x \succeq 0$
 
 이에 대한 lagrange dual function은
 
