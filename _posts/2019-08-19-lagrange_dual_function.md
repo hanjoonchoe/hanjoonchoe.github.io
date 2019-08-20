@@ -63,6 +63,6 @@ $\qquad\qquad\  x \succeq 0$<br><br>
 이에 대한 lagrange dual function은
 
 >$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}(c^{T}x+\lambda^{T}(Ax-b) + \upsilon^{T}x )$<br>
-$\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^{T})x - \lambda^{T}b)$
+$\quad\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^{T})x - \lambda^{T}b)$
 
 다음과 같은 형태는 linear function의 pointwise infimum을 찾는 것이므로 concave이다.
