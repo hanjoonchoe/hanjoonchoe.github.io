@@ -35,7 +35,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
 
 ## Dual problem
-위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 g(\lambda, \upsilon)이다.<br>
+위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 $g(\lambda, \upsilon)$이다.<br>
 
 이러한 사실은 그전의 optimization problem을 다음과 같은 형태로 치환할 수 있다.<br>
 
