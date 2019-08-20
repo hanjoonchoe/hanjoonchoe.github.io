@@ -12,3 +12,5 @@ use_math: true
 # SUPPORT VECTOR MACHINE
 
 ## Linear support vector machine
+
+## Kernel method
