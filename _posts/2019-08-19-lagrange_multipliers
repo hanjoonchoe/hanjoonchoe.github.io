@@ -16,4 +16,4 @@ use_math: true
 Lagrange dual function은 다음과 같이 정의된다.
 
 >Definition
->$g(\lambda,\upsilon) = inf\limits_{x \in \mathcal{D}}L(x,\lambda,\upsilon)$
+>$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}L(x,\lambda,\upsilon)$
