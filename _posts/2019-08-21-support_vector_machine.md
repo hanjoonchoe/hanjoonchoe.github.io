@@ -1,7 +1,7 @@
 ---
 title: "SUPPORT VECTOR MACHINE"
 date: 2019-08-21
-categories: Optimization
+categories: Machine Learning
 tags:
   - machine learning
   - optimization
