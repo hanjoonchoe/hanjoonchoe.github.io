@@ -69,7 +69,7 @@ $\quad\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^
 이 형태는 linear function의 pointwise infimum을 찾는 것이므로 concave이다.
 
 그리고 다음과 같은 dual problem으로 치환할 수 있다.
->$\underset{x}{\text{minimize}} \  c^{T}x$<br>
+>$\underset{\lambda,\upsilon}{\text{maximize}} \  g(\lambda,\upsilon)$<br>
 $\text{subject to} \ Ax = b$<br>
 $\qquad\qquad\  x \succeq 0$<br><br>
 
