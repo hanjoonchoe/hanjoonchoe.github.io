@@ -39,6 +39,5 @@ $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 conca
 위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 $g(\lambda, \upsilon)$가 최대일 때 이다.<br>
 그렇다면 $g(\lambda, \upsilon)$가 최대인 지점은 어떻게 찾을 수 있일까?<br>
 그 해답은<br>
-$g(\lambda, \upsilon)$는 concave이므로 $x$에 대해 편미분한 값이 0인 지점이 function의 global optimal point이다.<br>
 
-그말은 어떤 $x$값이 $\nabla_{x}g(\lambda, \upsilon) = 0$으로 만드는 지점이 $g(\lambda, \upsilon)$를 최대로 만드는 지점이다.
+
