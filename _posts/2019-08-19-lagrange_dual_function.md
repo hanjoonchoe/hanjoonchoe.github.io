@@ -66,7 +66,12 @@ $\qquad\qquad\  x \succeq 0$<br><br>
 $\quad\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^{T})x - \lambda^{T}b)$<br>
 $\quad\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^{T})x) - \lambda^{T}b$
 
-다음과 같은 형태는 linear function의 pointwise infimum을 찾는 것이므로 concave이다.
+이 형태는 linear function의 pointwise infimum을 찾는 것이므로 concave이다.
+
+그리고 다음과 같은 dual problem으로 치환할 수 있다.
+>$\underset{x}{\text{minimize}} \  c^{T}x$<br>
+$\text{subject to} \ Ax = b$<br>
+$\qquad\qquad\  x \succeq 0$<br><br>
 
 concave function은 global optimal point가 존재하고 이 지점은 $\nabla_{x}g(\lambda,\upsilon) = 0$ 를 만족하는 $x$가 될 것이다.<br>
 
