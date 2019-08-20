@@ -29,8 +29,6 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 그리고 각각의 constraint에 곱해지는 $\lambda_{i}$와 $\upsilon_{i}$는 "dual" 또는 "lagrange multiplier"라고 부른다.
 
-$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.
-
 따라서 다음과 같은 부등식이 성립된다.
 >$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
@@ -39,5 +37,6 @@ $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 conca
 위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 $g(\lambda, \upsilon)$가 최대일 때 이다.<br>
 그렇다면 $g(\lambda, \upsilon)$가 최대인 지점은 어떻게 찾을 수 있일까?<br>
 그 해답은<br>
+$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.
 
 
