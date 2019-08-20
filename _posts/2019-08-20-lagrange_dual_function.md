@@ -1,6 +1,6 @@
 ---
 title: "LAGRANGE DUAL PROBLEM"
-date: 2019-08-29
+date: 2019-08-20
 categories: Optimization
 tags:
   - analysis
