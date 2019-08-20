@@ -63,5 +63,5 @@ $\qquad\qquad\  x \succeq 0$<br><br>
 이에 대한 lagrange dual function은
 
 >$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}(c^{T}x+\lambda^{T}(Ax-b) + \upsilon^{T}x )$<br>
-\ = \inf\limits_{x \in \mathcal{D}}(c^{T}+\lambda^{T}A+upsilon^{T})x - \lambda^{T}b)
+$\ = \inf\limits_{x \in \mathcal{D}}(c^{T}+\lambda^{T}A+upsilon^{T})x - \lambda^{T}b)$
 
