@@ -35,10 +35,9 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
 
 ## Lower bound
-위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 $g(\lambda, \upsilon)$가 최대일 때 이다.<br><br>
-그렇다면 $g(\lambda, \upsilon)$가 최대인 지점은 어떻게 찾을 수 있을까?<br>
+위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 g(\lambda, \upsilon)이다.<br><br>
 
-이러한 사실은 다음과 같은 optimization problem으로 치환된다.<br>
+이러한 사실은 그전의 optimization problem을 다음과 같은 형태로 치환할 수 있다.<br>
 
 >$\text{maximize} \  g(\lambda, \upsilon)$<br>
 $\text{subject to} \ \lambda_{i} \geq 0 , i=1,...,m$<br>
