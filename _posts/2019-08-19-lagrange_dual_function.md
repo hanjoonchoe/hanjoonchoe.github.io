@@ -28,3 +28,5 @@ $$L:\mathbb{R}^m \times \mathbb{R}^p \rightarrow \mathbb{R} \ \text{with} \ \mat
 $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \sum_{i=1}^{p} \upsilon_{i}g_{i}(x)$$
 
 그리고 각각의 constraint에 곱해지는 $\lambda_{i}$와 $\upsilon_{i}$는 "dual" 또는 "lagrange multiplier"라고 부른다.
+
+$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum들의 모임이므로 concave이다.
