@@ -45,5 +45,5 @@ $\text{subject to} \ \lambda_{i} \geq 0 , i=1,...,m$<br>
 기존의 optimization problem으로 돌아가서
 $g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 concave이다. 그리고 이것은 $g(\lambda, \upsilon)$가 global optimal point가 존재한다는 말과 동치이다.
 
-따라서 $\text{arg}\max\limits_{x \in \mathcal{D}}$는
-> $$x \mapsto \nabla_{x}L(x,\lambda,\upsilon) = 0$$
+따라서 $\text{arg}\min\limits_{x \in \mathcal{D}}$는
+> $$x \mapsto \nabla_{x}g(\lambda, \upsilon) = 0$$
