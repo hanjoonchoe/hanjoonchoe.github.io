@@ -18,6 +18,7 @@ use_math: true
 $\text{subject to} \ f_i(x) \leq 0 , i=1,...,m$<br>
 $\qquad\qquad\  g_i(x) = 0 , i=1,...,p$<br><br>
 
+## Lagrange dual funtion
 그렇다면 **lagrange dual function**은 다음과 같이 정의된다.
 
 >$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}L(x,\lambda,\upsilon)= \inf\limits_{x \in \mathcal{D}}(f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \sum_{i=1}^{p} \upsilon_{i}g_{i}(x) )$
@@ -30,11 +31,11 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.
 
-
 따라서 다음과 같은 부등식이 성립된다.
-
 >$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
 
-앞서 말했듯이 $g(\lambda, \upsilon)$는 concave이므로 $x$에 대해 편미분한 값이 0인 지점이 function의 globally optimal point이다.<br>
+## Lower bound
+위의 부등식이 항상 성립한다면 f_{0}의 lower bound는 g(\lambda, \upsilon)가 최대일 때 일 것이다.<br>
+$g(\lambda, \upsilon)$는 concave이므로 $x$에 대해 편미분한 값이 0인 지점이 function의 globally optimal point이다.<br>
 그말은 어떤 $x$값이 $\nabla_{x}g(\lambda, \upsilon) = 0$으로 만드는 지점이 $g(\lambda, \upsilon)$를 최대로 만드는 지점이다.
