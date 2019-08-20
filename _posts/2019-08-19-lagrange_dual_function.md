@@ -35,3 +35,5 @@ $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 conca
 
 >$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
+
+앞서 말했듯이 $g(\lambda, \upsilon)$는 concave이므로 $x$에 대해 
