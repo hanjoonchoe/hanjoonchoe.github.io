@@ -39,7 +39,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 이러한 사실은 그전의 optimization problem을 다음과 같은 형태로 치환할 수 있다.<br>
 
->$\text{maximize} \  g(\lambda, \upsilon)$<br>
+>$\underset{\lambda \geq 0}{\text{maximize}} \  g(\lambda, \upsilon)$<br>
 $\text{subject to} \ \lambda_{i} \geq 0 , i=1,...,m$<br>
 
 
