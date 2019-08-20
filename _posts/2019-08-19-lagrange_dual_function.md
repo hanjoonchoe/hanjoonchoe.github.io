@@ -25,6 +25,6 @@ $\qquad\qquad\  g_i(x) \leq 0 , i=1,...,p$<br><br>
 여기서 $L(x,\lambda,\upsilon)$은 Lagrangian function으로<br> 
 $$L:\mathbb{R}^m \times \mathbb{R}^p \rightarrow \mathbb{R} \ \text{with} \ \mathcal{D} = \lbrace x \mid \bigcap_{i=1}^m \text{dom} \ f_i(x) \wedge \bigcap_{i=1}^p \text{dom} \ g_i(x) \rbrace $$
 
-$$(x,\lambda,\upsilon) \mapsto \inf\limits_{x \in \mathcal{D}}(f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \sum_{i=1}^{p} \upsilon_{i}g_{i}(x)$$
+$$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \sum_{i=1}^{p} \upsilon_{i}g_{i}(x)$$
 
 그리고 각각의 constraint에 곱해지는 $\lambda_{i}$와 $\upsilon_{i}$는 "dual" 또는 "lagrange multiplier"라고 부른다.
