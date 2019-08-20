@@ -34,8 +34,8 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 >$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
 
-## Lower bound
-위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 g(\lambda, \upsilon)이다.<br><br>
+## Dual problem
+위의 부등식이 항상 성립하므로 $f_{0}(x)$의 lower bound는 g(\lambda, \upsilon)이다.<br>
 
 이러한 사실은 그전의 optimization problem을 다음과 같은 형태로 치환할 수 있다.<br>
 
