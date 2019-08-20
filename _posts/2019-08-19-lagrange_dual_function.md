@@ -80,7 +80,8 @@ $g(\lambda, \upsilon)$는 concave global optimal point가 존재하고 이 지�
 >$$\
     g(\lambda, \upsilon)= 
 \begin{cases}
-    - \lambda^{T}b ,& \text{if } \ c^{T}+\lambda^{T}A+\upsilon^{T} = 0 \\
+    - \lambda^{T}b ,& \text{if } \ c^{T}+\lambda^{T}A+\upsilon^{T} = 0
+    \newline 
     0,              & \text{otherwise}
 \end{cases}
 \$$
