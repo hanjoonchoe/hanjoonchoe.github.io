@@ -83,6 +83,6 @@ $g(\lambda, \upsilon)$는 concave global optimal point가 존재하고 이 지�
     - \lambda^{T}b ,& \text{if } \ c^{T}+\lambda^{T}A+\upsilon^{T} = 0
     \newline 
     \newline 
-    -\infinity,              & \text{otherwise}
+    -\infty,              & \text{otherwise}
 \end{cases}
 \$$
