@@ -1,5 +1,5 @@
 ---
-title: "LAGRANGE DUAL FUNCTION"
+title: "LAGRANGE DUAL PROBLEM"
 date: 2019-08-15
 categories: Optimization
 tags:
