@@ -45,5 +45,5 @@ $\text{subject to} \ \lambda_{i} \geq 0 , i=1,...,m$<br>
 기존의 optimization problem으로 돌아가서
 $g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 concave이다. 그리고 이것은 $g(\lambda, \upsilon)$가 global optimal point x_{\ast}가 존재한다는 말과 동치이다.
 
-그렇다면 어떤 dual problem은 어떤 제약조건 안에서 $x^{\ast}이 최소가 되는지 찾는 문제가 된다.
+그렇다면 어떤 dual problem은 어떤 제약조건 안에서 $x^{\ast}$이 최소가 되는지 찾는 문제가 된다.
 
