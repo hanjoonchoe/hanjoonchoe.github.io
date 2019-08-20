@@ -31,7 +31,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 만약 lagrange multiplier들이 0보다 큰 양수라면 constraint의 조건과 합쳐져 다음과 같은 부등식이 성립된다.
 
->$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
+>$$g(\lambda, \upsilon) = L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
 
 ## Dual problem
