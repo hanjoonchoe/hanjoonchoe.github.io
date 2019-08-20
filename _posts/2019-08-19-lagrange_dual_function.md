@@ -22,4 +22,4 @@ $\qquad\qquad\  g_i(x) \leq 0 , i=1,...,p$<br><br>
 >$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}L(x,\lambda,\upsilon)= \inf\limits_{x \in \mathcal{D}}(f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \sum_{i=1}^{p} \upsilon_{i}g_{i}(x) )$
 
 여기서 $L(x,\lambda,\upsilon)$은 Lagrangian function으로<br> 
-$$L:\mathbb{R}^m \times \mathbb{R}^p \rightarrow \mathbb{R} \text{with} \text{dom} \ L = \lbrace x \mid \text{dom}\bigcap_{i=1}^m f_i(x) \wedge \text{dom}\bigcap_{i=1}^p g_i(x) \rbrace $$
+$$L:\mathbb{R}^m \times \mathbb{R}^p \rightarrow \mathbb{R} \quad \text{with} \quad \text{dom} \ L = \lbrace x \mid \text{dom}\bigcap_{i=1}^m f_i(x) \wedge \text{dom}\bigcap_{i=1}^p g_i(x) \rbrace $$
