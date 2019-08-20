@@ -36,4 +36,5 @@ $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 conca
 >$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
 
-앞서 말했듯이 $g(\lambda, \upsilon)$는 concave이므로 $x$에 대해 편미분한 값이 0인 지점이 function의 critical point이다. 그말은 어떤 $x$값이 $\nabla_{x}g(\lambda, \upsilon) = 0$으로 만드는 지점이 $g(\lambda, \upsilon)$를 최대로 만드는 지점이다.
+앞서 말했듯이 $g(\lambda, \upsilon)$는 concave이므로 $x$에 대해 편미분한 값이 0인 지점이 function의 globally optimal point이다.<br>
+그말은 어떤 $x$값이 $\nabla_{x}g(\lambda, \upsilon) = 0$으로 만드는 지점이 $g(\lambda, \upsilon)$를 최대로 만드는 지점이다.
