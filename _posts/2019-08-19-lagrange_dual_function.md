@@ -46,5 +46,5 @@ $\text{subject to} \ \lambda_{i} \geq 0 , i=1,...,m$<br>
 $g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 concave이다.<br>
 그리고 이것은 $g(\lambda, \upsilon)$가 global optimal(imfimum) point $x^{\ast}$가 존재한다는 말과 동치이다.
 
-그렇다면 dual problem은 어떤 제약조건 안에서 $x^{\ast}$이 최대가 되는지 찾는 문제가 된다.<br>
+그렇다면 dual problem은 제약조건 안에서 $x^{\ast}$이 최대가 되는지 찾는 문제가 된다.<br>
 다르게 말해서 $x^{\ast}$가 최대가 되는 지점은 $g(\lambda, \upsilon)$의 upper bound이고, 이 지점은 $f_{0}$가 최소가 되는 point와 가장 근접할 것이다.
