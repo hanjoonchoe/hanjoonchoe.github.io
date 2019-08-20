@@ -77,10 +77,10 @@ $g(\lambda, \upsilon)$는 concave global optimal point가 존재하고 이 지�
 
 따라서 $c^{T}+\lambda^{T}A+\upsilon^{T} = 0$일 때 $g(\lambda,\upsilon)$가 최대 값을 가지는 지점이 된다.
 
->$$\[
+>$$\
     f(x)= 
 \begin{cases}
     \frac{x^2-x}{x},& \text{if } x\geq 1\\
     0,              & \text{otherwise}
 \end{cases}
-\]$$
+\$$
