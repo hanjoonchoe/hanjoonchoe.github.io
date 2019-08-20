@@ -51,4 +51,4 @@ $g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 conca
 
 > $$\max g(\lambda, \upsilon) = d^{\ast} \leq p^{\ast} = \min f_{0}(x)$$
 
-# Example
+## Example
