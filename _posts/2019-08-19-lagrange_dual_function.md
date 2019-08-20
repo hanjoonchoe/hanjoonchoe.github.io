@@ -40,6 +40,6 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 그 해답은 우선 다음과 같은 사실에서 출발한다.
 $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.<br>
-그리고 이 사실은 g(\lambda, \upsilon)가 global optimal point가 존재한다는 말과 동치이다.
+그리고 이 사실은 $g(\lambda, \upsilon)$가 global optimal point가 존재한다는 말과 동치이다.
 
 
