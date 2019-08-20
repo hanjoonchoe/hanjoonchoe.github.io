@@ -14,9 +14,9 @@ use_math: true
 # LAGRANGE DUAL PROBLEM
 
 만약 다음과 같은 형태의 optimization problem이 주어졌다고 하자.
->$$\underset{x}{\text{minimize}} \  f_0(x)$$
-$$\text{subject to} \ f_i(x) \leq 0 , i=1,...,m$$
-$$\qquad\qquad\  g_i(x) = 0 , i=1,...,p$$<br><br>
+>$\underset{x}{\text{minimize}} \  f_0(x)$<br>
+$\text{subject to} \ f_i(x) \leq 0 , i=1,...,m$<br>
+$\qquad\qquad\  g_i(x) = 0 , i=1,...,p$<br><br>
 
 그렇다면 **lagrange dual function**은 다음과 같이 정의된다.
 
