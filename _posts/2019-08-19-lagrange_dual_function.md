@@ -31,7 +31,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 만약 lagrange multiplier들이 0보다 큰 양수라면 constraint의 조건과 합쳐져 다음과 같은 부등식이 성립된다.
 
->$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x^{\ast}$$
+>$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x^{\ast})$$
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
 
 ## Lower bound
@@ -39,6 +39,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 그렇다면 $g(\lambda, \upsilon)$가 최대인 지점은 어떻게 찾을 수 있을까?<br><br>
 
 그 해답은 우선 다음과 같은 사실에서 출발한다.
-$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.
+$g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.<br>
+그리고 이 사실은 g(\lambda, \upsilon)가 global optimal point가 존재한다는 말과 동치이다.
 
 
