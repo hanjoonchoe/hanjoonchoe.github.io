@@ -34,4 +34,4 @@ $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 conca
 따라서 다음과 같은 부등식이 성립된다.
 
 >$$g(\lambda, \upsilon) = \inf\limits_{x \in \mathcal{D}} L(x,\lambda,\upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
-,where $\widetilde{x}$ is any feasible point
+,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
