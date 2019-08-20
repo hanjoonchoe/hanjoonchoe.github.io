@@ -13,4 +13,6 @@ use_math: true
 
 ## Linear support vector machine
 
+### Linear calssification
+
 ## Kernel method
