@@ -69,7 +69,8 @@ $\quad\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^
 다음과 같은 형태는 linear function의 pointwise infimum을 찾는 것이므로 concave이다.
 
 concave function은 global optimal point가 존재하고 이 지점은 $\nabla_{x}g(\lambda,\upsilon) = 0$ 를 만족하는 $x$가 될 것이다.<br>
-따라서
+
 > $$\nabla_{x}g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}(c^{T}+\lambda^{T}A+\upsilon^{T}) = 0$$
 
+따라서 $c^{T}+\lambda^{T}A+\upsilon^{T} = 0$일 때 g(\lambda,\upsilon)가 최대 값을 가지는 지점이 된다.
 
