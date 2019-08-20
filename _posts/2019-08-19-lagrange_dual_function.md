@@ -64,5 +64,10 @@ $\qquad\qquad\  x \succeq 0$<br><br>
 
 >$g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}(c^{T}x+\lambda^{T}(Ax-b) + \upsilon^{T}x )$<br>
 $\quad\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^{T})x - \lambda^{T}b)$
+$\quad\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^{T})x) - \lambda^{T}b$
 
 다음과 같은 형태는 linear function의 pointwise infimum을 찾는 것이므로 concave이다.
+
+concave function은 global optimal point가 존재하고 이 지점은
+> $$\nabla_{x}g(\lambda,\upsilon) = 0$$
+를 만족하는 $x$가 될 것이다.
