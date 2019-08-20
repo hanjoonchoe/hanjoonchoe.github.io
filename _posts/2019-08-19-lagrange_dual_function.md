@@ -72,7 +72,7 @@ $\quad\quad\quad = \inf\limits_{x \in \mathcal{D}}((c^{T}+\lambda^{T}A+\upsilon^
 그리고 다음과 같은 dual problem으로 치환할 수 있다.
 >$\underset{\lambda,\upsilon}{\text{maximize}} \  g(\lambda,\upsilon)$<br>
 
-$g(\lambda, \upsilon)$는 concave global optimal point가 존재하고 이 지점은 $\nabla_{x}g(\lambda,\upsilon) = 0$ 를 만족하는 $x$가 될 것이다.<br>
+$g(\lambda, \upsilon)$는 concave이므로 global optimal point가 존재하고 이 지점은 $\nabla_{x}g(\lambda,\upsilon) = 0$ 를 만족하는 $x$가 될 것이다.<br>
 
 > $$\nabla_{x}g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}(c^{T}+\lambda^{T}A+\upsilon^{T}) = 0$$
 
