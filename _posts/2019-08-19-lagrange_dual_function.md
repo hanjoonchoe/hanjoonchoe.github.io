@@ -72,6 +72,4 @@ concave function은 global optimal point가 존재하고 이 지점은 $\nabla_{
 따라서
 > $$\nabla_{x}g(\lambda,\upsilon) = \inf\limits_{x \in \mathcal{D}}(c^{T}+\lambda^{T}A+\upsilon^{T}) = 0$$
 
-$x$가 optimal point가 되는 지점은 \mathcal{D} 전체이다 ^^;;
 
-이이 대해 Dual problem으로 변환해보자.
