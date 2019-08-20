@@ -30,3 +30,8 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 그리고 각각의 constraint에 곱해지는 $\lambda_{i}$와 $\upsilon_{i}$는 "dual" 또는 "lagrange multiplier"라고 부른다.
 
 $g(\lambda, \upsilon)$은 affine function들의 pointwise infimum이므로 concave이다.
+
+
+따라서 다음과 같은 부등식이 성립된다.
+
+$g(\lambda, \upsilon) = L(x,\lambda,\upsilon)= \inf\limits_{x \in \mathcal{D}} \leq L(\widetilde{x},\lambda,\upsilon)$
