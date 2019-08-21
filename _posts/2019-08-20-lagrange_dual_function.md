@@ -40,7 +40,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 ## Dual problem
 
-$g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 concave이다.<br><br>
+$g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 concave이다.<br>
 
 그리고 이말은 $g(\lambda, \upsilon)$가 global optimal point(maximum point)가 존재한다는 말과 동치이다.<br>
 
@@ -48,9 +48,7 @@ $g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 conca
 
 >$\underset{\lambda \geq 0}{\text{maximize}} \  g(\lambda, \upsilon)$<br>
 
-본 dual problem은 제약조건 안에서 $g(\lambda, \upsilon)$ 최대가 되는지 찾는 문제가 된다.<br>
-
-다르게 말해서 $x^{\ast}$가 최대가 되는 지점은 $g(\lambda, \upsilon)$의 greatest upper bound이고, 이 지점은 $f_{0}$가 최소가 되는 point와 가장 근접할 것이다.
+$g(\lambda, \upsilon)$가 최대가 되는 지점은 lowest upper bound $d^{\ast}$가 될 것이고, 이 지점은 $f_{0}$가 최소가 되는 greastes lower bound $p^{\ast}$와 같거나 근접할 것이다.
 
 > $$\max g(\lambda, \upsilon) = d^{\ast} \leq p^{\ast} = \min f_{0}(x)$$
 
