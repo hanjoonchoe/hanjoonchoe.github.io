@@ -31,7 +31,7 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 만약 lagrange multiplier들이 0보다 큰 양수라면 constraint의 조건과 합쳐져 다음과 같은 부등식이 성립된다.
 
->$$g(\lambda, \upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(x)$$
+>$$g(\lambda, \upsilon) \leq L(\widetilde{x},\lambda,\upsilon) \leq f_{0}(\widetilde{x})$$
 ,where $\widetilde{x}$ is any feasible point in $\mathcal{D}$
 
 ## Dual problem
@@ -42,7 +42,6 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 >$\underset{\lambda \geq 0}{\text{maximize}} \  g(\lambda, \upsilon)$<br>
 $\text{subject to} \ \lambda_{i} \geq 0 , i=1,...,m$<br>
 
-기존의 optimization problem으로 돌아가서
 $g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 concave이다.<br>
 그리고 이것은 $g(\lambda, \upsilon)$가 global optimal point $x^{\ast}$가 존재한다는 말과 동치이다.<br>
 (concave이므로 optimal point는 maximum point이다.)
