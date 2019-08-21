@@ -40,9 +40,10 @@ $$(x,\lambda,\upsilon) \mapsto f_{0}(x)+\sum_{i=1}^{m} \lambda_{i}f_{i}(x) + \su
 
 ## Dual problem
 
-$g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 concave이다. 그리고 이말은 $g(\lambda, \upsilon)$가 global optimal point가 존재한다는 말과 동치이다.<br>
+$g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 concave이다.<br><br>
+그리고 이말은 $g(\lambda, \upsilon)$가 global optimal point(maximum point)가 존재한다는 말과 동치이다.<br>
 
-concave function은 global optimal point = global maximum point이므로 다음과 같은 optimization problem을 생각해 볼 수 있다.<br>
+이러한 사실로 다음과 같은 optimization problem을 생각해 볼 수 있다.<br>
 
 >$\underset{\lambda \geq 0}{\text{maximize}} \  g(\lambda, \upsilon)$<br>
 
