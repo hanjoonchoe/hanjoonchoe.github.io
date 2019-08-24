@@ -48,7 +48,7 @@ $g(\lambda, \upsilon)$는 affine function들의 pointwise infimum이므로 conca
 
 >$\underset{\lambda \geq 0}{\text{maximize}} \  g(\lambda, \upsilon)$<br>
 
-$g(\lambda, \upsilon)$가 최대가 되는 지점은 $\max g(\lambda, \upsilon) = d^{\ast}$가 될 것이고, 이 지점은 $f_{0}$가 최소가 되는 $\min f_{0}(x) = p^{\ast}$와 같거나 근접할 것이다.
+$g(\lambda, \upsilon)$가 최대가 되는 지점은 $\max g(\lambda, \upsilon) = d^{\ast}$가 될 것이고, 이 지점은 $f_{0}$가 최소가 되는 $\min f_{0}(x) = p^{\ast}$가 될 것이다. 따라서 다음과 같은 부등식이 성립한다.
 
 > $$\max g(\lambda, \upsilon) = d^{\ast} \leq p^{\ast} = \min f_{0}(x)$$
 
