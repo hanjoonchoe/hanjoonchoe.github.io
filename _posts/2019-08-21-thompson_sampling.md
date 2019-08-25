@@ -71,7 +71,9 @@ $= Beta(\theta,k+1,n-k+1)$
 ### bayesian inference
 
 > $$posterior \propto likelihood \ast prior$$
+bayesian inference에서는 계산의 복잡성에 의해 normalizing constant (여기서는 p(x))를 생략하기도 한다. 따라서 다음과 같은 식이 된다.
 
 >$p(\theta \mid x) \propto p(x \mid \theta)p(\theta)$, we assume that $p(\theta) = Beta(\alpha,\beta)$<br><br>
-$= \binom{n}{k}\theta^{k}(\theta-1)^{n-k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$<br><br>
-$=\binom{n}{k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{k+\alpha -1}(\theta-1)^{n-k+\beta -1}$
+$\approx \binom{n}{k}\theta^{k}(\theta-1)^{n-k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$<br><br>
+$\approx \binom{n}{k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{k+\alpha -1}(\theta-1)^{n-k+\beta -1}$
+$\approx Beta(x+\alpha, n-x+\beta)$
