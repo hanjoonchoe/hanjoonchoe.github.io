@@ -40,3 +40,9 @@ $= 0 + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t} dt$<br><br>
 $=(x-1)\Gamma(x-2)$<br>
 
 이 방법을 연속적으로 취해주면 $ \Gamma (x) = (x-1)! $임을 알 수 있다.
+
+## Beta-binomial distribution
+
+위의 두 사실을 바탕으로 다음과 같은 등식이 성립한다.
+
+> $$p(\theta,\alpha,\beta) = \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1} = \frac{\gamma(\alpha+\beta -1)}{\gamma(\alpha-1)\gamma(\beta-1)\theta^{\alpha-1}(\theta-1)^{\beta-1}$$
