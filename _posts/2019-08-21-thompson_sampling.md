@@ -88,4 +88,4 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 
 ### Psudo-code for bernoulli thompson sampling
 
-> <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/bernts_algo.png" width="100%" height="100%"> <br> 그림 2. Greedy algorithm(좌) Bernoulli thompson sampling algorithm(우)</p>
+> <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/bernts_algo.png" width="100%" height="100%"> <br> 그림 2. Bernoulli greedy algorithm(좌) Bernoulli thompson sampling algorithm(우)</p>
