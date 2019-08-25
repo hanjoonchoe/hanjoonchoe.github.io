@@ -86,10 +86,9 @@ $\approx Beta(x+\alpha, n-x+\beta)$
 bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다. 간단하게 이야기하면 여러개의 슬롯머신이 있고 그 중 어떤 슬롯머신의 손잡이를 잡아 당겼을 때 돈을 확률이 높은지를 고민하는 문제라고 할 수 있겠다.
 
 ### Psudo-code for bernoulli thompson sampling
-~~~
-for $t = 1, 2 ...$ do
-#
-  for $k = 1, 2 ... $ do
-    Sample \^{\thata}_{k}
-~~~
+
+>for $t = 1, 2 ...$ do
+> #
+> for $k = 1, 2 ... $ do
+>   Sample \^{\thata}_ {k}
 
