@@ -99,3 +99,10 @@ for $t = 1, 2 ...$ do
 </code></pre>
 
 ``Use `code` in your Markdown $\alpha$ file.``
+```latex
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
