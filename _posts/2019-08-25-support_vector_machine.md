@@ -108,17 +108,12 @@ $\iff \sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br><br>
 
 따라서,<br>
 
-$ w = \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$<br>
-
-을 $g(\lambda)$에 대입해 주면
+$ w = \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$ 와 $\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$를 $g(\lambda)$에 대입해 주면
 
 $\iff g(\lambda) = \inf(\frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j} - \sum_{i=1}^{n}\sum_{j=1}^{n}\lambda_{i}\lambda_{j} y_{i}y_{j}{\vec{x}_ {i}}^{T}{\vec{x}_ {j}} - \sum_{i=1}^{n}\lambda_{i} y_{i}b + \sum_{i=1}^{n} \lambda_{i} )$
 
 $\iff g(\lambda) = \inf(\sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j} - \sum_{i=1}^{n}\lambda_{i} y_{i}b )$
 
-$\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br>
-
-여기서 의 조건도 $g(\lambda)$에 대입해주면,<br>
 
 $\iff g(\lambda) = \inf(\sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j})$
 
