@@ -77,7 +77,7 @@ $y_{i}$는 classifier 다음과 같이 정의된다.
 \end{cases}
 \$$
 
-$y_{i}$는 $\mathbb{R}^{n}$안의 data point $p$가 $\vec{w}^{T}\vec{x}_ {i}+b$ 기준으로 위쪽일 때 1의 값을 아래쪽이거나 걸쳐 있을때는 -1값을 가진다.<br>
+$y_{i}$는 $\mathbb{R}^{n}$안의 data point $p$가 $\vec{w}^{T}\vec{x}_ {i}+b$ 기준으로 위쪽이거나 걸쳐 있을때 1의 값을 아래쪽일때 -1값을 가진다.<br>
 
 따라서 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1$가 되기 위해서는 $y_{i}$와 $\vec{w}^{T}\vec{x}_ {i}+b$가 둘다 음수거나 양수여야 한다.
 그말은 해석하자면 $p$가 $\vec{w}^{T}\vec{x}_ {i}+b = -c$ 아래에 위치하거나 그렇지 않으면 $\vec{w}^{T}\vec{x}_ {i}+b = c$의 위에 위치해야 한다는 말이 된다.
