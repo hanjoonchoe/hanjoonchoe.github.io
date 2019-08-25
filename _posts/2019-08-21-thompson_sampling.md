@@ -107,3 +107,5 @@ Bayesian inference를 적용해 reward값 $r_{t}$를 parameter로 하는 $Beta(r
 즉, ${\theta_{k}}$의 sampling distribution의 variance가 작아진다. 따라서 랜덤하게 추출되는 ${\theta_{k}}$값이 균질해진다.<br> 그리고, 이러한 효과는 높은 성공확률을 가지는 분포에서 random sampling한 ${\theta_{k}}$의 값이 균질 (또는 명백히 하는) 효과를 준다.
 
 $\epsilon$-greedy algorithm에서는 $\epsilon$값에 의해 성공확률 이외에도 랜덤하게 다른 choice를 할 여지는 주지만 성공확률이 확연히 차이나는 선택이 존재할 경우 이러한 방식은 도움이 되지 않는다.
+
+reference : [https://web.stanford.edu/~bvr/pubs/TS_Tutorial.pdf]https://web.stanford.edu/~bvr/pubs/TS_Tutorial.pdf
