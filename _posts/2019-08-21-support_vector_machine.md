@@ -26,4 +26,4 @@ Thompson sampling을 설명할 때 보통 probability update과정을 beta-multi
 
 ![Beta](/_posts/images/beta_distribution.png){:height="50%" width="50%"}
 
-
+![test image size](/_posts/images/beta_distribution.png){:height="50%" width="50%"}
