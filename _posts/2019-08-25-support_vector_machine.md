@@ -1,6 +1,6 @@
 ---
 title: "SUPPORT VECTOR MACHINE"
-date: 2019-08-24
+date: 2019-08-25
 categories: Machine_Learning
 tags:
   - machine learning
