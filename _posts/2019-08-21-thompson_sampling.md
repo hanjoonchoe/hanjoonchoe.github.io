@@ -92,3 +92,8 @@ for $t = 1, 2 ...$ do
   for $k = 1, 2 ... $ do
     Sample \^{\thata}_{k}
 ~~~~
+
+<p>This is a normal paragraph:</p>
+
+<pre><code>for $k = 1, 2 ... $ do
+</code></pre>
