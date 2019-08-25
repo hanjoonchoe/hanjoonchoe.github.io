@@ -49,4 +49,4 @@ $=(x-1)\Gamma(x-2)$<br>
 
 ### Binomial distribution
 
-> $\binom{n}{k}$
+> binomial(n,k) = $\binom{n}{k}\theta^{k}\theta^{n-k}$
