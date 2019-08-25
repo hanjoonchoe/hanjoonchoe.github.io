@@ -13,81 +13,143 @@ use_math: true
 ---
 
 
+.. _cost_function:
+
+==============
+Loss Functions
+==============
+
+.. contents:: :local:
+
+
+.. _loss_cross_entropy:
+
 Cross-Entropy
 =============
 
 Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label. So predicting a probability of .012 when the actual observation label is 1 would be bad and result in a high loss value. A perfect model would have a log loss of 0.
 
-## Beta distribution
+.. image:: images/cross_entropy.png
+    :align: center
 
-Thompson sampling을 설명할 때 보통 probability update과정을 beta-binomial distribution로 설명하기가 쉬우므로 많이 쓴다.
-
-먼저 beta distribution의 probability density function은 다음과 같다.
-
-> $$Beta(\theta,\alpha,\beta) = \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$$
-> <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/beta_distribution.png" width="30%" height="30%"> <br> 그림 1. Beta distribution</p>
+The graph above shows the range of possible loss values given a true observation (isDog = 1). As the predicted probability approaches 1, log loss slowly decreases. As the predicted probability decreases, however, the log loss increases rapidly. Log loss penalizes both types of errors, but especially those predictions that are confident and wrong!
 
 .. note::
-예시 그림에서와 같이 $\alpha$값이 상대적으로 높을수록 positive skew된, $\beta$값이 상대적으로 높을수록 negative skew된 것을 볼 수 있다.<br>
-그리고 $\alpha$와 $\beta$값일 높을 수록 좌우가 분포가  peak이 높은 형태를 나타내는 것도 확인 할 수 있다.
 
-## Gamma function
+Cross-entropy and log loss are slightly different depending on context, but in machine learning when calculating error rates between 0 and 1 they resolve to the same thing.
 
-Beta distribution의 gamma function은 다음과 같은 형태를 가지고 있다.
-> $$ \Gamma(\alpha) =  \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $$
+.. rubric:: Code
 
-Intgeration by parts를 적용하여 풀어주면,
-> $ \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $<br><br>
-$=-t^{\alpha - 1}e^{-t} \bigg\rvert_{t=0}^{\infty} + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t} dt$<br><br>
-$= 0 + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t} dt$<br><br>
-$=(x-1)\Gamma(x-2)$<br>
+.. literalinclude:: ../code/loss_functions.py
+      :pyobject: CrossEntropy
 
-이 방법을 연속적으로 취해주면 $ \Gamma (x) = (x-1)! $임을 알 수 있다.
+.. rubric:: Math
 
-## Beta-binomial distribution
+In binary classification, where the number of classes :math:`M` equals 2, cross-entropy can be calculated as:
 
-위의 두 사실을 바탕으로 다음과 같은 등식이 성립한다.
+.. math::
 
-> $${\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1} = \frac{(\alpha+\beta -1)!}{(\alpha-1)!(\beta-1)!}\theta^{\alpha-1}(\theta-1)^{\beta-1}}$$
+  -{(y\log(p) + (1 - y)\log(1 - p))}
 
+If :math:`M > 2` (i.e. multiclass classification), we calculate a separate loss for each class label per observation and sum the result.
 
-다음으로 위의 사실이 어떻게 Binomial distribution과 연관되는지 알아보도록 하자.
+.. math::
 
-## Bayesian update for binomial distribution
+  -\sum_{c=1}^My_{o,c}\log(p_{o,c})
 
-> $bin(n,k,\theta) = \binom{n}{k}\theta^{k}\theta^{n-k}$
+.. note::
 
-Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
+  - M - number of classes (dog, cat, fish)
+  - log - the natural log
+  - y - binary indicator (0 or 1) if class label :math:`c` is the correct classification for observation :math:`o`
+  - p - predicted probability observation :math:`o` is of class :math:`c`
 
 
->$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta)$ = 1<br><br>
-$= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\binom{n}{k}\int_{\theta}\theta^{k}{(\theta-1)}^{n-k}d\theta}$<br><br>
-$= \frac{\theta^{k}(\theta-1)^{n-k}}{\frac{\Gamma(k+1)\Gamma(n-k+1)}{\Gamma(n+2)}}$<br><br>
-$= \frac{\Gamma(n+2)}{\Gamma(k+1)\Gamma(n-k+1)}\theta^{k}(\theta-1)^{n-k}$<br><br>
-$= Beta(\theta,k+1,n-k+1)$
+.. _hinge_loss:
 
-따라서 $bin(n,k)$의 posterior는 $Beta(k+1,n-k+1)$과 같다.
+Hinge
+=====
 
-## Bayesian update for beta-binomial distribution
+Used for classification.
 
-만약 prior $p(\theta)$가 beta distribution을 다른다고 가정하면 어떻게 될까?
+.. rubric:: Code
 
-### bayesian inference
+.. literalinclude:: ../code/loss_functions.py
+      :pyobject: Hinge
 
-bayesian inference에서는 계산의 복잡성에 의해 normalizing constant (여기서는 $p(x)$)를 생략하기도 한다. 따라서 다음과 같은 식이 된다.
 
-> $$posterior \propto likelihood \ast prior$$
+.. _huber_loss:
 
-따라서 posterior는 다음과 같이 구해진다.
+Huber
+=====
 
->$p(\theta \mid x) \propto p(x \mid \theta)p(\theta)$, we assume that $p(\theta) = Beta(\alpha,\beta)$<br><br>
-$\approx \binom{n}{k}\theta^{k}(\theta-1)^{n-k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$<br><br>
-$\approx \binom{n}{k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{k+\alpha -1}(\theta-1)^{n-k+\beta -1}$<br><br>
-$\approx Beta(x+\alpha, n-x+\beta)$
+Typically used for regression. It's less sensitive to outliers than the MSE as it treats error as square only inside an interval.
 
-## Tompson sampling for bernoulli bandit
+.. math::
 
-bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다. 간단하게 이야기하면 여러개의 슬롯머신이 있고 그 중 어떤 슬롯머신의 손잡이를 잡아 당겼을 때 돈을 확률이 높은지를 고민하는 문제라고 할 수 있겠다.
+  L_{\delta}=\left\{\begin{matrix}
+  \frac{1}{2}(y - \hat{y})^{2} & if \left | (y - \hat{y})  \right | < \delta\\
+  \delta (y - \hat{y}) - \frac1 2 \delta & otherwise
+  \end{matrix}\right.
 
-### Psudo-code for bernoulli thompson sampling
+.. rubric:: Code
 
+.. literalinclude:: ../code/loss_functions.py
+      :pyobject: Huber
+
+Further information can be found at `Huber Loss in Wikipedia`_.  
+
+.. _`Huber Loss in Wikipedia`: https://en.wikipedia.org/wiki/Huber_loss
+
+.. _kl_divergence:
+
+Kullback-Leibler
+================
+
+.. rubric:: Code
+
+.. literalinclude:: ../code/loss_functions.py
+      :pyobject: KLDivergence
+
+
+.. _mae:
+
+MAE (L1)
+========
+
+Mean Absolute Error, or L1 loss. Excellent overview below [6] and [10].
+
+.. rubric:: Code
+
+.. literalinclude:: ../code/loss_functions.py
+      :pyobject: L1
+
+
+.. _mse:
+
+MSE (L2)
+========
+
+Mean Squared Error, or L2 loss. Excellent overview below [6] and [10].
+
+.. literalinclude:: ../code/loss_functions.py
+    :language: python
+    :pyobject: MSE
+
+.. literalinclude:: ../code/loss_functions.py
+    :language: python
+    :pyobject: MSE_prime
+
+
+.. rubric:: References
+
+.. [1] https://en.m.wikipedia.org/wiki/Cross_entropy
+.. [2] https://www.kaggle.com/wiki/LogarithmicLoss
+.. [3] https://en.wikipedia.org/wiki/Loss_functions_for_classification
+.. [4] http://www.exegetic.biz/blog/2015/12/making-sense-logarithmic-loss/
+.. [5] http://neuralnetworksanddeeplearning.com/chap3.html
+.. [6] http://rishy.github.io/ml/2015/07/28/l1-vs-l2-loss/
+.. [7] https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient
+.. [8] https://en.wikipedia.org/wiki/Huber_loss
+.. [9] https://en.wikipedia.org/wiki/Hinge_loss
+.. [10] http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/
