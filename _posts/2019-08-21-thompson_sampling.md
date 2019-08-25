@@ -89,3 +89,5 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 ### Psudo-code for bernoulli thompson sampling
 
 <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/bernts_algo.png" width="100%" height="100%"> <br> 그림 2. Bernoulli greedy algorithm(좌) Bernoulli thompson sampling algorithm(우)</p>
+
+Algorithm 1과 Algorithm 2의 차이는 $\theta_{k}$값을 구할 때 전자는 mean값을 후자는 posterior에서 추출 된 임의의 값을 쓴다는 것이다.
