@@ -71,3 +71,4 @@ $= Beta(\theta,k+1,n-k+1)$
 
 $p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta) = Beta(\alpha,\beta)$<br><br>
 $= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\binom{n}{k}\int_{\theta}\theta^{k}{(\theta-1)}^{n-k}d\theta}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$<br><br>
+$=\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{k+\alpha -1}(\theta-1)^{n-k+\beta -1}$
