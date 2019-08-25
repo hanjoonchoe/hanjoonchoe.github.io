@@ -8,3 +8,14 @@ tags:
   - classification
 use_math: true
 ---
+
+# SUPPORT VECTOR MACHINE
+
+## Linear SVM(support vector machine)
+
+### Hyperplane
+
+hyperplane은 다음과 같이 정의된다
+
+$${x /mid w^{T}x+b}$$
+where $x \in \mathbb{R}^{n}$ and $b \in \mathbb{R}$
