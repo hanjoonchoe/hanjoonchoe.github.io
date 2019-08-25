@@ -55,7 +55,6 @@ $=(x-1)\Gamma(x-2)$<br>
 
 Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
 
-> $$posterior = likelihood \ast prior$$<br>
 
 >$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta)$ = 1<br><br>
 $= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\binom{n}{k}\int_{\theta}\theta^{k}{(\theta-1)}^{n-k}d\theta}$<br><br>
@@ -68,6 +67,10 @@ $= Beta(\theta,k+1,n-k+1)$
 ## Bayesian update for beta-binomial distribution
 
 만약 prior $p(\theta)$가 binomial distribution을 다른다고 가정하면 어떻게 될까?
+
+### bayesian inference
+
+> $$posterior \propto likelihood \ast prior$$
 
 $p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta) = Beta(\alpha,\beta)$<br><br>
 $= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\binom{n}{k}\int_{\theta}\theta^{k}{(\theta-1)}^{n-k}d\theta}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$<br><br>
