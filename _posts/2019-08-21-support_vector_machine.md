@@ -35,8 +35,8 @@ Beta distribution의 gamma function은 다음과 같은 형태를 가지고 있�
 
 Intgeration by parts를 적용하여 풀어주면,
 > $ \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $<br><br>
-$=-t^{\alpha - 1}e^{-t} \bigg\rvert_{t=0}^{\infty} + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t}$<br><br>
-$= 0 + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t}$<br><br>
+$=-t^{\alpha - 1}e^{-t} \bigg\rvert_{t=0}^{\infty} + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t} dt$<br><br>
+$= 0 + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t} dt$<br><br>
 $=(x-1)\Gamma(x-2)$<br>
 
 이 방법을 연속적으로 취해주면 $ \Gamma (x) = (x-1)! $임을 알 수 있다.
