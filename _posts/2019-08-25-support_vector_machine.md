@@ -113,4 +113,4 @@ $\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br><br>
 
 를 다시 원래의 function에 대입해주면,<br>
 
-$g(\lambda) = \inf(\frac{1}{2}\parallel w \parallel^2 - \sum_{i=1}^{n}\lambda_{i}(y_{i}(\vec{w}^{T}\vec{x}_ {i}+b)-1))$
+$g(\lambda) = \inf(\frac{1}{2} (\sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$)^{T}\sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$ + \sum_{i=1}^{n}\lambda_{i}))$
