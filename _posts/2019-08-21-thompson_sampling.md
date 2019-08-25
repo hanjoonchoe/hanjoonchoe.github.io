@@ -31,10 +31,10 @@ $$Beta(\theta,\alpha,\beta) = \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma
 ## Gamma function
 
 Beta distribution의 gamma function은 다음과 같은 형태를 가지고 있다.
-> $$ \Gamma(\alpha) =  \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $$
+$$ \Gamma(\alpha) =  \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $$
 
 Intgeration by parts를 적용하여 풀어주면,
-> $ \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $<br><br>
+$ \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $<br><br>
 $=-t^{\alpha - 1}e^{-t} \bigg\rvert_{t=0}^{\infty} + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t} dt$<br><br>
 $= 0 + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t} dt$<br><br>
 $=(x-1)\Gamma(x-2)$<br>
@@ -45,7 +45,7 @@ $=(x-1)\Gamma(x-2)$<br>
 
 위의 두 사실을 바탕으로 다음과 같은 등식이 성립한다.
 
-> $${\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1} = \frac{(\alpha+\beta -1)!}{(\alpha-1)!(\beta-1)!}\theta^{\alpha-1}(\theta-1)^{\beta-1}}$$
+$${\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1} = \frac{(\alpha+\beta -1)!}{(\alpha-1)!(\beta-1)!}\theta^{\alpha-1}(\theta-1)^{\beta-1}}$$
 
 
 다음으로 위의 사실이 어떻게 Binomial distribution과 연관되는지 알아보도록 하자.
@@ -57,7 +57,7 @@ $=(x-1)\Gamma(x-2)$<br>
 Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
 
 
->$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta)$ = 1<br><br>
+$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta)$ = 1<br><br>
 $= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\binom{n}{k}\int_{\theta}\theta^{k}{(\theta-1)}^{n-k}d\theta}$<br><br>
 $= \frac{\theta^{k}(\theta-1)^{n-k}}{\frac{\Gamma(k+1)\Gamma(n-k+1)}{\Gamma(n+2)}}$<br><br>
 $= \frac{\Gamma(n+2)}{\Gamma(k+1)\Gamma(n-k+1)}\theta^{k}(\theta-1)^{n-k}$<br><br>
@@ -77,7 +77,7 @@ bayesian inference에서는 계산의 복잡성에 의해 normalizing constant (
 
 따라서 posterior는 다음과 같이 구해진다.
 
->$p(\theta \mid x) \propto p(x \mid \theta)p(\theta)$, we assume that $p(\theta) = Beta(\alpha,\beta)$<br><br>
+$p(\theta \mid x) \propto p(x \mid \theta)p(\theta)$, we assume that $p(\theta) = Beta(\alpha,\beta)$<br><br>
 $\approx \binom{n}{k}\theta^{k}(\theta-1)^{n-k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$<br><br>
 $\approx \binom{n}{k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{k+\alpha -1}(\theta-1)^{n-k+\beta -1}$<br><br>
 $\approx Beta(x+\alpha, n-x+\beta)$
@@ -88,4 +88,4 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 
 ### Psudo-code for bernoulli thompson sampling
 
-> <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/bernts_algo.png" width="100%" height="100%"> <br> 그림 2. Bernoulli greedy algorithm(좌) Bernoulli thompson sampling algorithm(우)</p>
+<p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/bernts_algo.png" width="100%" height="100%"> <br> 그림 2. Bernoulli greedy algorithm(좌) Bernoulli thompson sampling algorithm(우)</p>
