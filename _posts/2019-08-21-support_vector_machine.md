@@ -45,4 +45,4 @@ $=(x-1)\Gamma(x-2)$<br>
 
 위의 두 사실을 바탕으로 다음과 같은 등식이 성립한다.
 
-> $$p(\theta,\alpha,\beta) = \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1} = \frac{(\alpha+\beta -1)!}{(\alpha-1)!(\beta-1)!\theta^{\alpha-1}(\theta-1)^{\beta-1}}$$
+> $$p(\theta,\alpha,\beta) = {\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1} = \frac{(\alpha+\beta -1)!}{(\alpha-1)!(\beta-1)!\theta^{\alpha-1}}(\theta-1)^{\beta-1}}$$
