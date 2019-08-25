@@ -92,71 +92,17 @@ for $t = 1, 2 ...$ do
   for $k = 1, 2 ... $ do
     Sample \^{\thata}_{k}
 ~~~~
+
 <script type="text/javascript">
-$(document).ready(function() {
-    $('#example-seeds').pseudocode({
-        keywords: {
-            'if': '#000066',
-            'for': '#000066',
-            'each': '#000066',
-            'return': '#000066',
-            'function': '#000066'
-        }
+    $(document).ready(function() {
+        $('#example-getting-started').pseudocode();
     });
-});
 </script>
-<pre id="example-seeds">
-for $t = 1,2,... $ do
-#
-  for $k = 1, 2 ... $ do
-    Sample $\^{\thata}_{k} = argmax_{k}$
+<pre>
+var N = 6
 var j = 4
 for i = 1 to N
     // A simple if statement:
     if i = j
         N = N + 1
-</pre>
-
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example-seeds').pseudocode({
-        keywords: {
-            'if': '#000066',
-            'for': '#000066',
-            'each': '#000066',
-            'return': '#000066',
-            'function': '#000066'
-        }
-    });
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example-turbopixels').pseudocode({
-        keywords: {
-            'if': '#000066',
-            'for': '#000066',
-            'repeat': '#000066',
-            'until': '#000066',
-            'return': '#000066',
-            'function': '#000066'
-        }
-    });
-});
-</script>
-<pre id="example-turbopixels">
-function turbopixels(
-        $I$, // Color image.
-        $K$, // Number of superpixels.
-    )
-    place initial superpixel centers on a regular grid
-    initialize $\psi^{(0)}$
-    repeat
-        compute $v_I$ and $v_B$
-        evolve the contour by computing $\psi^{(T+1)}$
-        update assigned pixels
-        $T := T + 1$
-    until all pixels are assigned
-    derive superpixel segmentation $S$ from $\psi$
-    return $S$
 </pre>
