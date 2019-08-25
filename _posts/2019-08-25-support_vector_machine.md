@@ -40,7 +40,7 @@ $$\lbrace (x_{1},x_{2}) \mid ax_{1}+bx_{2}=b \rbrace$$를 만족하는 해집합
 </p>
 Linear SVM은 $\mathbb{R}^{n}$상에 분포된 data point들과 그것을 가르는 hyperplane 사이의 margin(거리)을 최대화 하는 $\vec{w}$를 optimization 기법이다.
 
-### Find large margin under constraint
+### Optimization problem(find large margin)
 
 임의의 hyperplane $\vec{w}^{T}\vec{x^+}=b$이 존재한다고 하자. 그리고 이 hyperplane을 $\pm$ 1만큼 translation하면,<br>
 
@@ -117,3 +117,7 @@ $\iff g(\lambda) = \inf(\sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\
 
 $\iff g(\lambda) = \inf(\sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j})$
 
+위의 결과를 토대로 아래와 같은 dual problem이 만들어 진다. 
+
+$\underset{\lambda>0}{\text{maximize}} \  \sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j}$<br>
+$\text{subject to} \  \sum_{i=1}^{n}\lambda_{i} y_{i} \geq 0 , i=1,...,n$<br>
