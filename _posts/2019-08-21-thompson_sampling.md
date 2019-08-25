@@ -92,17 +92,3 @@ for $t = 1, 2 ...$ do
   for $k = 1, 2 ... $ do
     Sample \^{\thata}_{k}
 ~~~~
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#example-getting-started').pseudocode();
-    });
-</script>
-<pre>
-var N = 6
-var j = 4
-for i = 1 to N
-    // A simple if statement:
-    if i = j
-        N = N + 1
-</pre>
