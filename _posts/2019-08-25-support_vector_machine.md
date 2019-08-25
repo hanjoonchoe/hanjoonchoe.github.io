@@ -61,10 +61,12 @@ Linear SVM은 이 width를 최대화 하는 것이므로 $\parallel w \parallel$
 $\underset{\vec{w},b}{\text{minimize}} \  \frac{1}{2}\parallel w \parallel^2$<br>
 $\text{subject to} \  y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1 , i=1,...,n$<br>
 
+>$\frac{1}{2}\parallel w \parallel^2$는 $\parallel w \parallel$를 최소화하는 문제를 좀 더 손쉽게 풀기 위해서 변형한 형태이며 이렇게 변형해도 최소의 $\parallel w \parallel$를 찾는데에는 아무런 영향이 없다. 다시말해 $\parallel w \parallel$를 최소화 하는 문제는 $\frac{1}{2}\parallel w \parallel^2$를 최소화 하는 문제와 같다.
+
 여기에 추가로 constraint를 추가하여 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1$라는 조건을 동시에 충족하여야 한다.
 
+$y_{i}$는 다음과 같이 정의된다.
 $y_{i}$는 $\mathbb{R}^{n}$안의 data point가 $\vec{w}^{T}\vec{x}_ {i}+b = 1$ 기준으로 위쪽일 때 1의 값을 $\vec{w}^{T}\vec{x}_ {i}+b = -1$ 기준으로 아래쪽일 때 -1의 값을 가진다. 그리고 $\vec{w}^{T}\vec{x}_ {i}+b$는 -1이거나 1이다.<br>
 따라서 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1$라는 조건은 data point들이 아랫쪽 hyperplane에 맞닿거나 그 아래 그렇지 않으면 위쪽 hyperplane에 맞닿거나 그 위에 위치해야 한다는 것을 의미한다.<br>
 만약 아래쪽 hyperplane의 위쪽 그리고 위쪽 hyperplane의 아래쪽에 data point가 자리하고 있으면 부등식이 성립하지 않게된다.
 
->$\frac{1}{2}\parallel w \parallel^2$는 $\parallel w \parallel$를 최소화하는 문제를 좀 더 손쉽게 풀기 위해서 변형한 형태이며 이렇게 변형해도 최소의 $\parallel w \parallel$를 찾는데에는 아무런 영향이 없다. 다시말해 $\parallel w \parallel$를 최소화 하는 문제는 $\frac{1}{2}\parallel w \parallel^2$를 최소화 하는 문제와 같다.
