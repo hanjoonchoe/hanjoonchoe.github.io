@@ -99,4 +99,4 @@ t trial에서 각 choice에 대한 $\theta_{k}$값들(다르게 말해 성공확
 이 
 가장 큰 성공확률을 나타내는 $\theta_{k}$가 선택 되었으면 t trial에서 $\theta_{k}$에 대응되는 choice를 $x_{t}$로 두고 이에 대한 reward값인 $r_{t}$ 확인한다.<br>ㄹ
 가장 큰 성공확률을 나타내는 $\theta_{k}$가 선택 되었으면 t trial에서 $\theta_{k}$에 대응되는 choice를 $x_{t}$로 두고 이에 대한 reward값인 $r_{t}$ 확인한다.<br>
-이 reward값 $r_{t}$를 분포로 하는 Beta distribution B(r,r-1)을 prior로 두면 posterior는 B(\alpha+r,\beta+r-1)가 된다.
+이 reward값 $r_{t}$를 분포로 하는 Beta distribution $Beta(r,r-1)$을 prior로 두면 posterior는 $Beta(\alpha+r,\beta+r-1)$가 된다.
