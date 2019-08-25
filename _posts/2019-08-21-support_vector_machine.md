@@ -50,7 +50,9 @@ $=(x-1)\Gamma(x-2)$<br>
 
 다음으로 위의 사실이 어떻게 Binomial distribution과 연관되는지 알아보도록 하자.
 
-### Binomial distribution
+### Binomial distribution with bayesian update
 
-> binomial(n,k) = $\binom{n}{k}\theta^{k}\theta^{n-k}$
+> binomial(n,k,\theta) = $\binom{n}{k}\theta^{k}\theta^{n-k}$
+
+> $$posterior = /frac{liklihood}{prior}=$$<br>
 
