@@ -42,9 +42,7 @@ Linear SVM은 $\mathbb{R}^{n}$상에 분포된 data point들과 그것을 가르
 그림 2. Linear SVM with margin
 </p>
 
-임의의 hyperplane $\vec{w}^{T}\vec{x^+}=b$이 존재한다고 하자.
-
-이 hyperplane을 $\pm$ 1만큼 translation하면,<br>
+임의의 hyperplane $\vec{w}^{T}\vec{x^+}=b$이 존재한다고 하자. 그리고 이 hyperplane을 $\pm$ 1만큼 translation하면,<br>
 
 $\vec{w}^{T}\vec{x^+}=b+1$<br><br>
 $\vec{w}^{T}\vec{x^-}=b-1$<br>
