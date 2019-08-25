@@ -54,6 +54,8 @@ $=(x-1)\Gamma(x-2)$<br>
 
 > $bin(n,k,\theta) = \binom{n}{k}\theta^{k}\theta^{n-k}$
 
+Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
+
 > $$posterior \propto \frac{likelihood}{prior}$$<br>
 $$\binom{n+1}{k}\theta^{k}\theta^{n-k} = \frac{\binom{n}{k}\theta^{k}\theta^{n-k}}{\int_{\theta}\binom{n}{k}\theta^{k}\theta^{n-k}d\theta}$$
 
