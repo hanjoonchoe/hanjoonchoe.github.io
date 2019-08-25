@@ -83,6 +83,6 @@ $y_{i}$는 $\mathbb{R}^{n}$안의 data point $p$가 $\vec{w}^{T}\vec{x}_ {i}+b$ 
 그말은 해석하자면 $p$가 $\vec{w}^{T}\vec{x}_ {i}+b = -c$ 아래에 위치하거나 그렇지 않으면 $\vec{w}^{T}\vec{x}_ {i}+b = c$의 위에 위치해야 한다는 말이 된다.
 
 만약 $\vec{w}^{T}\vec{x}_ {i}+b = -c$에 위치하면 $y_{i} = 1$이 되고 $\vec{w}^{T}\vec{x}_ {i}+b = -c$ 이므로 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) = -c$ 음수가 된다. 반대로 $\vec{w}^{T}\vec{x}_ {i}+b = c$ 아래에 위치하면 $y_{i} = -1$ 이 되므로 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b)=-c$ 음수가 된다.<br>
-결과적으로 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b)\geq 1$가 함의하는 것은 $\vec{w}^{T}\vec{x}_ {i}+b = -c$ 와 $\vec{w}^{T}\vec{x}_ {i}+b = c$ 사이에는 $p$가 존재하지 않아야 한다는 말과 같다.
+결과적으로 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b)\geq 1$가 함의하는 것은 $\vec{w}^{T}\vec{x}_ {i}+b = -c$ 와 $\vec{w}^{T}\vec{x}_ {i}+b = c$ 사이에는 $data point$가 존재하지 않아야 한다는 말과 같다.
 
 ### Dual problem
