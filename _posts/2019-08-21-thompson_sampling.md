@@ -130,30 +130,33 @@ $(document).ready(function() {
     });
 });
 </script>
-<pre id="example-seeds">
-function SEEDS(
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#example-turbopixels').pseudocode({
+        keywords: {
+            'if': '#000066',
+            'for': '#000066',
+            'repeat': '#000066',
+            'until': '#000066',
+            'return': '#000066',
+            'function': '#000066'
+        }
+    });
+});
+</script>
+<pre id="example-turbopixels">
+function turbopixels(
         $I$, // Color image.
-        $w^{(1)} \times h^{(1)}$, // Initial block size.
-        $L$, // Number of levels.
-        $Q$ // Histogram size.
+        $K$, // Number of superpixels.
     )
-    initialize the block hierarchy and the initial superpixel segmentation
-    // Initialize histograms for all blocks and superpixels:
-    for $l = 1$ to $L$
-        for each block $B_i^{(l)}$ // At level $l = L$ these are the initial superpixels.
-            initialize histogram $h_{B_i^{(l)}}$
-    // Block updates:
-    for $l = L - 1$ to $1$
-        for each block $B_i^{(l)}$
-            let $S_j$ be the superpixel $B_i^{(l)}$ belongs to
-            if a neighboring block belongs to a different superpixel $S_k$
-                if $\cap(h_{B_i^{(l)}}, h_{S_k}) > \cap(h_{B_i^{(l)}}, h_{S_j})$
-                    $S_k := S_k \cup B_i^{(l)}$, $S_j := S_j - B_i^{(l)}$
-    // Pixel updates:
-    for $n = 1$ to $W\cdot H$
-        let $S_j$ be the superpixel $x_n$ belongs to
-        if a neighboring pixel belongs to a different superpixel $S_k$
-            if $h_{S_k}(h(x_n)) > h_{S_j}(h(x_n))$
-                $S_k := S_k \cup \{x_n\}$, $S_j := S_j - \{x_n\}$
+    place initial superpixel centers on a regular grid
+    initialize $\psi^{(0)}$
+    repeat
+        compute $v_I$ and $v_B$
+        evolve the contour by computing $\psi^{(T+1)}$
+        update assigned pixels
+        $T := T + 1$
+    until all pixels are assigned
+    derive superpixel segmentation $S$ from $\psi$
     return $S$
 </pre>
