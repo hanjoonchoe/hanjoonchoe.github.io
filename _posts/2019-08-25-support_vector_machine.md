@@ -43,12 +43,12 @@ Linear SVM은 $\mathbb{R}^{n}$상에 분포된 data point들과 그것을 가르
 </p>
 
 
-$\vec{w}^{T}\vec{x^\plus}=b+1$<br>
-$\vec{w}^{T}\vec{x^\minus}=b-1$<br>
+$\vec{w}^{T}\vec{x^+}=b+1$<br>
+$\vec{w}^{T}\vec{x^-}=b-1$<br>
 
 두개의 등식은 hyperplane을 각각 위쪽 그리고 아래쪽으로 translation한 모양이다. 그리고 두 등식의 차이는 hyperplane들 사이의 width(거리)가 된다.
 
-$\vec{w}^{T}\vec{x^\plus} - \vec{w}^{T}\vec{x^\minus} =2$ 
+$\vec{w}^{T}\vec{x^+} - \vec{w}^{T}\vec{x^-} =2$ 
 
 
 
