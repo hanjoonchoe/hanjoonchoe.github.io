@@ -97,7 +97,8 @@ $= \inf(\frac{1}{2}\parallel w \parallel^2 + \sum_{i=1}^{n}(\lambda_{i} y_{i}\ve
 
 > 다시, Lagrange daul function은 affine function들의 pointwise infimum 이므로 concave이다. 따라서 global optimal point가 존재한다.
 
-$w$에 대해 편미분 해주면,
-$\nabla_{w}\inf(\frac{1}{2}\parallel w \parallel^2 + \sum_{i=1}^{n}(\lambda_{i} y_{i}\vec{w}^{T}\vec{x}_ {i}+\lambda_{i} y_{i}b-\lambda_{i}))$
+$w$에 대해 기울기가 0이되는 조건을 걸고 편미분 해주면,<br><br>
+
+$\nabla_{w}\inf(\frac{1}{2}\parallel w \parallel^2 + \sum_{i=1}^{n}(\lambda_{i} y_{i}\vec{w}^{T}\vec{x}_ {i}+\lambda_{i} y_{i}b-\lambda_{i})) = 0$
 
 =
