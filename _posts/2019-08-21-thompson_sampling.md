@@ -92,4 +92,6 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 
 Algorithm 1과 Algorithm 2의 차이는 $\theta_{k}$값을 구할 때 전자는 mean값을 후자는 posterior에서 추출 된 임의의 값을 쓴다는 것이다.
 
->**알고리즘에 대한 해설**
+>**알고리즘에 대한 해설**<br>
+$t$는 trial에 대한 index이고 $k$는 choice에 대한 index를 나타낸다.
+특정한 trial에서 각 choice에 대한 $\theta_{k}$값들(다르게 말해 성공확률들)이 구해질 것이고, 이 확률들 중 가장 큰 값을 가지는 쪽을 선택한다.
