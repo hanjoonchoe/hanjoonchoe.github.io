@@ -49,6 +49,5 @@ $\vec{w}^{T}\vec{x^-}=b-1$<br>
 두개의 등식은 hyperplane을 각각 위쪽 그리고 아래쪽으로 \pm 1만큼 translation한 모양이다. 그리고 두 등식의 차이는 hyperplane들 사이의 width(거리)가 된다.
 
 $\vec{w}^{T}\vec{x^+} - \vec{w}^{T}\vec{x^-} =2$ 
-
-
+$ = \frac{1}{2}\vec{w}^{T}(\vec{x^+}-\vec{x^-}) = 1
 
