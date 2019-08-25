@@ -25,7 +25,7 @@ Thompson sampling을 설명할 때 보통 probability update과정을 beta-binom
 > <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/beta_distribution.png" width="30%" height="30%"> <br> 그림 1. Beta distribution</p>
 
 예시 그림에서와 같이 $\alpha$값이 상대적으로 높을수록 positive skew된, $\beta$값이 상대적으로 높을수록 negative skew된 것을 볼 수 있다.<br>
-그리고 $\alpha$와 $\beta$값일 높을 수록 좌우가 좁고 peak이 높은 형태를 나타내는 것도 확인 할 수 있다.
+그리고 $\alpha$와 $\beta$값일 높을 수록 좌우가 분포가  peak이 높은 형태를 나타내는 것도 확인 할 수 있다.
 
 ## Gamma function
 
