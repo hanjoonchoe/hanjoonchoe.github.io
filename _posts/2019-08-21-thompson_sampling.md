@@ -91,7 +91,7 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/bernts_algo.png" width="100%" height="100%"> <br> 그림 2. Bernoulli greedy algorithm(좌) Bernoulli thompson sampling algorithm(우)</p>
 
 두 알고리즘의 가장 주요한 차이는
-Algorithm 1$\theta_{k}$값을 구할 때 mean값 사용하고 후자는 beta distribution에 의해 분포된 probability density에 따라 확률이 랜덤하게 선택된다는 것이다.
+전자는 $\theta_{k}$값을 구할 때 mean값 사용하고 후자는 beta distribution에 의해 분포된 probability density에 따라 확률이 랜덤하게 선택된다는 것이다.
 
 >**Algorithm2에 대한 해설**<br>
 $t$는 trial에 대한 index이고 $k$는 choice에 대한 index를 나타낸다.<br>
