@@ -87,6 +87,8 @@ $\approx Beta(x+\alpha, n-x+\beta)$
 
 bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다. 간단하게 이야기하면 여러개의 슬롯머신이 있고 그 중 어떤 슬롯머신의 손잡이를 잡아 당겼을 때 돈을 확률이 높은지를 고민하는 문제라고 할 수 있겠다.
 
+아래의 알고리즘은 bandit problem 최적의 선택(어떤 슬롯머신의 손잡이를 당겼을 때 돈을 딸 확률이 높은지)을 구하는 알고리즘이다.
+
 ### Psudo-code for bernoulli thompson sampling
 
 <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/bernts_algo.png" width="100%" height="100%"> <br> 그림 2. Bernoulli greedy algorithm(좌) Bernoulli thompson sampling algorithm(우)</p>
