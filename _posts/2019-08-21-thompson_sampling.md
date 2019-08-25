@@ -98,4 +98,4 @@ for $t = 1, 2 ...$ do
 <pre><code>for $k = 1, 2 ... $ do
 </code></pre>
 
-``Use `code` in your Markdown file.``
+``Use `code` in your Markdown $\alpha$ file.``
