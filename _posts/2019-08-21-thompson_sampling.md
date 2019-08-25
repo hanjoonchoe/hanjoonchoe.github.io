@@ -53,7 +53,8 @@ $${\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(
 
 binomial distribution은 bernoulli distribution이라고도 부르고 probability density function은 다음과 같이 정의된다.
 
-$bin(n,k,\theta) = \binom{n}{k}\theta^{k}(\theta-1)^{n-k}$
+$$bin(n,k,\theta) = \binom{n}{k}\theta^{k}(\theta-1)^{n-k}$$<br>
+, where $\theta$ = probability of success, $k$ = trial of sucess
 
 Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
 
