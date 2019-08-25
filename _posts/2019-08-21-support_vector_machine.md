@@ -16,6 +16,11 @@ use_math: true
 
 ## Bayesian update for beta distribution
 
->Beta distribution
-> $$\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha -1}(x-1)^{\beta -1}$$
+## Beta distribution
+
+Thompson sampling을 설명할 때 보통 probability update과정을 beta-multinomial distribution을 가지고 설명한다.
+
+먼저 beta distribution의 probability density function은 다음과 같다.
+
+> $$p(\theta} = \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\theta -1}(x-1)^{\theta -1}$$
 
