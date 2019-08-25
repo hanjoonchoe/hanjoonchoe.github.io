@@ -17,5 +17,5 @@ use_math: true
 ## Bayesian update for beta distribution
 
 >Beta distribution
-> $$\frac{\gamma(\alpha + \beta}{\gamma(\alpha)\gamma(\beta)}$$
+> $$\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}$$
 
