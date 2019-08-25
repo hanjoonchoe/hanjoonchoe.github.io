@@ -91,7 +91,7 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 <p align="center"> <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/bernts_algo.png" width="100%" height="100%"> <br> 그림 2. Bernoulli greedy algorithm(좌) Bernoulli thompson sampling algorithm(우)</p>
 
 두 알고리즘의 가장 주요한 차이는
-전자는 $\theta_{k}$값을 구할 때 mean값 사용하고 후자는 beta distribution에 의해 분포된 probability density에 따라 확률이 랜덤하게 선택된다는 것이다.
+전자는 $\hat{\theta_{k}}$값을 구할 때 mean값 사용하고 후자는 beta distribution에 의해 분포된 probability density에 따라 확률이 랜덤하게 선택된다는 것이다.
 
 >**Algorithm2에 대한 해설**<br>
 $t$는 trial에 대한 index이고 $k$는 choice에 대한 index를 나타낸다.<br>
@@ -100,4 +100,6 @@ t trial에서 각 choice에 대한 $\hat{\theta_{k}}$값들(다르게 말해 성
 Bayesian inference를 적용해 reward값 $r_{t}$를 parameter로 하는 $Beta(r_{t},r_{t}-1)$을 prior로 두고 posterior를 구$Beta(\alpha+r,\beta+r-1)$가 된다.
 
 앞서 그림 1을 통해 beta distribution의 분포특성을 살펴봤듯이 두 파라미터 값($\alpha$, $\beta$)값이 높아질 수록 분포의 폭이 좁아지는 경향을 보인다.<br>
-즉, $\hat{\theta_{k}}$의 sampling distribution의 variance가 작아진다. 따라서 각 분포에 대한 $\hat{\theta_{k}}$값이 균질해진다.
+즉, $\hat{\theta_{k}}$의 sampling distribution의 variance가 작아진다. 따라서 각 분포에 대한 $\hat{\theta_{k}}$값이 균질해진다.<br> 그리고, 이러한 효과는 낮은 성공확률과 높은 성공확률을 가지는 분포들에서 뽑은 random sample $\hat{\theta_{k}}$를 더욱 명백히하는 효과를 준다.
+
+$epsilon$-Greedy algorithm에서는 $epsilon$값에 의해 성공확률 이외에도 랜덤하게 다른 choice를 할 여지는 주지만 성공확률이 확연히 차이나는 선택이 존재할 경우 이러한 방식은 도움이 되지 않는다.
