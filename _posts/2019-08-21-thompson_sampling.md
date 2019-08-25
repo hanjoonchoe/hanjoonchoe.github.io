@@ -92,7 +92,20 @@ for $t = 1, 2 ...$ do
   for $k = 1, 2 ... $ do
     Sample \^{\thata}_{k}
 ~~~~
-<pre>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#example-seeds').pseudocode({
+        keywords: {
+            'if': '#000066',
+            'for': '#000066',
+            'each': '#000066',
+            'return': '#000066',
+            'function': '#000066'
+        }
+    });
+});
+</script>
+<pre id="example-seeds">
 for $t = 1,2,... $ do
 #
   for $k = 1, 2 ... $ do
