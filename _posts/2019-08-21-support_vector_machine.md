@@ -47,7 +47,9 @@ $=(x-1)\Gamma(x-2)$<br>
 
 > $${\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1} = \frac{(\alpha+\beta -1)!}{(\alpha-1)!(\beta-1)!}\theta^{\alpha-1}(\theta-1)^{\beta-1}}$$
 
+위의 사실이 어떻게 Binomial distribution과 연관되는지 알아보도록 하자.
+
 ### Binomial distribution
 
 > binomial(n,k) = $\binom{n}{k}\theta^{k}\theta^{n-k}$
-${n \choose k}$
+
