@@ -88,7 +88,6 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 
 ### Psudo-code for bernoulli thompson sampling
 $$
-\begin{algorithm}
   \caption{An algorithm}
   \label{alg:myalg}
   \begin{lstlisting}[mathescape,escapeinside='']
@@ -96,5 +95,4 @@ $$
         '\foreach group $k$'
             $\gamma_{ik} \getsp Q_{k}\prod_{l}\prod_{a=1}^{2}P_{lkX_{ila}}$
   \end{lstlisting}
-\end{algorithm}
 $$
