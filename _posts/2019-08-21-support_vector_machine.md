@@ -36,4 +36,4 @@ Beta distribution의 gamma function은 다음과 같은 형태를 가지고 있�
 Ingetration by parts를 적용하여 풀어주면,
 > $ \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $<br>
 
-$\left (x-1)t^{\alpha - 2}e^{-t} \right \bigg|^{t=0}^ {\infty}$
+${\left(x-1)t^{\alpha - 2}e^{-t}\right} \bigg|^{t=0}^ {\infty}$
