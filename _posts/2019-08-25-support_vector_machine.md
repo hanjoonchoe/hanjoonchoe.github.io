@@ -89,4 +89,4 @@ $y_{i}$는 $\mathbb{R}^{n}$안의 data point $p$가 $\vec{w}^{T}\vec{x}_ {i}+b$ 
 
 위의 optimization problem을 lagrange dual function을 이용해 dual problem으로 치환해 풀 수 있다.(더 자세한 설명은 lagrange dual problem 포스팅 참조.)
 
-$g(\lambda) = \inf(\frac{1}{2}$\parallel w \parallel$^2 - \sum_{i=1}^{n}\lambda_{i}$
+$g(\lambda) = \inf(\frac{1}{2}\parallel w \parallel^2 - \sum_{i=1}^{n}\lambda_{i}$
