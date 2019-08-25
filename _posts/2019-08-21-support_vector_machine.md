@@ -24,5 +24,6 @@ Thompson sampling을 설명할 때 보통 probability update과정을 beta-multi
 
 > $$p(\theta,\alpha,\beta) = \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$$
 
+![Beta](/images/beta_distribution.png "Beta distribution")
 
 
