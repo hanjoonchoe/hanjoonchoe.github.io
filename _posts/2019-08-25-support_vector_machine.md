@@ -60,5 +60,4 @@ Linear SVM은 이 width를 최대화 하는 것이므로 $\parallel w \parallel$
 
 
 >$\underset{\vec{w},b}{\text{minimize}} \  \parallel w \parallel$<br>
-$\text{subject to} \ f_i(x) \leq 0 , i=1,...,m$<br>
-$\qquad\qquad\  g_i(x) = 0 , i=1,...,p$
+$\text{subject to} y_{i}(\vec{w}^{T}\vec{x}+b)\geq 1 , i=1,...,n$<br>
