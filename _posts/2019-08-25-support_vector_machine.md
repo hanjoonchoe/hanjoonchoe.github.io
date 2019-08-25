@@ -45,15 +45,12 @@ Linear SVM은 $\mathbb{R}^{n}$상에 분포된 data point들과 그것을 가르
 임의의 hyperplane $\vec{w}^{T}\vec{x^+}=b$이 존재한다고 하자. 그리고 이 hyperplane을 $\pm$ 1만큼 translation하면,<br>
 
 $\vec{w}^{T}\vec{x^+}=b+1$<br><br>
-$\vec{w}^{T}\vec{x^-}=b-1$<br>
-
-이 된다.
+$\vec{w}^{T}\vec{x^-}=b-1$ 이 된다.
 
 두 등식의 차이는 hyperplane들 사이의 width(거리)가 된다.
 
 $\vec{w}^{T}\vec{x^+} - \vec{w}^{T}\vec{x^-} =2$<br><br>
 $ = \frac{1}{2}\vec{w}^{T}(\vec{x^+}-\vec{x^-}) = 1$<br><br>
-$ = \frac{1}{2}\frac{\vec{w}^{T}}{\parallel w \parallel}(\vec{x^+}-\vec{x^-}) = \frac{1}{\parallel w \parallel}$<br>
-where $\frac{1}{\parallel w \parallel}$ is widtd between two hyperplanes
+$ = \frac{1}{2}\frac{\vec{w}^{T}}{\parallel w \parallel}(\vec{x^+}-\vec{x^-}) = \frac{1}{\parallel w \parallel}$ where $\frac{1}{\parallel w \parallel}$ is width between two hyperplanes
 
 >여기서 임의로 hyperplane을 $\pm$ 얼마만큼 translation을 하는지는 중요하지 않다. 왜냐하면 $\parallel w \parallel$를 조절해서 얼마든지 이 값을 변화시킬 수 있기 때문이다.
