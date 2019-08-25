@@ -55,7 +55,7 @@ $=(x-1)\Gamma(x-2)$<br>
 
 Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
 
-> $$posterior \propto likelihood \ast prior$$<br>
+> $$posterior = likelihood \ast prior$$<br>
 
 >$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta)$ = 1<br><br>
 $= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\binom{n}{k}\int_{\theta}\theta^{k}{(\theta-1)}^{n-k}d\theta}$<br><br>
