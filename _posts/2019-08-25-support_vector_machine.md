@@ -77,8 +77,10 @@ $y_{i}$는 classifier 다음과 같이 정의된다.
 \end{cases}
 \$$
 
-$y_{i}$는 $\mathbb{R}^{n}$안의 data point가 $\vec{w}^{T}\vec{x}_ {i}+b$ 기준으로 위쪽일 때 1의 값을 아래쪽일 때는 -1값을 가진다.<br>
+$y_{i}$는 $\mathbb{R}^{n}$안의 data point $p$가 $\vec{w}^{T}\vec{x}_ {i}+b$ 기준으로 위쪽일 때 1의 값을 아래쪽이거나 걸쳐 있을때는 -1값을 가진다.<br>
 
-따라서 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) > p$라는 조건은 data point들이 $\vec{w}^{T}\vec{x}_ {i}+b = p$의 아래 그렇지 않으면 위쪽 hyperplane에 맞닿거나 그 위에 위치해야 한다는 것을 의미한다.<br>
-만약 아래쪽 hyperplane의 위쪽 그리고 위쪽 hyperplane의 아래쪽에 data point가 자리하고 있으면 부등식이 성립하지 않게된다.
+따라서 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1$가 되기 위해서는 $y_{i}$와 $\vec{w}^{T}\vec{x}_ {i}+b$가 둘다 음수거나 양수여야 한다.
+그말은 해석하자면 $p$가 \vec{w}^{T}\vec{x}_ {i}+b = -c 아래에 위치하거나 그렇지 않으면 \vec{w}^{T}\vec{x}_ {i}+b = c의 위에 위치해야 한다는 말이 된다.
+
+만약 \vec{w}^{T}\vec{x}_ {i}+b = -c에 위치하면 y_{i} = 1이 되고 \vec{w}^{T}\vec{x}_ {i}+b = -c 이므로 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) = -c$ 음수가 된다. 반대로 \vec{w}^{T}\vec{x}_ {i}+b = c 아래에 위치하면 y_{i} = -1 이 되므로 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b)=-c$ 음수가 된다. 결과적으로 \vec{w}^{T}\vec{x}_ {i}+b = -c 와 \vec{w}^{T}\vec{x}_ {i}+b = c 사이에는 data point가 존재하지 않아야 한다는 말과 같다.
 
