@@ -14,7 +14,6 @@ use_math: true
 
 # THOMPSON SAMPLING
 
-## Bayesian update for beta distribution
 
 ## Beta distribution
 
@@ -50,17 +49,23 @@ $=(x-1)\Gamma(x-2)$<br>
 
 다음으로 위의 사실이 어떻게 Binomial distribution과 연관되는지 알아보도록 하자.
 
-### Binomial distribution with bayesian update
+## Bayesian update for binomial distribution
 
 > $bin(n,k,\theta) = \binom{n}{k}\theta^{k}\theta^{n-k}$
 
 Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
 
 > $$posterior \propto likelihood \ast prior$$<br>
-$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$<br><br>
-$= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\int_{\theta}\binom{n}{k}\theta^{k}{(\theta-1)}^{n-k}d\theta}$, we assume that $p(\theta)$ = 1<br><br>
+$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta)$ = 1<br><br>
+$= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\int_{\theta}\binom{n}{k}\theta^{k}{(\theta-1)}^{n-k}d\theta}$<br><br>
 $= \frac{\theta^{k}(\theta-1)^{n-k}}{\frac{\Gamma(k+1)\Gamma(n-k+1)}{\Gamma(n+2)}}$<br><br>
 $= \frac{\Gamma(n+2)}{\Gamma(k+1)\Gamma(n-k+1)}\theta^{k}(\theta-1)^{n-k}$<br><br>
 $= Beta(\theta,k+1,n-k+1)$
 
 따라서 bin(n,k)의 posterior는 Beta(k+1,n-k+1)과 같다.
+
+## Bayesian update for beta-binomial distribution
+
+만약 prior p(\theta)가 binomial distribution을 다른다고 가정하면 어떻게 될까?
+
+$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta)$ = Beta(\alpha,\beta)<br><br>
