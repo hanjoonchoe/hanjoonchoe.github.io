@@ -97,4 +97,4 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 $t$는 trial에 대한 index이고 $k$는 choice에 대한 index를 나타낸다.<br>
 t trial에서 각 choice에 대한 $\theta_{k}$값들(다르게 말해 성공확률들)이 구해질 것이고, 이 확률들 중 가장 확률을 가지는 $\theta_{k}$를 선택한다.<br>
 가장 큰 성공확률을 나타내는 $\theta_{k}$가 선택 되었으면 t trial에서 $\theta_{k}$에 대응되는 choice를 $x_{t}$로 두고 이에 대한 reward값인 $r_{t}$ 확인한다.<br>
-이 reward값 $r_{t}$를 parameter 하는 Beta distribution $Beta(r,r-1)$을 prior로 두면 posterior는 $Beta(\alpha+r,\beta+r-1)$가 된다.
+Bayesian inference를 적용해 reward값 $r_{t}$를 parameter로 하는 $Beta(r_{t},r_{t}-1)$을 prior로 두고 posterior를 구$Beta(\alpha+r,\beta+r-1)$가 된다.
