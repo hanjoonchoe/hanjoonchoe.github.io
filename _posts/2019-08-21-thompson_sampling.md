@@ -98,3 +98,6 @@ $t$는 trial에 대한 index이고 $k$는 choice에 대한 index를 나타낸다
 t trial에서 각 choice에 대한 $\^{\theta_{k}}$값들(다르게 말해 성공확률들)이 구해질 것이고, 이 확률들 중 가장 확률을 가지는 $\^{\theta_{k}}$를 선택한다.<br>
 가장 큰 성공확률을 나타내는 $\^{\theta_{k}}$가 선택 되었으면 t trial에서 $\^{\theta_{k}}$에 대응되는 choice를 $x_{t}$로 두고 이에 대한 reward값인 $r_{t}$ 확인한다.<br>
 Bayesian inference를 적용해 reward값 $r_{t}$를 parameter로 하는 $Beta(r_{t},r_{t}-1)$을 prior로 두고 posterior를 구$Beta(\alpha+r,\beta+r-1)$가 된다.
+
+앞서 그림 1을 통해 beta distribution의 분포특성을 살펴봤듯이 두 파라미터 값($\alpha \ \beta)$값이 높아질 수록 분포의 폭이 좁아지는 경향을 보인다.<br>
+즉, $\^{\theta_{k}}$의 sampling distribution의 variance가 작아진다. 따라서 각 분포에 대한 $\^{\theta_{k}}$값이 균질해진다.
