@@ -62,7 +62,7 @@ $= \frac{\theta^{k}(\theta-1)^{n-k}}{\frac{\Gamma(k+1)\Gamma(n-k+1)}{\Gamma(n+2)
 $= \frac{\Gamma(n+2)}{\Gamma(k+1)\Gamma(n-k+1)}\theta^{k}(\theta-1)^{n-k}$<br><br>
 $= Beta(\theta,k+1,n-k+1)$
 
-따라서 bin(n,k)의 posterior는 Beta(k+1,n-k+1)과 같다.
+따라서 $bin(n,k)$의 posterior는 $Beta(k+1,n-k+1)$과 같다.
 
 ## Bayesian update for beta-binomial distribution
 
