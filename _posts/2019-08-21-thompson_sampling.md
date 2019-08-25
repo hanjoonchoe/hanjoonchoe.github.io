@@ -66,6 +66,6 @@ $= Beta(\theta,k+1,n-k+1)$
 
 ## Bayesian update for beta-binomial distribution
 
-만약 prior p(\theta)가 binomial distribution을 다른다고 가정하면 어떻게 될까?
+만약 prior $p(\theta)$가 binomial distribution을 다른다고 가정하면 어떻게 될까?
 
 $p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta) = Beta(\alpha,\beta)$<br><br>
