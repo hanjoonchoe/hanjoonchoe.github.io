@@ -51,7 +51,7 @@ $\vec{w}^{T}\vec{x^-}=b-1$ 이 된다.
 
 $\vec{w}^{T}\vec{x^+} - \vec{w}^{T}\vec{x^-} =2$<br><br>
 
-아래쪽 hyperplane과 위쪽 hyperplane의 거리는 equidistance이므로 절반으로 나누고 \vec{w}를 normalize하면,<br><br>
+아래쪽 hyperplane과 위쪽 hyperplane의 거리는 equidistance이므로 절반으로 나누고 $\vec{w}$를 normalize하면,<br><br>
 $ = \frac{1}{2}\frac{\vec{w}^{T}}{\parallel w \parallel}(\vec{x^+}-\vec{x^-}) = \frac{1}{\parallel w \parallel}$, where $\frac{1}{\parallel w \parallel}$ is width(margin)
 
 >여기서 임의로 hyperplane을 $\pm$ 얼마만큼 translation을 하는지는 별로 중요하지 않다. 왜냐하면 $\parallel w \parallel$를 조절해서 얼마든지 이 값을 변화시킬 수 있기 때문이다.
