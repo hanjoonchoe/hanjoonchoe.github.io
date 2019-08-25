@@ -32,4 +32,4 @@ $$\lbrace (x_{1},x_{2}) \mid ax_{1}+bx_{2}=b \rbrace$$를 만족하는 해집합
 
 Linear support vector machine은 $\mathbb{R}^{n}$상에 분포된 data point들을 hyperplane으로 classification하는 기법이다.
 
-이에 더해서 data point들과 그것을 가르는 hyperplane 사이의 margin을 최대화 하는 weight vector $w$를 optimize하는 것이 Linear SVM
+이에 더해서 data point들과 그것을 가르는 hyperplane 사이의 margin을 최대화 하는 weight vector \vec{w}를 optimize하는 것이 Linear SVM
