@@ -74,4 +74,4 @@ $= Beta(\theta,k+1,n-k+1)$
 
 >$p(\theta \mid x) \propto p(x \mid \theta)p(\theta)$, we assume that $p(\theta) = Beta(\alpha,\beta)$<br><br>
 $= \binom{n}{k}\theta^{k}(\theta-1)^{n-k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$<br><br>
-$=\frac{\Gamma(n+2)}{\Gamma(k+1)\Gamma(n-k+1)}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{k+\alpha -1}(\theta-1)^{n-k+\beta -1}$
+$=\binom{n}{k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{k+\alpha -1}(\theta-1)^{n-k+\beta -1}$
