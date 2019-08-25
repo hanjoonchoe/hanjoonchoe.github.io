@@ -1,6 +1,6 @@
 ---
 title: "THOMPSON SAMPLING"
-date: 2019-098-21
+date: 2019-08-24
 categories: Machine_Learning
 tags:
   - bernoulli
