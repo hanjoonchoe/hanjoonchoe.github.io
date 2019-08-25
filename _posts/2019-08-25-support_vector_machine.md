@@ -42,7 +42,8 @@ Linear SVM은 $\mathbb{R}^{n}$상에 분포된 data point들과 그것을 가르
 그림 2. Linear SVM with margin
 </p>
 
-$\vec{w}^{T}\vec{x}-b= -1$
+
 $\vec{w}^{T}\vec{x}-b= 1$
+$\vec{w}^{T}\vec{x}-b= -1$
 
 
