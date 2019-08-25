@@ -59,5 +59,5 @@ $ = \frac{1}{2}\frac{\vec{w}^{T}}{\parallel w \parallel}(\vec{x^+}-\vec{x^-}) = 
 Linear SVM은 이 width를 최대화 하는 것이므로 $\parallel w \parallel$를 최소화 해야한다. 따라서 다음과 같은 optimization problem이 된다.
 
 
-$$\underset{\vec{w},b}{\text{minimize}} \  \parallel w \parallel$$<br>
-$$\text{subject to} \  y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1 , i=1,...,n$$<br>
+$\underset{\vec{w},b}{\text{minimize}} \  \parallel w \parallel$<br>
+$\text{subject to} \  y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1 , i=1,...,n$<br>
