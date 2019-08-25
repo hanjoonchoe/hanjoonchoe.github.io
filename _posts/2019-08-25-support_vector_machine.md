@@ -91,6 +91,6 @@ $y_{i}$는 $\mathbb{R}^{n}$안의 data point $p$가 $\vec{w}^{T}\vec{x}_ {i}+b$ 
 
 Lagrange dual function은 다음과 같은 형태가 된다.
 
-$g(\lambda) = \inf(\frac{1}{2}\parallel w \parallel^2 - \sum_{i=1}^{n}\lambda_{i}(y_{i}(\vec{w}^{T}\vec{x}_ {i}+b)-1))$<br><br>
+$g(\lambda) = \inf(\frac{1}{2}\parallel w \parallel^2 + \sum_{i=1}^{n}\lambda_{i}(y_{i}(\vec{w}^{T}\vec{x}_ {i}+b)-1))$<br><br>
 
-$= \inf(\frac{1}{2}\parallel w \parallel^2 - \sum_{i=1}^{n}(\lambda_{i} y_{i}\vec{w}^{T}\vec{x}_ {i}+\lambda_{i} y_{i}b-\lambda_{i}))$
+$= \inf(\frac{1}{2}\parallel w \parallel^2 + \sum_{i=1}^{n}(\lambda_{i} y_{i}\vec{w}^{T}\vec{x}_ {i}+\lambda_{i} y_{i}b-\lambda_{i}))$
