@@ -1,18 +1,21 @@
 ---
-title: "SUPPORT VECTOR MACHINE"
-date: 2019-08-21
+title: "THOMPSON SAMPLING"
+date: 2019-098-21
 categories: Machine_Learning
 tags:
+  - bernoulli
+  - thompson sampling
   - machine learning
   - optimization
   - classification
+  - bayesian
 use_math: true
 ---
 
-# SUPPORT VECTOR MACHINE
+# THOMPSON SAMPLING
 
-## Linear support vector machine
+## Bayesian update for beta distribution
 
-### Linear classification
+>Beta distribution
+> $$\frac{\gamma(\alpha + \beta}{\gamma(\alpha)\gamma(\beta)}$$
 
-## Kernel method
