@@ -49,4 +49,4 @@ $=(x-1)\Gamma(x-2)$<br>
 
 ### Binomial distribution
 
-> $\binom(n,x)\theta^n$
+> $\binom(n,x)$
