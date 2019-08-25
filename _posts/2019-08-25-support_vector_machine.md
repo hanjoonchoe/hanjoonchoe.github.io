@@ -111,10 +111,11 @@ $\iff \sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br><br>
 
 을 $g(\lambda)$에 대입해 주면
 
-$g(\lambda) = \inf(\frac{1}{2} \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i})^{T} \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i} - \sum_{i=1}^{n}\sum_{j=1}^n})$
+$g(\lambda) = \inf(\frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T})$
 
 2. $\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$
 
 를 다시 원래의 function에 대입해주면,<br>
 
+(\lambda_{i} \lambda_{i}\lambda_{j}y_{i}y_{j}{\vec{x}_ {i}}^{T}{\vec{x}_ {j}}+\lambda_{i}y_{i}b-\lambda_{i})
 
