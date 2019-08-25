@@ -51,10 +51,11 @@ $${\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(
 
 ## Bayesian update for binomial distribution
 
+binomial distribution은 bernoulli distribution이라고도 부르고 probability density function은 다음과 같이 정의된다.
+
 $bin(n,k,\theta) = \binom{n}{k}\theta^{k}(\theta-1)^{n-k}$
 
 Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
-
 
 $p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$, we assume that $p(\theta)$ = 1<br><br>
 $= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\binom{n}{k}\int_{\theta}\theta^{k}{(\theta-1)}^{n-k}d\theta}$<br><br>
