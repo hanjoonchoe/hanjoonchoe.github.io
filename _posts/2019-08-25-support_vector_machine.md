@@ -17,5 +17,5 @@ use_math: true
 
 hyperplane은 다음과 같이 정의된다
 
-$$/lbrace x /mid w^{T}x+b /rbrace$$
+$$\lbrace x \mid w^{T}x+b \rbrace$$
 where $x \in \mathbb{R}^{n}$ and $b \in \mathbb{R}$
