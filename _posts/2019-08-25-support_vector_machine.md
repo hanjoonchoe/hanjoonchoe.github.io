@@ -42,11 +42,16 @@ Linear SVM은 $\mathbb{R}^{n}$상에 분포된 data point들과 그것을 가르
 그림 2. Linear SVM with margin
 </p>
 
+임의의 hyperplane $\vec{w}^{T}\vec{x^+}=b$이 존재한다고 하자.
 
-$\vec{w}^{T}\vec{x^+}=b+1$<br>
+이 hyperplane을 $\pm$ 1만큼 translation하면,<br>
+
+$\vec{w}^{T}\vec{x^+}=b+1$<br><br>
 $\vec{w}^{T}\vec{x^-}=b-1$<br>
 
-두개의 등식은 hyperplane을 각각 위쪽 그리고 아래쪽으로 $\pm$ 1만큼 translation한 모양이다. 그리고 두 등식의 차이는 hyperplane들 사이의 width(거리)가 된다.
+이 된다.
+
+두 등식의 차이는 hyperplane들 사이의 width(거리)가 된다.
 
 $\vec{w}^{T}\vec{x^+} - \vec{w}^{T}\vec{x^-} =2$<br><br>
 $ = \frac{1}{2}\vec{w}^{T}(\vec{x^+}-\vec{x^-}) = 1$<br><br>
