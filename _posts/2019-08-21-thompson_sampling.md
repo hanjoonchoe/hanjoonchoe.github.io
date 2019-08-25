@@ -92,34 +92,11 @@ for $t = 1, 2 ...$ do
   for $k = 1, 2 ... $ do
     Sample \^{\thata}_{k}
 ~~~~
-
-\begin{algorithm}
-\caption{Apriori}
- 
-\vspace{2mm}
- 
-\textbf{Input:}\\
-D: transaction database;\\
-  Min\_sup: the minimum support threshold\\
-\textbf{Output:} frequent itemsets\\
- 
-\textbf{Description:}
-\begin{algorithmic}[1]
-\STATE $L_1$= find\_frequent\_1-itemsets(DB);
-  \STATE \textbf{for} (k=2; $L_{k-1}=\varphi; k++$) $\{$
-\STATE $C_{k}$= Apriori\_gen($L_{k-1}$);
-  \STATE \textbf{for each} transaction $t\in DB$ $\{$ \quad //scan DB for
-  counts
-  \STATE $C_t=$ subset$(C_k,t)$;\quad //get the subsets of $t$ that
-  are candidates
-  \STATE \textbf{for each} candidate $c\in C_t$
-  \STATE $c.count++$;
-  \STATE $\}$
-  \STATE $L_k=\{c\in C_k | c.count\geq min\_sup\}$
-  \STATE $\}$
-  \STATE return $L=\bigcup_kL_k$;
-  \STATE Procedure Apriori gen($L_{k-1}$: frequent$(k-1)$-itemsets)
- 
- 
-\end{algorithmic}
-\end{algorithm}
+<pre>
+var N = 6
+var j = 4
+for i = 1 to N
+    // A simple if statement:
+    if i = j
+        N = N + 1
+</pre>
