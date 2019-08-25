@@ -31,4 +31,4 @@ Thompson sampling을 설명할 때 보통 probability update과정을 beta-binom
 ## Gamma function
 
 Beta distribution의 gamma function은 다음과 같은 형태를 가지고 있다.
-> $$ \Gamma(\alpha) =  \int_{0}^{\infty} x^{\alpha - 1} e^{-t} dt $$
+> $$ \Gamma(\alpha) =  \int_{0}^{\infty} t^{\alpha - 1} e^{-t} dt $$
