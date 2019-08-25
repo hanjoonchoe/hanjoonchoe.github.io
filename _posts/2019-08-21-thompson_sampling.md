@@ -93,19 +93,3 @@ for $t = 1, 2 ...$ do
     Sample \^{\thata}_{k}
 ~~~~
 
-<p>This is a normal paragraph:</p>
-
-<pre><code>for $k = 1, 2 ... $ do
-</code></pre>
-
-``Use `code` in your Markdown $\alpha$ file.``
-```math
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-  \alpha
-  $\alpha,\beta$
-}
-```
-"And here's to you, <span style="background-color:green">Mrs. Robinson</span>, Jesus loves you more than you will know."
