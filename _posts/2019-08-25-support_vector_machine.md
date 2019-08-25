@@ -63,6 +63,6 @@ $\text{subject to} \  y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1 , i=1,...,n$<br>
 
 여기에 추가로 constraint를 추가하여 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1$라는 조건을 동시에 충족하여야 한다.
 
-$y_{i}$는
+$y_{i}$는 $\mathbb{R}^{n}$안의 data point가 \vec{w}^{T}\vec{x}_ {i}+b = 1 기준으로 위쪽일 때 1의 값을 \vec{w}^{T}\vec{x}_ {i}+b = -1 기준으로 아래쪽일 때 -1의 값을 가진다. 그리고 \vec{w}^{T}\vec{x}_ {i}+b는 -1이거나 1이다.
 
 >$\frac{1}{2}\parallel w \parallel^2$는 $\parallel w \parallel$를 최소화하는 문제를 좀 더 손쉽게 풀기 위해서 변형한 형태이며 이렇게 변형해도 최소의 $\parallel w \parallel$를 찾는데에는 아무런 영향이 없다. 다시말해 $\parallel w \parallel$를 최소화 하는 문제는 $\frac{1}{2}\parallel w \parallel^2$를 최소화 하는 문제와 같다.
