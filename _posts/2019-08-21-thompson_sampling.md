@@ -93,7 +93,10 @@ for $t = 1, 2 ...$ do
     Sample \^{\thata}_{k}
 ~~~~
 <pre>
-var N = 6
+for $t = 1,2,... $ do
+#
+  for $k = 1, 2 ... $ do
+    Sample $\^{\thata}_{k} = argmax_{k}$
 var j = 4
 for i = 1 to N
     // A simple if statement:
