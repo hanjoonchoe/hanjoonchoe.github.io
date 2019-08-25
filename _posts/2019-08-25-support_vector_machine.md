@@ -106,7 +106,7 @@ $b$에 대해 기울기가 0이되는 조건을 걸고 편미분 해주면,<br><
 $\nabla_{b}\frac{1}{2}\parallel w \parallel^2 - \sum_{i=1}^{n}(\lambda_{i} y_{i}\vec{w}^{T}\vec{x}_ {i}+\lambda_{i} y_{i}b-\lambda_{i}) = 0$<br><br>
 $\iff \sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br><br>
 
-위의 두 결과
+따라서,<br>
 
 $ w = \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$<br>
 
