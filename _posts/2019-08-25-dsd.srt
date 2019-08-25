@@ -1,3 +1,18 @@
+
+---
+title: "THOMPSON SAMPLING"
+date: 2019-08-25
+categories: Machine_Learning
+tags:
+  - bernoulli
+  - thompson sampling
+  - machine learning
+  - optimization
+  - classification
+  - bayesian
+use_math: true
+---
+
 ===== 
 Title 
 ===== 
