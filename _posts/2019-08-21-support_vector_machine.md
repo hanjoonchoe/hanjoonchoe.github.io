@@ -54,5 +54,6 @@ $=(x-1)\Gamma(x-2)$<br>
 
 > binomial(n,k,\theta) = $\binom{n}{k}\theta^{k}\theta^{n-k}$
 
-> $$posterior \propto \frac{likelihood}{prior}=$$<br>
+> $$posterior \propto \frac{likelihood}{prior}$$<br>
+$$\frac{\binom{n}{k}\theta^{k}\theta^{n-k}}{prior}$$
 
