@@ -67,7 +67,7 @@ $\text{subject to} \  y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1 , i=1,...,n$<br>
 
 $y_{i}$는 다음과 같이 정의된다.
 $y_{i}$는 $\mathbb{R}^{n}$안의 data point가 $\vec{w}^{T}\vec{x}_ {i}+b = 1$ 기준으로 위쪽일 때 1의 값을 아래쪽일 때는 -1값을 그리고$\vec{w}^{T}\vec{x}_ {i}+b = -1$ 기준으로 아래쪽일 때 -1의 값을 위쪽일 때는 1의 값을 가진다.<br>
-그리고 $\vec{w}^{T}\vec{x}_ {i}+b$는 -1이거나 1이다.<br>
+그리고 $\vec{w}^{T}\vec{x}_ {i}+b$는 -1이거나 1이다.<br><br>
 따라서 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1$라는 조건은 data point들이 아랫쪽 hyperplane에 맞닿거나 그 아래 그렇지 않으면 위쪽 hyperplane에 맞닿거나 그 위에 위치해야 한다는 것을 의미한다.<br>
 만약 아래쪽 hyperplane의 위쪽 그리고 위쪽 hyperplane의 아래쪽에 data point가 자리하고 있으면 부등식이 성립하지 않게된다.
 
