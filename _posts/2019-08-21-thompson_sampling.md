@@ -59,5 +59,5 @@ Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다
 > $$posterior \propto likelihood \ast prior$$<br>
 $$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$$
 $$= \binom{n}{k}\frac{\theta^{k}(\theta-1)^{n-k}}{\int_{\theta}\binom{n}{k}\theta^{k}{(\theta-1)}^{n-k}d\theta}$$
-$$= \binom{n}{k}\frac{\theta^{k}(\theta-1)^{n-k}}{\frac{{x+1}{x-k+1}}{x+2}}$$
+$$= \binom{n}{k}\frac{\theta^{k}(\theta-1)^{n-k}}{\frac{\gamma(x+1)\gamma(x-k+1)}{\gamma(x+2)}$$
 
