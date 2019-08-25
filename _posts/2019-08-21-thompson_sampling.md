@@ -100,6 +100,6 @@ t trial에서 각 choice에 대한 $\hat{\theta_{k}}$값들(다르게 말해 성
 Bayesian inference를 적용해 reward값 $r_{t}$를 parameter로 하는 $Beta(r_{t},r_{t}-1)$을 prior로 두고 posterior를 구$Beta(\alpha+r,\beta+r-1)$가 된다.
 
 앞서 그림 1을 통해 beta distribution의 분포특성을 살펴봤듯이 두 파라미터 값($\alpha$, $\beta$)값이 높아질 수록 분포의 폭이 좁아지는 경향을 보인다.<br>
-즉, $\hat{\theta_{k}}$의 sampling distribution의 variance가 작아진다. 따라서 각 분포에 대한 $\hat{\theta_{k}}$값이 균질해진다.<br> 그리고, 이러한 효과는 낮은 성공확률과 높은 성공확률을 가지는 분포들에서 뽑은 random sample $\hat{\theta_{k}}$를 더욱 명백히하는 효과를 준다.
+즉, $\hat{\theta_{k}}$의 sampling distribution의 variance가 작아진다. 따라서 각 분포에 대한 $\hat{\theta_{k}}$값이 균질해진다.<br> 그리고, 이러한 효과는 낮은 성공확률과 높은 성공확률을 가지는 분포들에서 뽑은 random sample $\hat{\theta_{k}}$를 더욱 명백히 하는 효과를 준다.
 
 $\epsilon$-greedy algorithm에서는 $\epsilon$값에 의해 성공확률 이외에도 랜덤하게 다른 choice를 할 여지는 주지만 성공확률이 확연히 차이나는 선택이 존재할 경우 이러한 방식은 도움이 되지 않는다.
