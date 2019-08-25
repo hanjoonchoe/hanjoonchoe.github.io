@@ -65,7 +65,7 @@ $\text{subject to} \  y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1 , i=1,...,n$<br>
 
 여기에 추가로 constraint를 추가하여 $y_{i}(\vec{w}^{T}\vec{x}_ {i}+b) \geq 1$라는 조건을 동시에 충족하여야 한다.
 
-$y_{i}$는 다음과 같이 정의된다.
+$y_{i}$는 classifier 다음과 같이 정의된다.
 
 >$$\
    y_{i} = 
