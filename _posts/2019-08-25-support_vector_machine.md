@@ -110,12 +110,12 @@ $\iff \sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br><br>
 
 $ w = \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$ 와 $\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$를 $g(\lambda)$에 대입해 주면
 
-$\iff g(\lambda) = \inf(\frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j} - \sum_{i=1}^{n}\sum_{j=1}^{n}\lambda_{i}\lambda_{j} y_{i}y_{j}{\vec{x}_ {i}}^{T}{\vec{x}_ {j}} - \sum_{i=1}^{n}\lambda_{i} y_{i}b + \sum_{i=1}^{n} \lambda_{i} )$
+$\iff g(\lambda) = \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j} - \sum_{i=1}^{n}\sum_{j=1}^{n}\lambda_{i}\lambda_{j} y_{i}y_{j}{\vec{x}_ {i}}^{T}{\vec{x}_ {j}} - \sum_{i=1}^{n}\lambda_{i} y_{i}b + \sum_{i=1}^{n} \lambda_{i} $
 
-$\iff g(\lambda) = \inf(\sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j} - \sum_{i=1}^{n}\lambda_{i} y_{i}b )$
+$\iff g(\lambda) = \sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j} - \sum_{i=1}^{n}\lambda_{i} y_{i}b $
 
 
-$\iff g(\lambda) = \inf(\sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j})$
+$\iff g(\lambda) = \sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j}$
 
 위의 결과를 토대로 아래와 같은 dual problem이 만들어 진다. 
 
