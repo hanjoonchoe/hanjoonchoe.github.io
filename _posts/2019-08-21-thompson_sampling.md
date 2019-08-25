@@ -70,7 +70,7 @@ $= Beta(\theta,k+1,n-k+1)$
 
 ### bayesian inference
 
-bayesian inference에서는 계산의 복잡성에 의해 normalizing constant (여기서는 p(x))를 생략하기도 한다. 따라서 다음과 같은 식이 된다.
+bayesian inference에서는 계산의 복잡성에 의해 normalizing constant (여기서는 $p(x)$)를 생략하기도 한다. 따라서 다음과 같은 식이 된다.
 
 > $$posterior \propto likelihood \ast prior$$
 
