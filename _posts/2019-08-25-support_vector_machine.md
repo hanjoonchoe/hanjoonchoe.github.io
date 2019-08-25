@@ -70,10 +70,10 @@ $y_{i}$는 classifier 다음과 같이 정의된다.
 >$$\
    y_{i} = 
 \begin{cases}
-    -1 ,& \text{if } \ \vec{w}^{T}\vec{x}_ {i}+b \leq 1
+    -1 ,& \text{if } \ \vec{w}^{T}\vec{x}_ {i}+b \leq p
     \newline 
     \newline 
-    1,              & \vec{w}^{T}\vec{x}_ {i}+b > 1
+    1,              & \vec{w}^{T}\vec{x}_ {i}+b > p
 \end{cases}
 \$$
 
