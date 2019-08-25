@@ -20,7 +20,7 @@ hyperplane은 다음과 같이 정의된다
 $$\lbrace \vec{x} \mid w^{T}\vec{x}=b \rbrace$$
 where $\vec{x} \in \mathbb{R}^{n}$ and $b \in \mathbb{R}$
 
-다시말해서 위의 등식을 만족시키는 x의 집합이다.
+다시말해서 위의 등식을 만족시키는 $x$의 집합이다.
 
 예를들어 $\vec{x} \in \mathbb{R}^{2}$라면,<br><br>
 
