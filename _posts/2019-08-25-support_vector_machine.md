@@ -27,4 +27,4 @@ where $\vec{x} \in \mathbb{R}^{n}$ and $b \in \mathbb{R}$
 $$\lbrace (x_{1},x_{2}) \mid ax_{1}+bx_{2}=b \rbrace$$를 만족하는 해집합 $(x_{1},x_{2})$은 $\mathbb{R}^{2}$을 가르는 직선형태를 띌 것이다.
 (마찬가지로 $\mathbb{R}^{3}$라면 $x$의 해집합은 평면)
 
-일반화 해서 $\vec{x} \in \mathbb{R}^{n}$에서 $\lbrace \vec{x} \mid w^{T}\vec{x}=b \rbrace$의 해집합은 \mathbb{R}^{n-1}$에서 span할 것이다.
+일반화 해서 $\vec{x} \in \mathbb{R}^{n}$에서 $\lbrace \vec{x} \mid w^{T}\vec{x}=b \rbrace$의 해집합은 $\mathbb{R}^{n-1}$에서 span할 것이다.
