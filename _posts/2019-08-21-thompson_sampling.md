@@ -80,3 +80,7 @@ bayesian inference에서는 계산의 복잡성에 의해 normalizing constant (
 $\approx \binom{n}{k}\theta^{k}(\theta-1)^{n-k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{\alpha -1}(\theta-1)^{\beta -1}$<br><br>
 $\approx \binom{n}{k}\frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}\theta^{k+\alpha -1}(\theta-1)^{n-k+\beta -1}$<br><br>
 $\approx Beta(x+\alpha, n-x+\beta)$
+
+## Tompson sampling for bernoulli bandit
+
+bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다. 간단하게 이야기하면 여러개의 슬롯머신이 있고 그 중 어떤 슬롯머신의 손잡이를 잡아 당겼을 때 돈을 딸 수 있는지를 고민하는 문제라고 할 수 있겠다.
