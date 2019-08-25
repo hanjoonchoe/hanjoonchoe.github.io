@@ -36,7 +36,8 @@ Linear SVM은 $\mathbb{R}^{n}$상에 분포된 data point들과 그것을 가르
 
 <p float="center">
   <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/hyperplane.png" width="30%" height="30%">
-
+<p float="right">
   <img src="https://raw.githubusercontent.com/hanjoonchoe/hanjoonchoe.github.io/master/_posts/images/linear_svm.png" width="30%" height="30%">
   <br> 그림 1. Linear support vector machine with margin
+  </p>
 </p>
