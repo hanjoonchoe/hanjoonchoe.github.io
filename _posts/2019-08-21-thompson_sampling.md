@@ -57,7 +57,7 @@ $=(x-1)\Gamma(x-2)$<br>
 Binomial distribution에서 posterior를 계산하는 방법은 다음과 같다.
 
 > $$posterior \propto likelihood \ast prior$$<br>
-$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$
-$= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\int_{\theta}\binom{n}{k}\theta^{k}{(\theta-1)}^{n-k}d\theta}$
-$= \frac{\theta^{k}(\theta-1)^{n-k}}{\frac{\Gamma(x+1)\Gamma(x-k+1)}{\Gamma(x+2)}}$
-$= \frac{\Gamma(x+2)}{\Gamma(x+1)\Gamma(x-k+1)}\theta^{k}(\theta-1)^{n-k}$
+$p(\theta \mid x) = \frac{p(x \mid \theta)p(\theta)}{p(x)}$<br>
+$= \frac{\binom{n}{k}\theta^{k}(\theta-1)^{n-k}}{\int_{\theta}\binom{n}{k}\theta^{k}{(\theta-1)}^{n-k}d\theta}$<br>
+$= \frac{\theta^{k}(\theta-1)^{n-k}}{\frac{\Gamma(x+1)\Gamma(x-k+1)}{\Gamma(x+2)}}$<br>
+$= \frac{\Gamma(x+2)}{\Gamma(x+1)\Gamma(x-k+1)}\theta^{k}(\theta-1)^{n-k}$<br>
