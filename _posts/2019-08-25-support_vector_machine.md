@@ -107,7 +107,10 @@ $\nabla_{b}\frac{1}{2}\parallel w \parallel^2 - \sum_{i=1}^{n}(\lambda_{i} y_{i}
 $\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br><br>
 
 위의 두 결과
-1. $ \parallel w \parallel = \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$
+1. $ \parallel w \parallel = \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$<br>
+
 2. $\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$
 
 를 다시 원래의 function에 대입해주면,<br>
+
+$g(\lambda) = \inf(\frac{1}{2}\parallel w \parallel^2 - \sum_{i=1}^{n}\lambda_{i}(y_{i}(\vec{w}^{T}\vec{x}_ {i}+b)-1))$
