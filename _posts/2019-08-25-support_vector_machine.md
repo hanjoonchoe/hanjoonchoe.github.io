@@ -111,7 +111,7 @@ $\iff \sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br><br>
 
 을 $g(\lambda)$에 대입해 주면
 
-$g(\lambda) = \inf(\frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j})$
+$g(\lambda) = \inf(\frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j} - - \sum_{i=1}^{n}\sum_{j=1}^{n}\lambda_{i}\lambda_{j} y_{i}y_{j}{\vec{x}_ {i}}^{T}{\vec{x}_ {j}})$
 
 2. $\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$
 
