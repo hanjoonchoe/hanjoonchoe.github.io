@@ -109,8 +109,12 @@ $\iff \sum_{i=1}^{n}\lambda_{i} y_{i} = 0$<br><br>
 위의 두 결과
 1. $ \parallel w \parallel = \sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}$<br>
 
+을 $g(\lambda)$에 대입해 주면
+
+$g(\lambda) = \inf(\frac{1}{2} (\sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i})^{T} (\sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}) + \sum_{i=1}^{n}\lambda_{i})$
+
 2. $\sum_{i=1}^{n}\lambda_{i} y_{i} = 0$
 
 를 다시 원래의 function에 대입해주면,<br>
 
-$g(\lambda) = \inf(\frac{1}{2} (\sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i})^{T} (\sum_{i=1}^{n} \lambda_{i} y_{i} \vec{x}_ {i}) + \sum_{i=1}^{n}\lambda_{i})$
+
