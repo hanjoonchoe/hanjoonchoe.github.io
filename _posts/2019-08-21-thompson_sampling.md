@@ -108,3 +108,4 @@ for $t = 1, 2 ...$ do
   $\alpha,\beta$
 }
 ```
+<span style="color:blue">some *This is Blue italic.* text</span>
