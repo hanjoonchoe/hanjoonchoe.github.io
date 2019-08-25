@@ -87,8 +87,8 @@ bandit problem을 이야기할 때에 보통 슬롯머신 비유를 많이한다
 
 ### Psudo-code for bernoulli thompson sampling
 
->for $t = 1, 2 ...$ do
-#> #
-> for $k = 1, 2 ... $ do
->   Sample \^{\thata}_ {k}
+>for $t = 1, 2 ...$ do<br>
+> #<br>
+> for $k = 1, 2 ... $ do<br>
+>   Sample $\^{\thata}_ {k}$<br>
 
