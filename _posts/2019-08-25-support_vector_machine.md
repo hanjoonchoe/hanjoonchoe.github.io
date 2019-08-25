@@ -56,6 +56,6 @@ $ = \frac{1}{2}\frac{\vec{w}^{T}}{\parallel w \parallel}(\vec{x^+}-\vec{x^-}) = 
 
 >여기서 임의로 hyperplane을 $\pm$ 얼마만큼 translation을 하는지는 별로 중요하지 않다. 왜냐하면 $\parallel w \parallel$를 조절해서 얼마든지 이 값을 변화시킬 수 있기 때문이다.
 
-Linear SVM은 이 width를 최대화 하는 것이므로 다음과 같은 optimization problem이 된다.
+Linear SVM은 이 width를 최대화 하는 것이므로 $\parallel w \parallel$를 최소화 해야하므 다음과 같은 optimization problem이 된다.
 
 minimize $\parallel w \parallel$
