@@ -39,4 +39,4 @@ $=-t^{\alpha - 1}e^{-t} \bigg\rvert_{t=0}^{\infty} + \int_{0}^{\infty} (x-1)t^{\
 $= 0 + \int_{0}^{\infty} (x-1)t^{\alpha -2}e^{-t}$<br>
 $ (x-1)\Gramma(x-2)
 
-따라서 $\Gamma(x) = (x-1)!$임을 알 수 있다.
+따라서 $ \Gamma (x) = (x-1)! $임을 알 수 있다.
