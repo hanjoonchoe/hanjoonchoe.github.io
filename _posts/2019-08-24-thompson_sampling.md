@@ -17,7 +17,7 @@ use_math: true
 
 ## Beta distribution
 
-Thompson sampling을 설명할 때 보통 probability update과정을 beta-binomial distribution로 설명하기가 쉬우므로 많이 쓴다.
+Thompson sampling을 설명할 때 sampling distribution update과정을 beta-binomial distribution로 설명하기가 쉬우므로 많이 쓴다.
 
 먼저 beta distribution의 probability density function은 다음과 같다.
 
