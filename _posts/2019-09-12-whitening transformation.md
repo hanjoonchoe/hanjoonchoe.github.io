@@ -48,4 +48,5 @@ $T : R^{n\times n} \rightarrow R^{n\times n}$ via $X \mapsto V^TX$<br>
 
 $\rvert\rvert x \rvert\rvert = \rvert\rvert Tx \rvert\rvert$
 
+왜냐하면 $\rvert\rvert Tx \rvert\rvert = <Tx,Tx> = <x,T^{\ast}Tx> = <x,x> = \rvert\rvert Tx \rvert\rvert$
 
