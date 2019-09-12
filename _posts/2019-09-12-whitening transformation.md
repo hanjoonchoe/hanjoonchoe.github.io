@@ -28,4 +28,6 @@ $\mathbb{E}[\tilde{X}]=0$<br>
 
 $\tilde{X}$의 covariance matrix는 다음과 같다.<br>
 $\mathrm{Cov}[\tilde{X}] = \mathbb{E}[\tilde{X}\tilde{X^T}]$<br>
-왜냐하면 $\mathbb{E}[\tilde{X}\tilde{X^T}] = \mathbb{E}[(X - \bar{X})(X - \bar{X})^T] $
+왜냐하면 $\mathbb{E}[\tilde{X}\tilde{X^T}] = \mathbb{E}[(X - \bar{X})(X - \bar{X})^T] $<br>
+
+$\mathrm{Cov}[\tilde{X}]$ 를 $\Sigma$라고 하자.
