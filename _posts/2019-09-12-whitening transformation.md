@@ -16,4 +16,4 @@ Whitening transformation은 Sphering transformation이라고도 부르며 어떤
 
 먼저 feature matrix $X$를 다음과 같이 정의하자. 
 
-$X \in \mathbb{R}^{n\times n} =  [x_1, x_2,...,x_n ]$, where $x_i \in \mathbb{R}^{n\times 1}$ 여기서 각각의 $x_i$는 n개의 샘플을 가진 하나의 feature vector이다.  그리고 $\bar{X} = 1^T\cdot [\bar{x_1},\bar{x_2},...,\bar{x_n}]$ where $1^T \in \mathbb{R}^{n\times 1} and \bar{x_i} is mean of i th column vector$
+$X \in \mathbb{R}^{n\times n} =  [x_1, x_2,...,x_n ]$, where $x_i \in \mathbb{R}^{n\times 1}$ 여기서 각각의 $x_i$는 n개의 샘플을 가진 하나의 feature vector이다.  그리고 $\bar{X} = 1^T\cdot [\bar{x_1},\bar{x_2},...,\bar{x_n}]$ where $1^T \in \mathbb{R}^{n\times 1}$ and $\bar{x_i}$ is the mean of $i$th column vector
