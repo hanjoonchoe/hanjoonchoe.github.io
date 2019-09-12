@@ -50,3 +50,4 @@ $\rvert\rvert x \rvert\rvert = \rvert\rvert Tx \rvert\rvert$
 
 왜냐하면 $\rvert\rvert Tx \rvert\rvert = <Tx,Tx> = <x,T^{\ast}Tx> = <x,x> = \rvert\rvert Tx \rvert\rvert$
 
+Operator $T$의 역할을 하는게 orthonormal matrix $V^T$이고 $T^{\ast}$ 는 $T$의 transpose conjugate이므로 V이다. 따라서 $T^{\ast}T = V^TV = I$이다.
