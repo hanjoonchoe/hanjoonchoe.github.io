@@ -38,4 +38,8 @@ PSD행렬은 eigenvalue decomposition이 가능하고 $\Sigma = VDV^T$ 형태로
 
 matrix $Y$를 다음과 같이 정의하자.<br>
 
-$Y = V^{T}X$ <br>
+$Y = V^{T}\tilde{X}$ <br>
+
+이는 matrix X를 orthonormal matrix에 의해 $Y$로 transformation하는 형태인데 다음과 같은 특징을 가진다.
+
+$T : R^{nxn} -> R^{nxn}$ via $X \mapsto V^TX$
