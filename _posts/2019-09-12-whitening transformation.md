@@ -23,4 +23,5 @@ $X \in \mathbb{R}^{n\times n} =  [x_1, x_2,...,x_n ]$, where $x_i \in \mathbb{R}
 $\tilde{X}$를 다음과 같이 정의한다. $\tilde{X}$ = $X - \bar{X}$ 각 column vector의 entry들에 mean값을 빼준 matrix의 형태가 되고 이를 centering이라고 부른다.<br><br>
 
 그리고 다음과 같은 특징을 가진다.<br>
-$\mathbb{E}[\tilde{X}]=0$ since $\mathbb{E}[\tilde{X}] = \mathbb{E}[X - \bar{X}] = \mathbb{E}[X]-\mathbb{E}[\bar{X}] = \bar{X} - \bar{X} = 0$
+$\mathbb{E}[\tilde{X}]=0$<br><br>
+since $\mathbb{E}[\tilde{X}] = \mathbb{E}[X - \bar{X}] = \mathbb{E}[X]-\mathbb{E}[\bar{X}] = \bar{X} - \bar{X} = 0$
