@@ -42,4 +42,4 @@ $Y = V^{T}\tilde{X}$ <br>
 
 이는 matrix X를 orthonormal matrix에 의해 $Y$로 transformation하는 형태인데 다음과 같은 특징을 가진다.
 
-$T : R^{nxn} -> R^{nxn}$ via $X \mapsto V^TX$
+$T : R^{n\times n} -> R^{n\times n}$ via $X \mapsto V^TX$
