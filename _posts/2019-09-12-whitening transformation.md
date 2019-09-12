@@ -32,4 +32,6 @@ $\mathrm{Cov}[\tilde{X}] = \mathbb{E}[\tilde{X}\tilde{X^T}]$<br>
 
 $\mathrm{Cov}[\tilde{X}]$ matrix를 $\Sigma$라고 하자.
 
-Covariance matrix $\Sigma$는 음이 아닌 정수의 entry를 가진 대칭행렬이다. 그말인 즉, positive semi definite(PSD)이다.
+Covariance matrix $\Sigma$는 음이 아닌 정수의 entry를 가진 정방대칭행렬이다. 그말인 즉, positive semi definite(PSD)이다.
+
+PSD행렬은 eigenvalue decomposition이 가능하고 $\Sigma = VDV^T$ 형태로 치환이 가능하다. 여기서 $V$는 각 column들의 norm $||\cdot||$이 1인 orthonormal vector이다. 그리고 $D$는 Diagonal matrix로 각각의 orthonormal vector들의 magnitude의 정보를 담고 있다.
