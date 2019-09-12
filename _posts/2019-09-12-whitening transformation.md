@@ -24,4 +24,4 @@ $\tilde{X}$를 다음과 같이 정의한다. $\tilde{X}$ = $X - \bar{X}$ 각 co
 
 그리고 다음과 같은 특징을 가진다.<br>
 $\mathbb{E}[\tilde{X}]=0$<br><br>
-since $\mathbb{E}[\tilde{X}] = \mathbb{E}[X - \bar{X}] = \mathbb{E}[X]-\mathbb{E}[\bar{X}] = \bar{X} - \bar{X} = 0$
+because $\mathbb{E}[\tilde{X}] = \mathbb{E}[X - \bar{X}] = \mathbb{E}[X]-\mathbb{E}[\bar{X}] = \bar{X} - \bar{X} = 0$
