@@ -24,7 +24,8 @@ $\tilde{X}$를 다음과 같이 정의한다. $\tilde{X}$ = $X - \bar{X}$ 각 co
 
 그리고 다음과 같은 특징을 가진다.<br>
 $\mathbb{E}[\tilde{X}]=0$<br>
-because $\mathbb{E}[\tilde{X}] = \mathbb{E}[X - \bar{X}] = \mathbb{E}[X]-\mathbb{E}[\bar{X}] = \bar{X} - \bar{X} = 0$
+왜냐하면 $\mathbb{E}[\tilde{X}] = \mathbb{E}[X - \bar{X}] = \mathbb{E}[X]-\mathbb{E}[\bar{X}] = \bar{X} - \bar{X} = 0$
 
 $\tilde{X}$의 covariance matrix는 다음과 같다.<br>
-$\mathrm{Cov}[\tilde{X}] = \mathbb{E}[\tilde{X}\tilde{X^T}]$
+$\mathrm{Cov}[\tilde{X}] = \mathbb{E}[\tilde{X}\tilde{X^T}]$<br>
+왜냐하면 $\mathbb{E}[\tilde{X}\tilde{X^T}] = \mathbb{E}[(X - \bar{X})(X - \bar{X})^T] $
