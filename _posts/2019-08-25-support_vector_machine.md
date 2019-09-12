@@ -122,3 +122,5 @@ $\iff g(\lambda) = \sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{
 
 $\underset{\lambda>0}{\text{maximize}} \  \sum_{i=1}^{n} \lambda_{i} - \frac{1}{2} \sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_{i}\lambda_{j} y_{i}y_{j} {\vec{x}_ {i}}^{T}\vec{x}_ {j}$<br>
 $\text{subject to} \  \sum_{i=1}^{n}\lambda_{i} y_{i} \geq 0 , i=1,...,n$<br>
+
+끝 아님... 뒤이어 작성 할 겁니다. :)
