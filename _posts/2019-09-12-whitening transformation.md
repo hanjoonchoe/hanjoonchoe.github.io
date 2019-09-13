@@ -73,8 +73,8 @@ $\mathrm{Cov}[W]$<br>
 $\Longleftrightarrow  \mathbb{E} [W W^T]$<br>
 $\Longleftrightarrow  \mathbb{E}[D^{-1/2}Y Y^T D^{-1/2}]$<br>
 $\Longleftrightarrow  D^{-1/2}\mathbb{E}[Y Y^T]D^{-1/2}$<br>
-$\Longleftrightarrow  D^{-1/2}\mathbb{E}[D^{1/2}X X^T D^{1/2}]D^{-1/2}$<br>
-$\Longleftrightarrow  D^{-1/2} D^{1/2}\mathbb{E}[X X^T]D^{1/2}D^{-1/2}$<br>
+$\Longleftrightarrow  D^{-1/2}\mathbb{E}[V^T\tilde{X} \tilde{X}^T V]D^{-1/2}$<br>
+$\Longleftrightarrow  D^{-1/2}V^T \mathbb{E}[\tilde{X} \tilde{X}^T]VD^{-1/2}$<br>
 $\Longleftrightarrow  D^{-1/2} D^{1/2}\Sigma D^{1/2} D^{-1/2}$<br>
 $\Longleftrightarrow  D^{-1/2} D^{1/2}\Sigma D^{1/2} D^{-1/2}$<br>
 
