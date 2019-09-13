@@ -68,7 +68,7 @@ Eigenvalue decomposition의 의미를 되새길 필요가 있다.<br> 어떤 행
 
 따라서, $D^{-1/2}V^TX} = D^{-1/2}Y$는 V^T를 통해 orthogonal transformation한 뒤에 각 좌표의 성분을 D^{1/2}가 가지고 있는 entry의 magnitude 나눠 준 형태가 된다.
 
-$D^{-1/2}Y$를 $W$라고 하고 $\mathrm{Cov}[\tilde{W}]$가 어떻게 되는지 살펴보도록 하자.<br>
+$D^{-1/2}Y$를 $W$라고 하고 $\mathrm{Cov}[W]$가 어떻게 되는지 살펴보도록 하자.<br>
 $\mathrm{Cov}[W]$<br>
 $\Longleftrightarrow  \mathbb{E}[WW^T]$<br>
 $\Longleftrightarrow  \mathbb{E}[D^{-1/2}YY^TD^{-1/2}^T]$<br>
