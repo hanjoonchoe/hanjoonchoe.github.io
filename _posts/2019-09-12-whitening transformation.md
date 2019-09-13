@@ -44,7 +44,7 @@ $Y = V^{T}\tilde{X}$ <br>
 
 $T : R^{n\times n} \rightarrow R^{n\times n}$ via $X \mapsto V^TX$<br>
 
-여기서 T를 orthonormal transformation이라고 부르고 다음과 같은 특징을 가진다.<br>
+여기서 $T$를 orthonormal transformation이라고 부르고 다음과 같은 특징을 가진다.<br>
 
 $\rvert\rvert x \rvert\rvert = \rvert\rvert Tx \rvert\rvert$
 
