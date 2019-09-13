@@ -52,4 +52,6 @@ $\rvert\rvert x \rvert\rvert = \rvert\rvert Tx \rvert\rvert$
 
 Operator $T$의 역할을 하는게 orthonormal matrix $V^T$이고 $T^{\ast}$ 는 $T$의 transpose conjugate이므로 $V$이다. 따라서 $T^{\ast}T = V^TV = I$이다.<br>
 
-정리하자면, $V^{T}$는 $\tilde{X}$의 거리 norm을 유지한 채 orthonormal basis에 따라서 좌표를 옮긴 형태의 $Y$로 만들어주는 것이 된다.
+정리하자면, $V^{T}$는 $\tilde{X}$의 거리 norm을 유지한 채 orthonormal basis에 따라서 좌표를 옮긴 형태의 $Y$로 만들어주는 것이 된다.<br>
+
+다시 covariance matrix $\Sigma$로 돌아가서 eigenvalue decomposition을 통해 $\Sigma = VDV^T$형태로 변환된 것을 다시 $VDV^T = VD^{1/2}D^{1/2}V^T$ 형태로 변환 가능하다. diagonal matrix들 끼리의 행렬곱은 diagonal entry들끼리 pairwise multiplication이나 다름이 없으므로 가능..
