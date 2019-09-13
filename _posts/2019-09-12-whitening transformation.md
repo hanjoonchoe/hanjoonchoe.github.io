@@ -37,7 +37,9 @@ $\mathrm{Cov}[\tilde{X}]$ matrix를 $\Sigma$라고 하자.
 
 $\Sigma$는 음이 아닌 정수의 entry를 가진 정방대칭행렬이다. 그말인 즉, positive semi definite(PSD)이다.<br>
 
-PSD행렬은 eigenvalue decomposition이 가능하고 $\Sigma = VDV^T$ 형태로 치환이 가능하다. 여기서 $V$는 각 column들의 norm $\rvert\rvert \cdot \rvert\rvert$이 1인 orthonormal vector이다. 그리고 $D$는 diagonal matrix로 각각의 orthonormal vector들의 magnitude의 정보를 담고 있다.<br>
+PSD matrix는 eigenvalue decomposition이 가능하고 $\Sigma = VDV^T$ 형태로 치환이 가능하다. 여기서 $V$는 각 column들의 norm $\rvert\rvert \cdot \rvert\rvert$이 1인 orthonormal vector이다. 그리고 $D$는 diagonal matrix로 각각의 orthonormal vector들의 magnitude의 정보를 담고 있다.<br>
+
+> PSD matrix가 eigenvalue decomposition이 가능함을 보이기 위해서는 우선 spectral theorem부터 설명해야 될 것 같아서 따로 포스팅...
 
 ## Orthogonal Transformation
 $Y$를 다음과 같이 정의하자.<br>
