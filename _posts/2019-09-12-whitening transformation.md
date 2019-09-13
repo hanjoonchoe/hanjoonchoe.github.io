@@ -70,13 +70,13 @@ Eigenvalue decomposition의 의미를 되새길 필요가 있다.<br> 어떤 행
 
 $D^{-1/2}Y$를 $W$라고 하고 $\mathrm{Cov}[W]$가 어떻게 되는지 살펴보도록 하자.<br>
 $\mathrm{Cov}[W]$<br>
-$\Longleftrightarrow  \mathbb{E}[WW^T]$<br>
-$\Longleftrightarrow  \mathbb{E}[D^{-1/2}YY^TD^{-1/2}^T]$<br>
-$\Longleftrightarrow  D^{-1/2}\mathbb{E}[YY^T]D^{-1/2}^T$<br>
-$\Longleftrightarrow  D^{-1/2}\mathbb{E}[D^{1/2}V^TXX^TD^{1/2}^T]D^{-1/2}^T$<br>
-$\Longleftrightarrow  D^{-1/2}D^{1/2}\mathbb{E}[XX^T]D^{1/2}^TD^{-1/2}^T$<br>
-$\Longleftrightarrow  D^{-1/2}D^{1/2}\Sigma D^{1/2}^TD^{-1/2}^T$<br>
-$\Longleftrightarrow  D^{-1/2}D^{1/2}\Sigma D^{1/2}^TD^{-1/2}^T$<br>
+$\Longleftrightarrow  \mathbb{E}[W W^T]$<br>
+$\Longleftrightarrow  \mathbb{E}[D^{-1/2}Y Y^T D^{-1/2}^T]$<br>
+$\Longleftrightarrow  D^{-1/2}\mathbb{E}[Y Y^T]D^{-1/2}^T$<br>
+$\Longleftrightarrow  D^{-1/2}\mathbb{E}[D^{1/2}X X^T D^{1/2}^T]D^{-1/2}^T$<br>
+$\Longleftrightarrow  D^{-1/2} D^{1/2}\mathbb{E}[X X^T]D^{1/2}^TD^{-1/2}^T$<br>
+$\Longleftrightarrow  D^{-1/2} D^{1/2}\Sigma D^{1/2}^T D^{-1/2}^T$<br>
+$\Longleftrightarrow  D^{-1/2} D^{1/2}\Sigma D^{1/2}^T D^{-1/2}^T$<br>
 
 
 
