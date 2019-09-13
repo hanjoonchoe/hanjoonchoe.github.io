@@ -40,9 +40,9 @@ matrix $Y$를 다음과 같이 정의하자.<br>
 
 $Y = V^{T}\tilde{X}$ <br>
 
-이는 matrix X를 orthonormal matrix에 의해 $Y$로 transformation하는 형태인데 다음과 같은 특징을 가진다.
+이는 matrix $\tilde{X}$를 orthonormal matrix에 의해 $Y$로 transformation하는 형태인데 다음과 같은 특징을 가진다.
 
-$T : R^{n\times n} \rightarrow R^{n\times n}$ via $X \mapsto V^TX$<br>
+$T : R^{n\times n} \rightarrow R^{n\times n}$ via $\tilde{X} \mapsto V^T\tilde{X}$<br>
 
 여기서 $T$를 orthonormal transformation이라고 부르고 다음과 같은 특징을 가진다.<br>
 
@@ -52,4 +52,4 @@ $\rvert\rvert x \rvert\rvert = \rvert\rvert Tx \rvert\rvert$
 
 Operator $T$의 역할을 하는게 orthonormal matrix $V^T$이고 $T^{\ast}$ 는 $T$의 transpose conjugate이므로 $V$이다. 따라서 $T^{\ast}T = V^TV = I$이다.<br>
 
-정리하자면, V^{T}는 X의 거리 norm을 유지한 채 orthonormal basis에 따라서 좌표를 옮긴 형태의 Y로 만들어주는 것이 된다.
+정리하자면, V^{T}는 \tilde{X}의 거리 norm을 유지한 채 orthonormal basis에 따라서 좌표를 옮긴 형태의 $Y$로 만들어주는 것이 된다.
