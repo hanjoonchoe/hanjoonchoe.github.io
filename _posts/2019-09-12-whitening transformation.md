@@ -64,4 +64,4 @@ $VD^{1/2}$만 쪼개서 보면 $V$는 아까 말했듯이 orthonormal matrix이�
 
 $Y = V^T\tilde{X}$에서 각각의 term에 $D^{1/2}$의 역행렬을 곱해주면 어떻게 될까? 여기서 우리는 $D$를 $\tilde{X}\tilde{X}^T$로 부터 추출 했다는 사실을 기억하자.
 
-$Eigenvalue decomposition$의 의미를 되새길 필요가 있다. 어떤 행렬이 eigenvalue decomposition이 가능하다는 것은 행렬의 성분을 orthonormal vector들로 쪼갤 수 있고 각 orthonormal의 magnitude를 diagonal matrix $D$에 담을 수 있다는 이야기가 된다. $\tilde{X}\tilde{X}^T$는 $X$ 성분의 제곱이므로 maginitude가 두번 곱해진 형태라고 볼 수 있다. 따라서 D^{1/2}는 X라는 성분을 어떤 orthonormal basis로 표현했을 때 그 basis의 magnitude가 된다.
+$Eigenvalue decomposition$의 의미를 되새길 필요가 있다. 어떤 행렬이 eigenvalue decomposition이 가능하다는 것은 행렬의 성분을 orthonormal vector들로 쪼갤 수 있고 각 orthonormal의 magnitude를 diagonal matrix $D$에 담을 수 있다는 이야기가 된다. $\tilde{X}\tilde{X}^T$는 $X$ 성분의 제곱이므로 maginitude가 두번 곱해진 형태라고 볼 수 있다. 따라서 $D^{1/2}$는 $X$라는 성분을 어떤 orthonormal basis로 표현했을 때 그 basis의 magnitude가 된다.
