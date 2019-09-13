@@ -50,4 +50,6 @@ $\rvert\rvert x \rvert\rvert = \rvert\rvert Tx \rvert\rvert$
 
 왜냐하면 $\rvert\rvert Tx \rvert\rvert = <Tx,Tx> = <x,T^{\ast}Tx> = <x,x> = \rvert\rvert Tx \rvert\rvert$
 
-Operator $T$의 역할을 하는게 orthonormal matrix $V^T$이고 $T^{\ast}$ 는 $T$의 transpose conjugate이므로 V이다. 따라서 $T^{\ast}T = V^TV = I$이다.
+Operator $T$의 역할을 하는게 orthonormal matrix $V^T$이고 $T^{\ast}$ 는 $T$의 transpose conjugate이므로 V이다. 따라서 $T^{\ast}T = V^TV = I$이다.<br>
+
+정리하자면, V^{T}는 X의 거리 norm을 유지한 채 orthonormal basis에 따라서 좌표를 옮긴 형태의 Y로 만들어주는 것이 된다.
