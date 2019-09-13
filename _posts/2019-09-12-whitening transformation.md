@@ -83,6 +83,5 @@ $\Longleftrightarrow  I$<br>
 
 따라서 $\mathrm{Cov}[W] = I$
 
-
-
-
+정리해서 centering matrix
+reference: https://www.projectrhea.org/rhea/images/1/15/Slecture_ECE662_Whitening_and_Coloring_Transforms_S14_MH.pdf
