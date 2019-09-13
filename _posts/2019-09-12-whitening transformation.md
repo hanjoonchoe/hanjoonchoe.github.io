@@ -75,8 +75,14 @@ $\Longleftrightarrow  \mathbb{E}[D^{-1/2}Y Y^T D^{-1/2}]$<br>
 $\Longleftrightarrow  D^{-1/2}\mathbb{E}[Y Y^T]D^{-1/2}$<br>
 $\Longleftrightarrow  D^{-1/2}\mathbb{E}[V^T\tilde{X} \tilde{X}^T V]D^{-1/2}$<br>
 $\Longleftrightarrow  D^{-1/2}V^T \mathbb{E}[\tilde{X} \tilde{X}^T]VD^{-1/2}$<br>
-$\Longleftrightarrow  D^{-1/2} D^{1/2}\Sigma D^{1/2} D^{-1/2}$<br>
-$\Longleftrightarrow  D^{-1/2} D^{1/2}\Sigma D^{1/2} D^{-1/2}$<br>
+$\Longleftrightarrow  D^{-1/2} V^T D^{1/2}\Sigma V D^{-1/2}$<br>
+$\Longleftrightarrow  D^{-1/2} V^T V D V^T V D^{-1/2}$<br>
+$\Longleftrightarrow  D^{-1/2}  D  D^{-1/2}$<br>
+$\Longleftrightarrow  D^{-1/2}  D^{1/2}D^{1/2}  D^{-1/2}$<br>
+$\Longleftrightarrow  I$<br>
+
+따라서 $\mathrm{Cov}[W] = I$
+
 
 
 
