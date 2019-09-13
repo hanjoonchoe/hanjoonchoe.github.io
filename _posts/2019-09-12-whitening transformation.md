@@ -20,6 +20,8 @@ $X \in \mathbb{R}^{n\times n} =  [x_1, x_2,...,x_n ]$, where $x_i \in \mathbb{R}
 그리고 $\bar{X} = 1^T\cdot [\bar{x_1},\bar{x_2},...,\bar{x_n}]$ where $1^T \in \mathbb{R}^{n\times 1}$ with $1$ in the entries and $\bar{x_i}$ is the mean of $i$th column vector.<br>
 따라서 $\bar{X} \in \mathbb{R}^{n\times n}$가 되고 각 column들은 feature vector들의 평균값들로 채워진다.
 
+## Centering
+
 $\tilde{X}$를 다음과 같이 정의한다. $\tilde{X}$ = $X - \bar{X}$ 각 column vector의 entry들에 mean값을 빼준 matrix의 형태가 되고 이를 centering이라고 부른다.<br>
 
 그리고 다음과 같은 특징을 가진다.<br>
