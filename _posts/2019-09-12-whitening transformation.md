@@ -66,7 +66,7 @@ $Y = V^T\tilde{X}$에서 각각의 term에 $D^{1/2}$의 역행렬을 곱해주�
 
 Eigenvalue decomposition의 의미를 되새길 필요가 있다.<br> 어떤 행렬이 eigenvalue decomposition이 가능하다는 것은 행렬의 성분을 orthonormal basis들로 쪼갤 수 있고 각 basis의 magnitude를 diagonal matrix에 담을 수 있다는 이야기가 된다. $\tilde{X}\tilde{X}^T$는 $X$ 성분의 제곱이므로 $D$의 entry maginitude가 두번 곱해진 형태라고 볼 수 있다. 따라서 $D^{1/2}$는 $X$라는 성분을 어떤 orthonormal basis로 표현했을 때 그 basis의 magnitude가 된다.
 
-따라서, $D^{-1/2}V^TX} = D^{-1/2}Y$는 V^T를 통해 orthogonal transformation한 뒤에 각 좌표의 성분을 D^{1/2}가 가지고 있는 entry의 magnitude 나눠 준 형태가 된다.
+따라서, $D^{-1/2} V^T X} = D^{-1/2} Y$는 $V^T$를 통해 orthogonal transformation한 뒤에 각 좌표의 성분을 $D^{1/2}$가 가지고 있는 entry의 magnitude 나눠 준 형태가 된다.
 
 $D^{-1/2}Y$를 $W$라고 하고 $\mathrm{Cov}[W]$가 어떻게 되는지 살펴보도록 하자.<br>
 $\mathrm{Cov}[W]$<br>
