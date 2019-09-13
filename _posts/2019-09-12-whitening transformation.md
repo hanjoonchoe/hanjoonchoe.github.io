@@ -85,5 +85,5 @@ $\Longleftrightarrow  I$<br>
 
 따라서 $\mathrm{Cov}[W] = I$
 
-정리해서 centering matrix $\tilde{X}$에 <br><br>
+정리해서 centering matrix $\tilde{X}$에  $D^{-1/2}V^T$를 곱해 $W= D^{-1/2}V^T\tilde{X}$를 만들어 주면 norm은 유지하면서 covariance matrix가 $I$인 데이터로 변환이 가능하다. <br><br>
 reference: https://www.projectrhea.org/rhea/images/1/15/Slecture_ECE662_Whitening_and_Coloring_Transforms_S14_MH.pdf
