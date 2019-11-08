@@ -25,4 +25,4 @@ $X_j = {x_1,...,x_n}$ 그리고 $X_j \in X$
 또 하나의 중요한 사실은 이 분산행렬은 Positive definite이다. 다르게 말하면 $\a\Sigma\a^\top \succ 0$ for all $a$
 
 만약 매트릭스가 Positive definite이라면 다음과 같은 특성을 가진 것으로 알려져 있다. 1. Diagonalizable 2. Positive Eigenvalues.<br>
-Diagonalizable이므로 eigenvalue decomposition이 가능하고 이 말은 $P^-1AP$ 꼴로 표현이 가능하다는 것을 말한다. 여기서 $P$는 orthogonal basis로 구성된 Matrix이다. Orthogonal Matrix의 특성은 $P^{-1}P = I = P^\topP$ 그리고 $A$는 Diagonal Matrix이며 각각의 entry는 P의 orthogonal basis의 scaling을 담당하는 역할을 한다. $\rightarrow$ $P$의 orthogonal basis들은 eigenvector 역할을 $A$의 diagonal entry들은 eigenvalue역할을 한다.
+Diagonalizable이므로 eigenvalue decomposition이 가능하고 이 말은 $P^-1AP$ 꼴로 표현이 가능하다는 것을 말한다. 여기서 $P$는 orthogonal basis로 구성된 Matrix이다. Orthogonal Matrix의 특성은 $P^{-1}P = I = P^\topP$ 그리고 $A$는 Diagonal Matrix이며 각각의 entry는 P의 orthogonal basis의 scaling을 담당하는 역할을 한다. 다르게 말해서, $P$의 orthogonal basis들은 eigenvector 역할을 $A$의 diagonal entry들은 eigenvalue역할을 한다.
