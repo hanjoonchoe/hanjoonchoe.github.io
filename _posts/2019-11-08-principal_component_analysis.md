@@ -52,3 +52,5 @@ $\textbf{x}_{i}$에 대해 편미분 해주고 critical point를 찾으면 그  
 $\nabla_{\textbf{x}_{i}} \textbf{x}_{i}^{top} \Sigma {\textbf{x}_{i}} + \lambda(\textbf{x}_{i}^{\top} \textbf{x}_{i} - 1)$<br>
 
 $\rightarrow 2 {\textbf{x}_{i}}^{\top} \Sigma + \lambda \textbf{x}_{i}^{\top} = 0 $
+
+
