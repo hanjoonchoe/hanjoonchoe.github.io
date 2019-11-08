@@ -38,7 +38,7 @@ $\max_{\textbf{x}_{i}} {\textbf{x}_{i}}^{\top} \Sigma \textbf{x}_{i}$ subject to
 
 그렇다면 $\max_{\textbf{x}_{i}} \textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top} = \textbf{x}_{i} {\textbf{x}_{i}}^{\top} D \textbf{x}_{i} {\textbf{x}_{i}}^\top = D$<br>
 
-결과적으로 D의 entry인 lambda들을 최대화하는 orthonormal basis를 찾는 것이라 할 수 있다.
+결과적으로 D의 entry인 $\lambda$들을 최대화하는 orthonormal basis를 찾는 것이라 할 수 있다.
 
 이 objective function의 조건을 충족하는 orthonormal basis를 찾기위해서 Lagrangian form 으로 변환 다음과 같은 형태가 된다.
 
