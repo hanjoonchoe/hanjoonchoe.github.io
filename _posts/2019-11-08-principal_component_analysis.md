@@ -19,7 +19,7 @@ PCA에서는 서로 intercorrelated되어 있는 feature axis를 다시 uncorrel
 먼저 $\mathbb{R}^n$ 에서 데이터 포인트가 분포한다고 가정하자. 그렇다면 이 데이터 포인트들 간의 분산은 다음과 같이 표현 되어질 수 있다.<br>
 $$\mathbb{V}[X] = \mathbb{E}[(X-\bar{X})(X-\bar{X})^\top]\ = S$$<br> in the case when calculated by sample mean<br>
 $$\mathbb{V}[X] = \mathbb{E}[(X-\mu)(X-\mu)^\top]\ = \Sigma$$<br>
-그리고, $S, \Sigma \in \mathbb{R}^{n\times n}$
+$X_j = {x_1,...,x_n}$ 그리고 $X_j \in X$
 
-분산은 $n \times n$의 Matrix로 표현되고 정방대칭 행렬이다. 왜냐하면 $(\x_i-mu)(x_j-mu)^\top = (\x_j-mu)(x_i-mu)^\top$ for all $i,j$
+따라서 , 분산은 $n \times n$의 Matrix로 표현되고 정방대칭 행렬이다. 왜냐하면 $(x_i-mu)(x_j-mu)^\top = (x_j-\mu)(x_i-\mu)^\top$ for all $i,j$
 또 하나의 중요한 사실은 이 분산행렬은 Positive definite이다. 다르게 말하면 $\a\Sigma\a^\top$
