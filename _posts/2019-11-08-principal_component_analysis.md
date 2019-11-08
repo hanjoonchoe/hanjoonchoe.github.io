@@ -17,4 +17,4 @@ PCA에서는 서로 intercorrelated되어 있는 feature axis를 다시 uncorrel
 본 포스팅에서는 PCA의 수학적인 기반에 대해서 공부하고 써보겠습니다.<br>
 
 먼저 $\mathbb{R}^n$ 에서 데이터 포인트가 분포한다고 가정하자. 그렇다면 이 데이터 포인트들 간의 분산은 다음과 같이 계산될 수 있다.<br>
-$$\mathbb{V}[X] = \mathbb{E}[(X-\bar{X})(X-\bar{X})^\top]\$$
+$$\mathbb{V}[X] = \mathbb{E}[(X-\bar{X})(X-\bar{X})^\top]\ = \Sigma or \bold{S}$$ 
