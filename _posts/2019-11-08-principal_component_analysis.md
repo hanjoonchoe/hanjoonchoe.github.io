@@ -1,6 +1,6 @@
 ---
 title: "Principal Component Analysis"
-date: 2019-08-25
+date: 2019-11-08
 categories: Machine_Learning
 tags:
   - machine learning
