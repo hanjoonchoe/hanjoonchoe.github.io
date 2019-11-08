@@ -32,3 +32,14 @@ Orthogonal matrix의 특성은 $P^{-1}P = I = P^{\top}P$ 그리고 $D$는 diagon
  
 $\max \textbf{x}_i^{\top} \Sigma \textbf{x}_i$ subject to $\textbf{x}_i^{\top}\textbf{x}_i = 1$<br>
 
+여기서  $\textbf{x}_i$는 $\Sigma$
+
+를 eigenvalue decomposition했을 때의 orthonormal basis이고 $\lambda_i$는 i번째 orthogonal basis의 eigenvalue이다.<br>
+
+그렇다면 $\max \textbf{x}_i \Sigma \textbf{x}_i}^{\top}$ = $\textbf{x}_i \textbf{x}_i^{\top} D \textbf{x}_i \textbf{x}_i}^\top$ = $D$<br>
+
+결과적으로 D의 entry인 lambda들을 최대화하는 orthonormal basis를 찾는 것이라 할 수 있다.
+
+이 objective function의 조건을 충족하는 orthonormal basis를 찾기 위해서 Dual problem으로 치환하면 다음과 같은 형태가 된다.
+
+$\min \textbf{x}_i \Sigma \textbf{x}_i}^{\top} + \lambda(\textbf{x}_i^{\top} \textbf{x}_i - 1)$
