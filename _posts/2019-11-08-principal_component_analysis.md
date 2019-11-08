@@ -41,4 +41,4 @@ $\max  D $
 
 이 objective function의 조건을 충족하는 orthonormal basis를 찾기 위해서 Dual problem으로 치환하면 다음과 같은 형태가 된다.
 
-$\min $ 
+$\min \textbf{x}_i \Sigma \textbf{x}_i}^{\top} + \lambda(\textbf{x}_i^{\top} \textbf{x}_i - 1)$
