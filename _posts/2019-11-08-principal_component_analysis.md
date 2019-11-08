@@ -42,7 +42,7 @@ $\max_{\textbf{x}_{i}} {\textbf{x}_{i}}^{\top} \Sigma \textbf{x}_{i}$ subject to
 
 이 objective function의 조건을 충족하는 orthonormal basis를 찾기위해서 Lagrangian form 으로 변환 다음과 같은 형태가 된다.
 
-$\max_{\textbf{x}_{i}} \textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top} + \lambda(\textbf{x}_{i}^{\top} \textbf{x}_{i} - 1)$
+$\max_{\textbf{x}_{i}} \textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top} + \lambda(\textbf{x}_{i}^{\top} \textbf{x}_{i} - 1)=0$
 
 $\Sigma$가 positive definite이므로 $\textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top}$는 언제나 $\succ 0$이다. 따라서 Convex인 것을 알 수 있다.<br>
 
