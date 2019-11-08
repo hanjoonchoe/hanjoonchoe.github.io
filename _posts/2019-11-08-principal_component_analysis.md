@@ -47,4 +47,8 @@ $\max_{\textbf{x}_{i}} \textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top} + \lambda(\
 $\Sigma$가 positive definite이므로 $\textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top}$는 언제나 $\succ 0$이다. 따라서 Convex인 것을 알 수 있다.<br>
 
 
-$\textbf{x}_{i}$에 대해 편미분 해주면 global optimal을 찾을 수 있다.
+$\textbf{x}_{i}$에 대해 편미분 해주고 critical point를 찾으면 그  global optimal을 찾을 수 있다.
+
+$\nabla_{\textbf{x}_{i}} \textbf{x}_{i}^{top} \Sigma {\textbf{x}_{i}} + \lambda(\textbf{x}_{i}^{\top} \textbf{x}_{i} - 1)$<br>
+
+$\rightarrow 2 {\textbf{x}_{i}}^{\top} \Sigma + \lambda \textbf{x}_{i}^{\top} = 0 $
