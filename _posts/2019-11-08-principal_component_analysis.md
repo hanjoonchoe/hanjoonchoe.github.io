@@ -22,4 +22,4 @@ $$\mathbb{V}[X] = \mathbb{E}[(X-\mu)(X-\mu)^\top]\ = \Sigma$$<br>
 $X_j = {x_1,...,x_n}$ 그리고 $X_j \in X$
 
 따라서 , 분산은 $n \times n$의 Matrix로 표현되고 정방대칭 행렬이다. 왜냐하면 $(x_i-mu)(x_j-mu)^\top = (x_j-\mu)(x_i-\mu)^\top$ for all $i,j$
-또 하나의 중요한 사실은 이 분산행렬은 Positive definite이다. 다르게 말하면 $\a\Sigma\a^\top$
+또 하나의 중요한 사실은 이 분산행렬은 Positive definite이다. 다르게 말하면 $\a\Sigma\a^\top \succ 0$
