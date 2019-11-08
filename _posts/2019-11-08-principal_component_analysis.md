@@ -21,7 +21,7 @@ $$\mathbb{V}[X] = \mathbb{E}[(X-\bar{X})(X-\bar{X})^\top]\ = S$$ in the case whe
 $$\mathbb{V}[X] = \mathbb{E}[(X-\mu)(X-\mu)^\top]\ = \Sigma$$<br>
 $\textbf{x}_i = {x_1,...,x_n}$ 그리고 $\textbf{x}_i \in X$
 
-따라서 , 분산은 $n \times n$의 Matrix로 표현되고 정방대칭 행렬이다. 왜냐하면 $(\textbf{x}_i-\mu)(\textbf{x}_j-\mu)^\top = (\textbf{x}_j-\mu)(\textbf{x}_i-\mu)^\top$ for all $i,j$
+따라서 , 분산은 $n \times n$의 Matrix로 표현되고 정방대칭 행렬이다. 왜냐하면 $(\textbf{x}_i-\mu)^\top (\textbf{x}_j-\mu) = (\textbf{x}_j-\mu)^\top (\textbf{x}_i-\mu)$ for all $i,j$
 또 하나의 중요한 사실은 이 분산행렬은 positive definite이다. 다르게 말하면 $a\Sigma a^\top \succ 0$ for all $a$
 
 만약 매트릭스가 positive definite이라면 다음과 같은 특성을 가진 것으로 알려져 있다. 1. Diagonalizable 2. Positive Eigenvalues.<br>
