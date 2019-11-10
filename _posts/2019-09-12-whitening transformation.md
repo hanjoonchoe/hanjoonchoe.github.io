@@ -35,7 +35,7 @@ $\mathrm{Cov}[\tilde{X}] = \mathbb{E}[\tilde{X}\tilde{X^T}]$<br>
 ## Eigenvalue Decomposition
 $\mathrm{Cov}[\tilde{X}]$ 를 $\Sigma$라고 하자.
 
-$\Sigma$는 음이 아닌 정수(<- 잘못 적었다 아이겐벨류 값이 음수가 아니다...) entry를 가진 정방대칭행렬이다.(<- 아마 EVD했을때 대각행렬이 음수가 아니라는 것을 말하고 싶었던 것 같다...) 그말인 즉, positive semi definite(PSD)이다. (<- PSD의 성질은 $a\Sigma a^\top \succeq 0$이다.)<br>
+$\Sigma$는 positive semi definite(PSD)이다. (<- PSD의 성질은 $a\Sigma a^\top \succeq 0$이다.)<br>
 
 PSD matrix는 eigenvalue decomposition이 가능하고 $\Sigma = VDV^T$ 형태로 치환이 가능하다. 여기서 $V$는 각 column들의 norm $\rvert\rvert \cdot \rvert\rvert$이 1인 orthonormal vector이다. 그리고 $D$는 diagonal matrix로 각각의 orthonormal vector들의 magnitude(음수가 아닌 아이겐벨류 값)의 정보를 담고 있다.<br>
 
