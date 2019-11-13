@@ -1,5 +1,5 @@
 ---
-title: "Principal Component Analysis"
+title: "PRINCIPAL COMPONENT ANALYSIS"
 date: 2019-11-08
 categories: Machine_Learning
 tags:
