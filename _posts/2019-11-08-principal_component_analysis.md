@@ -24,7 +24,10 @@ $\textbf{x}_i = {x_1,...,x_n}$ 그리고 $\textbf{x}_i \in X$
 따라서 , 분산은 $n \times n$의 Matrix로 표현되고 정방대칭 행렬이다. 왜냐하면 $(\textbf{x}_i-\mu)^\top (\textbf{x}_j-\mu) = (\textbf{x}_j-\mu)^\top (\textbf{x}_i-\mu)$ for all $i,j$
 또 하나의 중요한 사실은 이 분산행렬은 positive definite이다. 다르게 말하면 $a\Sigma a^\top \succ 0$ for all $a$
 
-만약 매트릭스가 positive definite이라면 다음과 같은 특성을 가진 것으로 알려져 있다. 1. Diagonalizable 2. Positive Eigenvalues.<br>
+만약 매트릭스가 positive definite이라면 다음과 같은 특성을 가진 것으로 알려져 있다. <br>
+1. Diagonalizable<br><br>
+2. Positive Eigenvalues.<br>
+
 Diagonalizable이므로 eigenvalue decomposition이 가능하고 이 말은 $P^{-1}DP$ 꼴로 표현이 가능하다는 것을 말한다. 여기서 $P$는 orthogonal basis로 구성된 Matrix이다.<br>
 Orthogonal matrix의 특성은 $P^{-1}P = I = P^{\top}P$ 그리고 $D$는 diagonal matrix이며 각각의 entry는 $P$의 orthogonal basis의 scaling을 담당하는 역할을 한다. 다르게 말해서, $P$의 orthogonal basis들은 eigenvector 역할을 $D$의 diagonal entry들은 eigenvalue역할을 한다. PCA에서 $D$에 있는 scaling scalar값이 최대가 되는 orthogonal basis를 찾는 것이 목표가 된다. 그리고 orthogonal basis는 orthonormal basis로 한정하기도 한다.<br> orthonormal basis는 앞서 말한 orthogonal basis와 같은 특성을 가지고 있으면서도 basis자체의 norm이 1인 경우이다. 여기서는 $P$가 orthonormal matrix임을 가정하겠다.<br>
 
