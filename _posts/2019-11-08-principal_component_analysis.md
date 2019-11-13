@@ -33,6 +33,10 @@ Orthogonal matrix의 특성은 $P^{-1}P = I = P^{\top}P$ 그리고 $D$는 diagon
 
 우리가 해결해야할 objective function은 다음과 같은 표현이 될 것이다.<br>
 
+$\underset{x}{\text{minimize}} \ c^{T}x$
+$\text{subject to} \ Ax = b$
+$\qquad\qquad\ x \succeq 0$
+
 $\max_{\mathbf{a}_{i}} {\mathbf{x}_{i}}^{\top} {\Sigma} \mathbf{a}_{i}$ 
 
 subject to ${\textbf{x}_{i}}^{\top}\textbf{x}_{i} = 1$
