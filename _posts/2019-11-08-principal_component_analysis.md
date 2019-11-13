@@ -36,11 +36,11 @@ Orthogonal matrix의 특성은 $P^{-1}P = I = P^{\top}P$ 그리고 $D$는 diagon
 $\underset{a_i}{\text{maximize}} \  a_{i}^{\top} \Sigma a_{i}$<br>
 $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
-여기서  $\textbf{a}_{i}$는 $\Sigma$ 를 eigenvalue decomposition했을 때의 orthonormal basis이고 $\lambda_i$는 i번째 orthogonal basis의 eigenvalue이다.<br>
+여기서  $a_{i}$는 $\Sigma$ 를 eigenvalue decomposition했을 때의 orthonormal basis이고 $\lambda_i$는 i번째 orthogonal basis의 eigenvalue이다.<br>
 
-그렇다면 $\max_{\textbf{x}_{i}} \textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top} = \textbf{x}_{i} {\textbf{x}_{i}}^{\top} D \textbf{x}_{i} {\textbf{x}_{i}}^\top = D$<br>
+그렇다면 $\underset{a_i}{\text{maximize}} x_{i} \Sigma x_{i}^{\top} = x_{i} x_{i}^{\top} D x_{i} x_{i}^\top = \lambda_{i}$<br>
 
-결과적으로 D의 entry인 $\lambda$들을 최대화하는 orthonormal basis를 찾는 것이라 할 수 있다.
+결과적으로 D의 entry인 $\lambda$을 최대화하는 orthonormal basis를 찾는 것이라 할 수 있다.
 
 이 objective function의 조건을 충족하는 orthonormal basis를 찾기위해서 Lagrangian form 으로 변환 다음과 같은 형태가 된다.
 
