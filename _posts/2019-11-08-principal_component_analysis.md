@@ -38,7 +38,7 @@ $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
 여기서  $a_{i}$는 $\Sigma$ 를 eigenvalue decomposition했을 때의 orthonormal basis이고 $\lambda_i$는 i번째 orthogonal basis의 eigenvalue이다.<br>
 
-그렇다면 $\underset{a_i}{\text{maximize}} x_{i} \Sigma x_{i}^{\top} = x_{i} x_{i}^{\top} D x_{i} x_{i}^\top = \lambda_{i}$<br>
+그렇다면 $\underset{a_i}{\text{maximize}} \ a_{i} \Sigma a_{i}^{\top} =  \ a_{i} a_{i}^{\top} D a_{i} a_{i}^\top = \  \lambda_{i}$<br>
 
 결과적으로 D의 entry인 $\lambda$을 최대화하는 orthonormal basis를 찾는 것이라 할 수 있다.
 
