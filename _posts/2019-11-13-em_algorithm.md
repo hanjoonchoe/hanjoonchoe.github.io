@@ -1,5 +1,5 @@
 ---
-title: "Principal Component Analysis"
+title: "EM-ALGORITHM"
 date: 2019-11-13
 categories: Machine_Learning
 tags:
