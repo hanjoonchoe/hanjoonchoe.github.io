@@ -44,15 +44,17 @@ $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
 이 objective function의 조건을 충족하는 orthonormal basis를 찾기위해서 Lagrangian form 으로 변환 다음과 같은 형태가 된다.
 
-$\underset{a_i}{\text{maximize}} \ a_{i} \Sigma a_{i}^{\top} + \gamma a_{i}^{\top} x_{i} - 1)=0$
+$\underset{a_i}{\text{maximize}} \ a_{i} \Sigma a_{i}^{\top} - \lambda a_{i}^{\top} x_{i} - 1)=0$
 
 $\Sigma$가 positive definite이므로 $ a_{i} \Sigma a_{i}^{\top}$는 언제나 $\succ 0$이다. 따라서 convex인 것을 알 수 있다.<br>
 
 
 $x_{i}$에 대해 편미분 해주고 critical point를 찾으면 그  global optimal을 찾을 수 있다.
 
-$\nabla_{{a}_{i}} x_{i}^{top} \Sigma x_{i} + \lambda(x_{i}^{\top} x_{i} - 1)$<br>
+$\nabla_{{a}_{i}} \Sigma a_{i} - \lambda(a_{i}^{\top} a_{i} - 1)$<br>
 
-$\rightarrow 2 x_{i}^{\top} \Sigma + \lambda x_{i}^{\top} = 0 $
+$\rightarrow 2 \Sigma a_{i} - \lambda a_{i}^{\top} = 0 $
+
+$\rightarrow \Sigma a_{i} = \lambda a_{i}^{\top}$
 
 
