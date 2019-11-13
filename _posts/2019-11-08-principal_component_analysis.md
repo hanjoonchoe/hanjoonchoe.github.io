@@ -33,8 +33,8 @@ Orthogonal matrix의 특성은 $P^{-1}P = I = P^{\top}P$ 그리고 $D$는 diagon
 
 우리가 해결해야할 objective function은 다음과 같은 표현이 될 것이다.<br>
 
-$\underset{a_i}{\text{maximize}} x_{i}^{\top} \Sigma a_{i}$
-$\text{subject to} a_{i}^{\top} a_{i} = 1 $
+$\underset{a_i}{\text{maximize}} \  a_{i}^{\top} \Sigma a_{i}$<br>
+$\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
 여기서  $\textbf{a}_{i}$는 $\Sigma$ 를 eigenvalue decomposition했을 때의 orthonormal basis이고 $\lambda_i$는 i번째 orthogonal basis의 eigenvalue이다.<br>
 
