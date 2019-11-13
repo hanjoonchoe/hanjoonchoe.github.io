@@ -40,7 +40,7 @@ $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
 그렇다면 $\underset{a_i}{\text{maximize}} \ a_{i} \Sigma a_{i}^{\top} =  \ a_{i} P^{\top} D P a_{i}^\top = \  \lambda_{i}$<br>
 
-결과적으로 D의 entry인 $\lambda$을 최대화하는 orthonormal basis를 찾는 것이라 할 수 있다.
+결과적으로 D의 entry인 $\lambda_i$을 최대화하는 orthonormal basis를 찾는 것이라 할 수 있다.
 
 이 objective function의 조건을 충족하는 orthonormal basis를 찾기위해서 Lagrangian form 으로 변환 다음과 같은 형태가 된다.
 
