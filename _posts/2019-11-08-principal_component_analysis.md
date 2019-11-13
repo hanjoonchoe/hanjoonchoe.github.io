@@ -33,7 +33,7 @@ Orthogonal matrix의 특성은 $P^{-1}P = I = P^{\top}P$ 그리고 $D$는 diagon
 
 우리가 해결해야할 objective function은 다음과 같은 표현이 될 것이다.<br>
 
-$\max_{\textbf{a}_{i}} {\textbf{x}_{i}}^{\top} {\Sigma} \textbf{a}_{i}$ 
+$\max_{\mathbf{a}_{i}} {\mathbf{x}_{i}}^{\top} {\Sigma} \mathbf{a}_{i}$ 
 
 subject to ${\textbf{x}_{i}}^{\top}\textbf{x}_{i} = 1$
 
@@ -50,7 +50,7 @@ $\max_{\textbf{x}_{i}} \textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top} + \lambda(\
 $\Sigma$가 positive definite이므로 $\textbf{x}_{i} \Sigma {\textbf{x}_{i}}^{\top}$는 언제나 $\succ 0$이다. 따라서 Convex인 것을 알 수 있다.<br>
 
 
-$\textbf{x}_{i}$에 대해 편미분 해주고 critical point를 찾으면 그  global optimal을 찾을 수 있다.
+$\mathbf{x}_{i}$에 대해 편미분 해주고 critical point를 찾으면 그  global optimal을 찾을 수 있다.
 
 $\nabla_{\textbf{x}_{i}} \textbf{x}_{i}^{top} \Sigma {\textbf{x}_{i}} + \lambda(\textbf{x}_{i}^{\top} \textbf{x}_{i} - 1)$<br>
 
