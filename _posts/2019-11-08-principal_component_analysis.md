@@ -52,7 +52,7 @@ $x_i$에 대해 편미분 해주고 critical point를 찾으면 그  global opti
 
 $\nabla_{a_i} \Sigma a_i - \lambda(a_i^\top a_i - 1)$<br>
 
-$\rightarrow 2 \Sigma a_i - \lambda a_i^\top = 0 $
+$\rightarrow 2 \Sigma a_i - \lambda a_i = 0 $
 
 $\rightarrow \Sigma a_i = \lambda a_i$
 
