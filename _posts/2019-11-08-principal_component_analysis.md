@@ -98,5 +98,8 @@ $\rightarrow \Sigma a_j = \lambda_j a_j$<br>
 
 따라서 두번 째 PC는 $\lambda_i$ 다음으로 큰 eigenvalue $\lambda_j$를 가지는 orthonormal vector(eigenvector) $a_j$이다.
 
-이런식으로 3번째 4번째 PC를 찾을 수 있다.
+이런식으로 3번째는 제약조건을 하나 더 추가해서 구할 수 있고 4번째 PC도 마찬가지이다.
 
+솔직히 수식을 많이 적긴 했지만 생각보다 간단하게 생각할 수 있다고 생각한다.
+
+Covariance Matrix $\Sigma$가 존재하면 그냥 eigenvalue decomposition해서 D부분의 diagonal entry중에 가장 큰 값을 순서적으로 찾아서 이에 해당하는 orthonormal vector 를 P에서 찾으면 끝이 아닐까 한다.
