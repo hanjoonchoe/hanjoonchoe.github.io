@@ -44,11 +44,11 @@ $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
 이 objective function의 조건을 충족하는 orthonormal basis를 찾기위해서 Lagrangian form 으로 변환 다음과 같은 형태가 된다.
 
-$\underset{a_i}{\text{maximize}} \ a_i \Sigma a_i^\top - \lambda a_i^\top x_i - 1 = 0$
+\ a_i \Sigma a_i^\top - \lambda a_i^\top x_i - 1 = 0$
 
 $\Sigma$가 positive definite이므로 $ a_i \Sigma a_i^\top$는 언제나 $\succ 0$이다. 따라서 convex인 것을 알 수 있다.<br>
 
-$x_i$에 대해 편미분 해주고 critical point를 찾으면 그  global optimal을 찾을 수 있다.
+$x_i$에 대해 편미분 해주고 critical point를 찾으면 그 지점에서  global optimal point을 찾을 수 있다.
 
 $\nabla_{a_i} \Sigma a_i - \lambda(a_i^\top a_i - 1)$<br>
 
@@ -56,3 +56,15 @@ $\rightarrow 2 \Sigma a_i - \lambda a_i = 0 $
 
 $\rightarrow \Sigma a_i = \lambda a_i$
 
+$\rightarrow \Sigma = \lambda$
+
+이 결과를 원래의 optimization problem에 대입하면
+
+$\underset{a_i}{\text{maximize}} \  a_{i}^{\top} \lambda_i a_{i}$<br>
+$\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
+
+$\underset{a_i}{\text{maximize}} \  \lambda_i a_{i}^{\top} a_{i}$<br>
+$\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
+
+$\underset{a_i}{\text{maximize}} \  \lambda_i <br>
+$\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
