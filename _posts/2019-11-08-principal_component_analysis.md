@@ -72,7 +72,7 @@ $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 2번째로 높은 Principal component는 어떻게 찾을 수 있을까?
 
 우선 첫번째로 찾은 PC에서 eigenvector $a_i$ 는 두번째로 찾은 eigenvector $a_j$와 orothogonal 해야한다. 
-(i.e.  $a_i^top a_j = 0$)
+(i.e.  $a_i^\top a_j = 0$)
 
 그렇다면 다음과 같은 optimization problem이 설정된다.
 
