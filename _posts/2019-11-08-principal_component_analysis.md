@@ -86,7 +86,8 @@ $\rightarrow \Sigma a_j - \lambda_j a_j - \gamma a_i = 0$<br>
 
 Multiply by $a_i$
 
-$\rightarrow a_i^\top  \Sigma a_j - \lambda_j a_j^\top a_j - \gamma a_i^\top a_i = 0$
+$\rightarrow a_i^\top  \Sigma a_j - \lambda_j a_i^\top a_j - \gamma a_i^\top a_i = 0$<br>
+$\rightarrow \gamma = 0$<br>
 
 
 다음과 같은 결과를 대입하면 
@@ -94,3 +95,8 @@ $\rightarrow a_i^\top  \Sigma a_j - \lambda_j a_j^\top a_j - \gamma a_i^\top a_i
 $\rightarrow \Sigma a_j - \lambda_j a_j = 0 $<br>
 
 $\rightarrow \Sigma a_j = \lambda_j a_j$<br>
+
+따라서 두번 째 PC는 $\lambda_i$ 다음으로 큰 eigenvalue $\lambda_j$를 가지는 orthonormal vector(eigenvector) $a_j$이다.
+
+이런식으로 3번째 4번째 PC를 찾을 수 있다.
+
