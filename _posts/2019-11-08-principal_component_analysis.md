@@ -63,10 +63,10 @@ $\rightarrow \Sigma = \lambda$
 $\underset{a_i}{\text{maximize}} \  a_{i}^{\top} \lambda_i a_{i}$<br>
 $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
-$\underset{a_i}{\text{maximize}} \  \lambda_i <br>
+$\underset{a_i}{\text{maximize}} \  \lambda_i$ <br>
 $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
-따라서 orthonormal vector) $a_i$는 $\lambda_i$ 값을 최대화하는 eigenvector이다.
+따라서 orthonormal vector $a_i$는 $\lambda_i$ 값을 최대화하는 eigenvector이다.
 그리고 $\lambda_i$는 $\Sigma$를 eigenvalue decomposition하여 얻을 수 있는 eigenvalue 값들 중 최대값이 된다.
 
 2번째로 높은 Principal component는 어떻게 찾을 수 있을까?
@@ -78,3 +78,19 @@ $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
 $\underset{a_j}{\text{maximize}} \  a_j^{\top} \Sigma a_j$<br>
 $\text{subject to} \  a_j^{\top} a_j = 1 ,\  a_i^{\top} a_j = 0 $
+
+Lagrangian form을 취해주면 $a_j^{\top} \Sigma a_j - \lambda_j(a_j^{\top} a_j - 1) - \gamma(a_i^{\top} a_j)$
+
+$\nabla_{a_j} a_j^{\top} \Sigma a_j - \lambda_j(a_j^{\top} a_j - 1) - \gamma(a_j^{\top} a_i) $<br>
+$\rightarrow \Sigma a_j - \lambda_j a_j - \gamma a_i = 0$<br>
+
+Multiply by $a_i$
+
+$\rightarrow a_i^\top  \Sigma a_j - \lambda_j a_j^\top a_j - \gamma a_i^\top a_i = 0$
+
+
+다음과 같은 결과를 대입하면 
+
+$\rightarrow \Sigma a_j - \lambda_j a_j = 0 $<br>
+
+$\rightarrow \Sigma a_j = \lambda_j a_j$<br>
