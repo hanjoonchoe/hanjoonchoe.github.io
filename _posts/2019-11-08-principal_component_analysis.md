@@ -54,7 +54,7 @@ $\nabla_{a_i} \Sigma a_i - \lambda(a_i^\top a_i - 1)$<br>
 
 $\rightarrow 2 \Sigma a_i - \lambda a_i^\top = 0 $
 
-$\rightarrow \Sigma a_i = \lambda a_i^\top$
+$\rightarrow \Sigma a_i = \lambda a_i$
 
 
 
