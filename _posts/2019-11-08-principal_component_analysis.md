@@ -56,5 +56,3 @@ $\rightarrow 2 \Sigma a_i - \lambda a_i^\top = 0 $
 
 $\rightarrow \Sigma a_i = \lambda a_i$
 
-
-
