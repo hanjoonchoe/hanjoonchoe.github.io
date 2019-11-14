@@ -63,8 +63,17 @@ $\rightarrow \Sigma = \lambda$
 $\underset{a_i}{\text{maximize}} \  a_{i}^{\top} \lambda_i a_{i}$<br>
 $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
 
-$\underset{a_i}{\text{maximize}} \  \lambda_i a_{i}^{\top} a_{i}$<br>
-$\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
-
 $\underset{a_i}{\text{maximize}} \  \lambda_i <br>
 $\text{subject to} \  a_{i}^{\top} a_{i} = 1 $
+
+따라서 orthonormal vector) $a_i$는 $\lambda_i$ 값을 최대화하는 eigenvector이다.
+그리고 $\lambda_i$는 $\Sigma$를 eigenvalue decomposition하여 얻을 수 있는 eigenvalue 값들 중 최대값이 된다.
+
+2번째로 높은 Principal component는 어떻게 찾을 수 있을까?
+
+우선 첫번째로 찾은 PC에서 eigenvector a_i 는 두번째로 찾은 eigenvector a_j와 orothogonal 해야한다. 그말인 즉, a_i^top a_j = 0
+
+그렇다면 다음과 같은 optimization problem이 설정된다.
+
+$\underset{a_j}{\text{maximize}} \  a_{j}^{\top} \Sigma a_{j}$<br>
+$\text{subject to} \  a_{j}^{\top} a_{j} = 1 , a_{i}^{\top} a_{j} = 0 $
